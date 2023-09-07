@@ -13,7 +13,7 @@ When you enter a particular domain name in the browser, the browser contacts the
 
 I am using different DNS servers over the ones provided by my ISP for reasons of speed and privacy. Currently I am using [Cloudflare's](https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/) DNS services which I highly recommend.
 
-{{< expandable label="Setting up CloudFlare's DNS servers for IPv4 on different operating systems" level="2" >}}
+{{< expandable label="Setting up Cloudflare's DNS servers for IPv4 on different operating systems" level="2" >}}
 **Debian GNU/Linux with Gnome:**
 
 {{< figureCupper
