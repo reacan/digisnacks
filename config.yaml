@@ -1,0 +1,117 @@
+baseURL: /
+theme: cupper-hugo-theme
+disqusShortname:
+enableGitInfo: false
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+imaging:
+  quality: 99
+
+params:
+  homeMetaContent:
+    # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  codePenUser: 
+  katex: false
+  hideHeaderLinks: false
+  search: true
+  showThemeSwitcher: true
+  defaultDarkTheme: false
+  moveFooterToHeader: false
+  #navTitleText: Cupper Theme
+  customCss:
+    - css/custom_01.css
+    - css/custom_02.css
+  customJs:
+    - js/custom_01.js
+    - js/custom_02.js  
+enableRobotsTXT: true
+DefaultContentLanguage: lv
+DefaultContentLanguageInSubdir: true
+languages:
+  lv:
+    languageName: Latviski 🇱🇻
+    contentdir: content
+    title: DigiSnacks
+    description:
+    weight: 0
+    logoAlt: Lapas logo, lupa ar eņģeļa spārniem un kafijas krūzīte
+    menu:
+     nav:
+       - name: Sākums
+         url: /lv/
+         weight: 1
+       - name: Ieraksti
+         url: /lv/post/
+         weight: 2
+       - name: Tēmturi
+         url: /lv/tags/
+         weight: 3
+       - name: Galerija
+         url: /lv/gallery/
+         weight: 4  
+       - name: Par
+         url: /lv/about/
+         weight: 5
+    params:
+      footer: © 2023 Dāvis Vilcāns
+  en:
+    languageName: English 🇬🇧
+    contentdir: content
+    title: DigiSnacks
+    weight: 1
+    logoAlt: Site logo, lupa with angel wings and a cup of coffee
+    menu:
+     nav:
+       - name: Home
+         url: /en/
+         weight: 1
+       - name: Entries
+         url: /en/post/
+         weight: 2
+       - name: Tags
+         url: /en/tags/
+         weight: 3
+       - name: Gallery
+         url: /en/gallery/
+         weight: 4 
+       - name: About
+         url: /en/about/
+         weight: 5
+    params:
+      footer: © 2023 Dāvis Vilcāns   
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2

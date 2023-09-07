@@ -1,0 +1,8 @@
+{{ if .IsTranslated }}
+{{ range .Translations }}
+  
+
+<a style="color:white;" href ="{{ .Permalink }}"><span style="font-size:calc(0.5em + 0.400vw);color:black;">{{ .Language.LanguageName }} {{ if .IsPage }} {{ end }}</span></a>
+
+{{ end}}
+{{ end }}

@@ -1,0 +1,31 @@
+- id: skip_to_content
+  translation: Pāriet pie satura
+- id: nav_main_navigation
+  translation: Galvenā izvēlne
+- id: nav_button_menu
+  translation: Izvēlne
+- id: discuss_show_comments_button
+  translation: Rādīt komentārus
+- id: discuss_comments_disabled
+  translation: Komentāri ir atslēgti.
+- id: discuss_js_disabled
+  translation: Iespējojiet JavaScript lai skatītu komentārus.
+- id: dark_theme
+  translation: "Tumšais motīvs:"
+- id: table_of_contents
+  translation: Saturs
+- id: publish_date
+  translation: "Publicēšanas datums:"
+- id: last_updated
+  translation: "Atjaunināšanas datums:"
+- id: tags
+  translation: "Tēmturi:"
+- id: aria_label_tags
+  translation: Tēmturi
+- id: search_placeholder
+  translation: Meklēt pēc nosaukuma...
+- id: search_aria_label
+  translation: Meklēt pēc nosaukuma
+- id: tags_title
+  translation: Tēmturi
+- id: test

@@ -1,0 +1,42 @@
+<header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      <a
+        class="logo"
+        href="{{ .Site.BaseURL }}"
+        aria-label="{{ .Site.Title }} home page"
+      >
+        {{ with .Site.Params.navTitleText }}
+          <h1>{{ . }}</h1>
+        {{ else }}
+          <img 
+            src="{{ "images/logo.svg" | relURL }}" 
+            alt="{{ .Site.Params.logoAlt | default "Logo" }}"
+          >
+        {{ end }}
+             
+    {{ range .Site.Menus.main }}
+
+			<a href="{{ .URL }}">{{ .Name }}</a>
+
+        {{end}}    
+
+	{{ partial "allLanguages.html" . }}      
+
+  {{ if eq .Site.Params.showThemeSwitcher false }}style="display: none;"{{ end }}
+     <label for="themer">
+     <input type="checkbox" id="themer" class="vh">
+      <!-- Shows "on" or "off" -->
+      <span aria-hidden="true"></span>
+    </label>
+
+      <p class="library-desc">
+        {{ with .Site.Params.description }} {{ . | markdownify }} {{ end }}
+      </p>
+
+    {{ partial "nav.html" . }}
+    {{ if eq .Site.Params.moveFooterToHeader true }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+  
+</header>
