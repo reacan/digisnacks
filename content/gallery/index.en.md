@@ -1,8 +1,14 @@
 ---
 title: "Gallery"
 date: 2023-08-31T20:24:40+03:00
-lastmod: "2023-09-07"
+lastmod: "2023-09-08"
 ---
+{{< figureCupper
+img="latgale.jpg"
+caption="Somewhere in Latgale"
+command="Resize"
+options="700x" >}}
+
 {{< figureCupper
 img="trolleys_in_vilnius.jpg"
 caption="Trolleybuses in Vilnius"
