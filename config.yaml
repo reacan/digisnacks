@@ -37,7 +37,7 @@ languages:
   lv:
     languageName: Latviski 🇱🇻
     contentdir: content
-    title: DigiSnacks
+    title: ☮ DV
     description:
     weight: 0
     logoAlt: Lapas logo, lupa ar eņģeļa spārniem un kafijas krūzīte
@@ -63,7 +63,7 @@ languages:
   en:
     languageName: English 🇬🇧
     contentdir: content
-    title: DigiSnacks
+    title: ☮ DV
     weight: 1
     logoAlt: Site logo, lupa with angel wings and a cup of coffee
     menu:
