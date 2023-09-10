@@ -58,11 +58,4 @@ img="putina_fanboy.jpg"
 caption="Low quality capture of the aforementioned tweet. The original tweet can no longer be found on Mr.Āboliņš Twitter feed." 
 command="Resize" 
 options="300x" >}}
-
-{{< blockquote author="The Disposable Heroes of Hiphoprisy" >}}
-Hypocrisy Is the Greatest Luxury
-{{< /blockquote >}}
-
-
-
  

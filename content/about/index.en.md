@@ -5,13 +5,6 @@ lastmod: "2023-09-05"
 ---
 In the beginning it was all fairies and flowerdust.
 
-{{< blockquote author="Gerry Goffin" >}}
-Looking out on the morning rain<br>
-I used to feel so uninspired<br>
-And when I knew I had to face another day<br>
-Lord, it made me feel so tired
-{{< /blockquote >}}
-
 Passionate about information technology, in particular open source software and UNIX-like operating systems.<br><br>
 Open for new projects and collaborations. You can get in touch with me by dropping an email to: mail@dvilcans.com
 <br>

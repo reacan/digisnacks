@@ -1,3 +1,3 @@
 ---
-title: Ieraksti
+title: Ieraksti 🕮
 ---

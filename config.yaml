@@ -52,7 +52,7 @@ languages:
        - name: Tēmturi
          url: /lv/tags/
          weight: 3
-       - name: Galerija
+       - name: Foto
          url: /lv/gallery/
          weight: 4  
        - name: Par
@@ -77,7 +77,7 @@ languages:
        - name: Tags
          url: /en/tags/
          weight: 3
-       - name: Gallery
+       - name: Photos
          url: /en/gallery/
          weight: 4 
        - name: About

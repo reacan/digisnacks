@@ -11,7 +11,7 @@ Nolēmu nedaudz šo jautājumu papētīt. Noskaidroju, ka uzraugošā iestāde (
 Kad Interneta pārlūka adreses lauciņā tiek ievadīta mājaslapas adrese – domēna nosaukums, Interneta pārlūks sazinās ar DNS serveriem, lai noskaidrotu domēna nosaukumam piekritīgo IP adresi, ja DNS serveris nespēj sniegt pareizu informāciju, Interneta pārlūks nespēs atvērt konkrēto Interneta resursu. 
 {{< /note >}}
 
-Es neizmantoju sava ISP piedāvātos DNS serverus, jo manā ieskatā citi DNS pakalpojumu sniedzēji spēj nodrošināt labāku ātrumu un privātumu. Pašreiz izmantoju [Cloudflare](https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/) sniegtos DNS pakalpojumus, ar kuriem esmu ļoti apmierināts.
+Es neizmantoju sava ISP piedāvātos DNS serverus, jo manā ieskatā citi DNS pakalpojumu sniedzēji spēj nodrošināt labāku ātrumu un privātumu. Pašreiz izmantoju [Cloudflare](https://www.cloudflare.com/learning/dns/what-is-1.1.1.1/) sniegtos DNS pakalpojumus, kurus varu rekomendēt.
 
 {{< expandable label="Iestatīt Cloudflare DNS serverus IPv4 protokolam dažādās operētājsistēmās" level="2" >}}
 **Debian GNU/Linux ar Gnome:**
@@ -58,10 +58,4 @@ caption="Iepriekšminētā ieraksta sliktas kvalitātes ekrānšāviņš. Šis i
 command="Resize" 
 options="300x" >}}
 
-{{< blockquote author="The Disposable Heroes of Hiphoprisy" >}}
-Hypocrisy Is the Greatest Luxury
-{{< /blockquote >}}
 
-
-
- 

@@ -19,7 +19,7 @@
 - id: last_updated
   translation: "Last updated:"
 - id: tags
-  translation: "Tags:"
+  translation: "Tags 🏷"
 - id: aria_label_tags
   translation: tags
 - id: search_placeholder
