@@ -19,7 +19,7 @@
 - id: last_updated
   translation: "Atjaunināšanas datums:"
 - id: tags
-  translation: "Tēmturi 🏷"
+  translation: "Tēmturi:"
 - id: aria_label_tags
   translation: Tēmturi
 - id: search_placeholder

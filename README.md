@@ -1,7 +1,8 @@
-This is a bilingual Hugo (gohugo.io) site themed by Cupper (https://github.com/zwbetz-gh/cupper-hugo-theme).
-I have made two modifications to the original Cupper theme (apart from modding the logo ^^):
+This is a bilingual [Hugo](https://gohugo.io) site themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
 
-Language switcher under the logo.
-Dark/Light button under the logo.
+I have made two modifications to the original Cupper theme:
 
-If you need an example for a simple, bilingual Hugo site, you've got it here ;) 
+Implemented a language switcher and placed it under the logo.
+Moved the theme switcher button under the logo.
+
+ 
