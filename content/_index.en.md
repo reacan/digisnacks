@@ -3,7 +3,7 @@ date: "2023-09-06"
 title: "Home"
 ---
 # Hello and Welcome!
-The **[Entries](/en/post/)** published on this site cover various topics mostly related to information technology.
+The **[Entries](/en/post/)** published on this site will cover various topics mostly related to information technology.
 
 List of topics can be viewed by visiting the section **[Tags](/en/tags/)**.
 

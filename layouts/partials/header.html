@@ -20,7 +20,7 @@
 			<a href="{{ .URL }}">{{ .Name }}</a>
 
         {{end}}    
-<br>
+<div class="center">
 	{{ partial "allLanguages.html" . }}      
 
   {{ if eq .Site.Params.showThemeSwitcher false }}style="display: none;"{{ end }}
@@ -29,7 +29,7 @@
       <!-- Shows "on" or "off" -->
       <span aria-hidden="true"></span>
     </label>
-
+</div>
       <p class="library-desc">
         {{ with .Site.Params.description }} {{ . | markdownify }} {{ end }}
       </p>
