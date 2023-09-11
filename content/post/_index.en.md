@@ -1,3 +1,3 @@
 ---
-title: Entries 🕮
+title: Entries
 ---
