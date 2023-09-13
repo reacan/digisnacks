@@ -1,7 +1,7 @@
 ---
 title: "GNU/Linux: findutils"
 publishdate: "2023-09-01"
-lastmod: "2023-09-02"
+lastmod: "2023-09-13"
 draft: false
 tags: ["GNU/Linux", "CLI"]
 ---
@@ -33,6 +33,11 @@ find . -type f -print0 | xargs -0 grep "string"
 Find all files with a _.txt_ extension and convert them to _.doc_ (LibreOffice required).
 {{< cmd >}}
 find . -type f -name "*.txt" -exec soffice --headless --convert-to doc --outdir /output/directory/ "{}" \;
+{{< /cmd >}}
+
+Merge all the files with an _.mp4_ extension that are in the current working directory into a single file (ffmpeg required).
+{{< cmd >}}
+find *.mp4 | sed 's:\ :\\\ :g'| sed 's/^/file /' > fl.txt; ffmpeg -f concat -safe 0 -i fl.txt -c copy output.mp4; rm fl.txt
 {{< /cmd >}}
 
 **Find and count**:<br><br>

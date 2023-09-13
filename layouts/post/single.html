@@ -35,10 +35,10 @@
         </ul>
       </div>
     {{ end }}
-
     {{ partial "toc.html" . }}
-
+    <div class="justify">
     {{ .Content }}
+    </div>
   </main>
   {{ partial "disqus.html" . }}
   {{ partial "utterances.html" . }}

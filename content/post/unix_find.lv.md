@@ -36,6 +36,11 @@ Atrast visas datnes ar _.txt_ paplašinājumu un konvertēt tās _.doc_ formāt�
 find . -type f -name "*.txt" -exec soffice --headless --convert-to doc --outdir /izvades/direktorija/ "{}" \;
 {{< /cmd >}}
 
+Apvienot visas patreizējā direkorijā esošās datnes ar _.mp4_ paplašinājumu vienā datnē (nepieciešams ffmpeg)
+{{< cmd >}}
+find *.mp4 | sed 's:\ :\\\ :g'| sed 's/^/file /' > fl.txt; ffmpeg -f concat -safe 0 -i fl.txt -c copy output.mp4; rm fl.txt
+{{< /cmd >}}
+
 **Atrast un saskaitīt**:<br><br>
 Atrast un saskaitīt visas _.jpeg_ datnes.
 {{< cmd >}}
