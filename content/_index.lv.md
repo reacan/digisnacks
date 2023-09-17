@@ -2,7 +2,7 @@
 date: "2023-09-06"
 title: "Sākums"
 ---
-<img src="head.gif" style="width:100%">
+# Sveiki un laipni lūgti!
 
 Šeit publicētie **[Ieraksti](/lv/post/)** aptver dažādas, ar informācijas tehnoloģijām saistītas tēmas.
 

@@ -2,7 +2,7 @@
 date: "2023-09-06"
 title: "Home"
 ---
-<img src="head.gif" style="width:100%">
+# Hello and Welcome!
 
 The **[Entries](/en/post/)** published on this site cover various topics mostly related to information technology.
 
