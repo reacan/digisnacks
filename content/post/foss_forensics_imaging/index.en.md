@@ -119,7 +119,7 @@ Acquiry parameters required, please provide the necessary input
 
 Image path and filename without extension: /home/Forensics/images/image
 Case number: Nr.1
-Description: **USB thumbdrive
+Description: USB thumbdrive
 Evidence number: Nr.1-USB-MEM 
 Examiner name: DV
 Notes: 8 GB
