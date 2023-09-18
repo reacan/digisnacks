@@ -1,11 +1,10 @@
 ---
-title: "Windows: Backups with Powershell & Task Scheduler"
+title: "Windows: Backups with PowerShell & Task Scheduler"
 date: 2023-09-18
 tags: ["Windows"]
 ---
 
-###### Simple automated backup solution by using the Windows built-in tools. 
-
+###### Simple automated backup solution by using the Windows built-in tools. Create a PowerShell one-liner and add it to scheduled tasks.
 
 PowerShell one-liner:
 
@@ -29,7 +28,7 @@ Adapt the above line to your needs and save it in a text file with a .PS1 extens
 
 **Start > Task Scheduler > Create a Basic Task**
 
-Set up the name, description and trigger. At the "Action" dialog choose the option "Start a program" and point Powershell to your script:
+Set up the name, description and trigger. At the "Action" dialog choose the option "Start a program" and point PowerShell to your script:
 
 
 <center><img src="Exhibit-1.png"></center>
