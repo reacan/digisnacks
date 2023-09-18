@@ -1,5 +1,5 @@
 ---
-title: "Windows: Creating backups with Powershell & Task Scheduler"
+title: "Windows: Backups with Powershell & Task Scheduler"
 date: 2023-09-18T14:48:58+03:00
 draft: false
 tags: ["Windows"]
