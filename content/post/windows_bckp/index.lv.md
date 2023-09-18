@@ -1,5 +1,5 @@
 ---
-title: "Windows: Rezerves kopēšana ar PowerShell un Task Scheduler"
+title: "Rezerves kopēšana ar PowerShell un Task Scheduler"
 date: 2023-09-18
 tags: ["Windows"]
 ---
