@@ -59,7 +59,7 @@ languages:
          url: /lv/about/
          weight: 5
     params:
-      footer: © 2023 Dāvis Vilcāns
+      footer: 2023 © Dāvis Vilcāns
   en:
     languageName: English 🇬🇧
     contentdir: content
@@ -84,7 +84,7 @@ languages:
          url: /en/about/
          weight: 5
     params:
-      footer: © 2023 Dāvis Vilcāns   
+      footer: 2023 © Dāvis Vilcāns   
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
