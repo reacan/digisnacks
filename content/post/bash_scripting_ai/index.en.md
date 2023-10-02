@@ -89,7 +89,7 @@ echo ""
 ```
 {{< /expandable >}}
 
-AI will steal people's jobs, there is no doubt about that, but at the same time it will change the way people work.
+No doubt AI will steal people's jobs, but at the same time it will change the way people work.
 
 However I think unemployment is least of our worries when it comes to AI. It does have a scary potential.
 
