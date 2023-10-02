@@ -5,9 +5,9 @@ tags: ["GNU/Linux", "CLI", "AI"]
 ---
 Recently I was tasked with writting a Bash script that would querry IP addresses from a file and return their corresponding abuse contact e-mail addresses.
 
-The script that I initially came up with did not perform as expected. Since I have heared stories about Chat GPT being able to generate decent code, I decided to finally try it out. 
+The script that I initially came up with did not perform as expected. I remembered hearing stories about Chat GPT being able to generate decent code, so I decided to finally try it out. 
 
-I was very amazed to say the least, Chat GPT came up with a Bash script in less than a few seconds.
+I was very amazed to say the least, my mind was blown. Chat GPT came up with a Bash script in less than a few seconds.
 
 <center><img src="Exhibit-A.png"></center>
 
