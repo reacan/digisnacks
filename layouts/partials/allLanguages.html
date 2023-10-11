@@ -1,14 +1,8 @@
 {{ if .IsTranslated }}
 {{ range .Translations }}
-{{ if eq .Site.Language.Lang "lv" }}
-  	{{ $imgpath := printf "%s%s" .Site.BaseURL "images/flag-latvia.png" }}
-  	&nbsp;&nbsp;<a style="color:rgba(255,255,255,0);" title="Latviski" href="{{ .Permalink }}"><img id="trans-flag" src={{ $imgpath }} width=40rem height=20rem alt="Flag of Latvia" /></a>&nbsp;&nbsp;
-{{ else }}
-	{{ if eq .Site.Language.Lang "en" }}
-        {{ $imgpath := printf "%s%s" .Site.BaseURL "images/flag-england.png" }}
-        &nbsp;&nbsp;<a style="color:rgba(255,255,255,0);" title="English" href="{{ .Permalink }}"><img id="trans-flag" src={{ $imgpath }} width=40rem height=20rem alt="Flag of Great Britain" /></a>&nbsp;&nbsp;
+  
+
+<a style="color:rgba(255,255,255,0);" href ="{{ .Permalink }}"><span style="font-size:calc(0.5em + 0.400vw);color:black;">{{ .Language.LanguageName }} {{ if .IsPage }} {{ end }}</span></a>
+
 {{ end}}
 {{ end }}
-{{ end }}
-{{ end }}
-
