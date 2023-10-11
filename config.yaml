@@ -21,7 +21,7 @@ params:
   hideHeaderLinks: false
   search: true
   showThemeSwitcher: true
-  defaultDarkTheme: false
+  defaultDarkTheme: true
   moveFooterToHeader: false
   #navTitleText: Cupper Theme
   customCss:
