@@ -18,7 +18,7 @@
 html {
     font-size: calc(1em + 0.33vw);
     font-family: Arial, Helvetica Neue, sans-serif;
-    line-height: 1.5;
+    line-height: 1.5; /*space between lines for most of the text*/
     color: #111;
     background-color: #fefefe;
 }
@@ -46,14 +46,14 @@ body,
     margin-top: 0;
 }
 p + p {
-    margin-top: 0.75rem;
+    margin-top: 0.75rem; /*this is the margin between lines on the non-blog pages*/
 }
 .priority {
   margin-top: 0;
 }
 a {
-    text-decoration: none;
     border-bottom: 1px solid;
+    text-decoration: none;
 }
 abbr {
     text-decoration: none;
@@ -81,6 +81,7 @@ figure p img {
    }
 a {
   outline-offset: 2px;  
+
 }
 
 /* Katex math typesetting */
@@ -121,7 +122,7 @@ h2,
 h3,
 h4 {
     font-family: Miriam Libre, serif;
-    line-height: 1.125;
+    line-height: 1.125; /*this value is for the blog entry titles*/
 }
 h1 {
     font-size: 2rem;
@@ -253,15 +254,15 @@ label {
   margin-left: 0.40rem;
   margin-top: 0.00rem;
   margin-bottom: 0.00rem;
-  font-size: calc(0.5em + 0.200vw);
+  font-size: calc(0.6em + 0.200vw);
   position: relative; 
   
 }
 [for="themer"] [aria-hidden]::before {
-  content: 'DarkSide';
+  content: 'Dark';
 }
 [for="themer"] :checked + [aria-hidden]::before {
-  content: 'LightSide';
+  content: 'Light';
 }
 
 /* Tables */
@@ -378,7 +379,7 @@ caption {
 
 .center {
   margin: auto;
-  width: 70%;
+  width: 62%;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -754,7 +755,7 @@ button svg,
 h1 svg,
 th svg,
 li > svg {
-    height: 0.75em;
+    height: 0.75em; /*here*/
     width: 0.75em;
     margin-right: 0.25em;
 }
@@ -834,11 +835,11 @@ h1 svg {
 .h2-container .link-icon {
     position: absolute;
     margin-top: 0;
-    top: 0;
+    top: 0;            /*adjust this for the pin to be in line with the heading text*/
     line-height: 1;
     left: -1em;
     border: 0;
-}
+} 
 
 /* Single page layout */
 .wrapper.print-version .main-and-footer {
@@ -1059,3 +1060,21 @@ h1 svg {
     font-family: Consolas, "Segoe UI", Calibri, sans-serif;
     font-style: italic;
 }
+
+/*added this to layouts/post/single.html to justify the text for blog entries*/
+.justify { 
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.shrink img {
+transition: 1s ease;
+}
+
+.shrink img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+
