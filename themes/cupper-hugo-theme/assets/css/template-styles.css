@@ -379,7 +379,9 @@ caption {
 
 .center {
   margin: auto;
-  width: 48%;
+  width: 50%;
+  left: 35%;
+  position: absolute;
   overflow: hidden;
   white-space: nowrap;
 }
