@@ -248,22 +248,27 @@ label {
 }
 [for="themer"] {
   background: #111;
-  border-radius: 0.44em;
+  border-radius: 0.00em;
   color: #fefefe;
-  padding: 0.00em 0.30em;
-  margin-left: 0.40rem;
+  padding: 0.00em 0.00em;
+  margin-left: 0.00rem;
   margin-top: 0.00rem;
   margin-bottom: 0.00rem;
-  font-size: calc(0.6em + 0.200vw);
+  font-size: calc(0.0em + 0.000vw);
   position: relative; 
-  
+
 }
 [for="themer"] [aria-hidden]::before {
-  content: 'Dark';
+  content: '';
+
+
 }
 [for="themer"] :checked + [aria-hidden]::before {
-  content: 'Light';
+  content: '';
+
 }
+
+
 
 /* Tables */
 table {
@@ -379,11 +384,20 @@ caption {
 
 .center {
   margin: auto;
-  width: 62%;
+  width: 60%;
   overflow: hidden;
   white-space: nowrap;
+  margin-top: -3rem;
+  margin-bottom: -0.8rem;
 }
 
+.centerlanguage {
+  margin: auto;
+  width: 15%;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
 
 /* Patterns navigation */
 .patterns {
@@ -1076,5 +1090,5 @@ transition: 1s ease;
 -ms-transform: scale(0.8);
 transform: scale(0.8);
 transition: 1s ease;
-}
 
+}

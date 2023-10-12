@@ -98,6 +98,7 @@
 /* Switch and persist theme */
 (function () {
   var checkbox = document.getElementById('themer');
+  var imageElement = document.getElementById('theme-image');
 
   function persistTheme(val) {
     localStorage.setItem('darkTheme', val);
@@ -106,11 +107,19 @@
   function applyDarkTheme() {
     var darkTheme = document.getElementById('darkTheme');
     darkTheme.disabled = false;
+    
+    
+   imageElement.src = "{{ "images/light_off.svg" | relURL }}"; // Path to your dark theme image
+
   }
 
   function clearDarkTheme() {
     var darkTheme = document.getElementById('darkTheme');
     darkTheme.disabled = true;
+    
+    
+    imageElement.src = "{{ "images/light_on.svg" | relURL }}"; // Path to your light theme image
+
   }
 
   function defaultDarkTheme() {
@@ -118,11 +127,15 @@
     if (localStorage.getItem('darkTheme') == null) {
       persistTheme('true');
       checkbox.checked = true;
+      applyDarkTheme();
+
     }
 {{- else }}
     if (localStorage.getItem('darkTheme') == null) {
       persistTheme('false');
       checkbox.checked = false;
+      clearDarkTheme();
+
     }
 {{ end }}
   }

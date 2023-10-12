@@ -1,0 +1,27 @@
+    <style>
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .checkbox-image {
+            width: 40px; /* Set your image width */
+            height: 40px; /* Set your image height */
+            margin-right: 10px; /* Adjust spacing between checkbox and image */
+        }
+    </style>
+</head>
+
+<body>
+    <label class="checkbox-container">
+        <img src="{{ "images/light_on.svg" | relURL }}" class="checkbox-image" alt="Light On">
+        <input type="checkbox" id="themer1">
+        <span>Turn off the Lights!</span>
+    </label>
+
+<script src="{{ "js/lights.js" | absURL }}"></script>
+
+</body>
+
+</html>
+

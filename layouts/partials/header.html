@@ -20,21 +20,56 @@
 			<a href="{{ .URL }}">{{ .Name }}</a>
 
         {{end}}    
-<div class="center">
-	{{ partial "allLanguages.html" . }} &nbsp;      
 
-  {{ if eq .Site.Params.showThemeSwitcher false }}style="display: none;"{{ end }}
-     <label for="themer">
-     <input type="checkbox" id="themer" class="vh">
-      <!-- Shows "on" or "off" -->
-      <span aria-hidden="true"></span>
-    </label>
-</div>
       <p class="library-desc">
         {{ with .Site.Params.description }} {{ . | markdownify }} {{ end }}
       </p>
 
+
+
+
+<div class="center">
+
+	{{ partial "allLanguages_txt.html" . }}     
+
+<!-- turn off the lights, for now everything seems so fine, and you make darkness seem so bright -->
+
+    <style>
+        .checkbox-container {
+            align-items: center;
+        }
+
+        .checkbox-image {
+            width: 1.8rem; /* Set your image width */
+            height: 1.8rem; /* Set your image height */
+            margin-right: 0rem; /* Adjust spacing between checkbox and image */
+            margin-left: 1rem;
+            margin-bottom: 0.2rem;
+        }
+   
+    </style>
+
+
+    	<label class="themer">
+        <img id="theme-image" src="" class="checkbox-image" alt="bulb">
+        <label for="themer">
+        <input type="checkbox" id="themer" class="vh">
+	</label>
+
+    <script>
+        const checkbox = document.getElementById('themer');
+    </script>
+
+	</div>
+
+
+
+
+
     {{ partial "nav.html" . }}
+
+
+
     {{ if eq .Site.Params.moveFooterToHeader true }}
       {{ partial "footer.html" . }}
     {{ end }}

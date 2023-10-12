@@ -9,5 +9,15 @@ Passionate about information technology, in particular open source software and 
 Open for new projects and collaborations. You can get in touch with me by dropping an email to: mail@dvilcans.com
 
 <div class="shrink"><center><a style="color:rgba(255,255,255,0);" title="My PGP Public Key" href="mail-dvilcans-public.txt" target="_blank"><img src=pgp.svg width=100 height=100></a></center></div>
-
-<div class="center"><p style="position:absolute;bottom:20%;text-align:center;font-size:0.9em"><i>Made with <a href=https://gohugo.io/>Hugo</a>. Themed by <a href=https://github.com/zwbetz-gh/cupper-hugo-theme>Cupper</a>. Deployed to <a href=https://www.cloudflare.com/>Cloudflare.</a></i></p></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="text-align:center;font-size:0.9em"><i>Made with <a href=https://gohugo.io/>Hugo</a>. Themed by <a href=https://github.com/zwbetz-gh/cupper-hugo-theme>Cupper.</a></i></p>

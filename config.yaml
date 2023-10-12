@@ -21,7 +21,7 @@ params:
   hideHeaderLinks: false
   search: true
   showThemeSwitcher: true
-  defaultDarkTheme: false
+  defaultDarkTheme: true
   moveFooterToHeader: false
   #navTitleText: Cupper Theme
   customCss:
@@ -36,7 +36,7 @@ DefaultContentLanguageInSubdir: true
 languages:
   lv:
     languageName: Latviski 🇱🇻
-    contentdir: content
+    staticDir: static
     title: ☮ DV
     description:
     weight: 0
