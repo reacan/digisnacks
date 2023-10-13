@@ -21,6 +21,7 @@ html {
     line-height: 1.5; /*space between lines for most of the text*/
     color: #111;
     background-color: #fefefe;
+    
 }
 html,
 body {
@@ -29,9 +30,10 @@ body {
 }
 template {
   display: none !important;
+
 }
 * + * {
-    margin-top: 2.25rem;
+    margin-top: 2.25rem; /* was 2.25rem */
 }
 br,
 dt,
@@ -41,12 +43,15 @@ td,
 option,
 [hidden] + *,
 li + li,
-body,
+body,				
 .main-and-footer {
-    margin-top: 0;
+    margin-top: 0rem;
+    
+
 }
 p + p {
     margin-top: 0.75rem; /*this is the margin between lines on the non-blog pages*/
+    
 }
 .priority {
   margin-top: 0;
@@ -333,6 +338,8 @@ caption {
     position: relative;
     margin-top: 0;
     overflow-x: hidden;
+    
+    
 }
 .intro-and-nav {
     font-size: 0.8rem;
@@ -342,18 +349,23 @@ caption {
     top: 0;
     left: 0;
     border-right: 2px solid;
+    
 }
 .intro-and-nav > div {
     padding: 2.25rem;
     display: flex;
     flex-direction: column;
     height: 100%;
+    
+    
 }
 .intro {
   flex: 0 0 auto;
+  
 }
 .patterns {
   flex: 1 1 auto;
+  
 }
 .logo {
     border: 0;
@@ -367,14 +379,20 @@ caption {
     margin-left: auto;
     margin-right: auto;
     max-width: 25rem;
+    
 }
-.main-and-footer {
+.main-and-footer { 
     margin-left: 15rem;
+
+
+
 }
 .main-and-footer > div {
     max-width: 40rem;
     margin: 0 auto;
     padding: 2.25rem;
+
+    
 }
 [role="contentinfo"] {
     font-size: 0.85rem;
@@ -389,6 +407,7 @@ caption {
   white-space: nowrap;
   margin-top: -3rem;
   margin-bottom: -0.8rem;
+  
 }
 
 .centerlanguage {
@@ -585,6 +604,7 @@ main {
     display: block;
     counter-reset: fig;
     min-height: 100vh;
+    
 }
 figcaption::before {
     counter-increment: fig;
@@ -1093,15 +1113,14 @@ transition: 1s ease;
 
 }
 
-
-body {
-    background-image: url('{{ "images/dna.svg" | relURL }}');
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    visibility: visible !important;
-  
+.bckgrnd {
+    background-image: 
+    	url('{{ "images/lielvarde_dark.png" | relURL }}');
+ /*   	url('{{ "images/lielvarde_dark.png" | relURL }}'); */
+    background-size: 5rem 20rem, 5rem 20rem; /* 10rem width, 100% height for both images */
+    background-position: left 1.3rem top, right 0.3rem top; /* Align to left top corner */
+    background-repeat: repeat-y, repeat-y; /* Do not repeat the image */
+    min-height: 100vh; /* Stretch the background to cover the entire viewport height */
+    height: 100%;
 }
-
-
 
