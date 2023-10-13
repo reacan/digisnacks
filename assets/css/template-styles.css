@@ -384,7 +384,7 @@ caption {
 
 .center {
   margin: auto;
-  width: 36%;
+  width: 40%;
   overflow: hidden;
   white-space: nowrap;
   margin-top: -3rem;
@@ -1092,3 +1092,17 @@ transform: scale(0.8);
 transition: 1s ease;
 
 }
+
+/*
+body {
+    background-image: url('{{ "images/dna.svg" | relURL }}'); /* Adjust the path if necessary
+    background-size: cover; /* or contain, depending on your preference
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional - makes the background fixed
+    visibility: visible;
+
+    /* Add more styles as needed
+}
+
+*/
+
