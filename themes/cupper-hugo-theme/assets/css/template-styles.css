@@ -1092,3 +1092,16 @@ transform: scale(0.8);
 transition: 1s ease;
 
 }
+
+
+body {
+    background-image: url('{{ "images/dna.svg" | relURL }}');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    visibility: visible !important;
+  
+}
+
+
+
