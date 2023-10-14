@@ -68,10 +68,10 @@ r/r 64-128-2:	polise_printet.pdf
 -/d * 88-144-2:	.Trash-1000
 V/V 89:	$OrphanFiles
 ```
-
+{{< note >}}
 The NTFS filesystem contains an existing directory "polises_info" and an existing file "polise_printet.pdf"
-
 It also contains two deleted _.png_ files and three deleted directories. 
+{{< /note >}}
 
 #### Exporting the deleted _.png_ file "lol.png":
 
