@@ -67,6 +67,7 @@ r/r 64-128-2:	polise_printet.pdf
 -/d * 87-144-2:	.Trash-1000
 -/d * 88-144-2:	.Trash-1000
 V/V 89:	$OrphanFiles
+...
 ```
 {{< note >}}
 The NTFS filesystem's root contains an existing directory "polises_info" and an existing file "polise_printet.pdf"
