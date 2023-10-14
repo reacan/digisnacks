@@ -4,6 +4,7 @@ publishdate: "2023-09-01"
 lastmod: "2023-09-13"
 draft: false
 tags: ["GNU/Linux", "CLI"]
+type: "post"
 ---
 ## Some "find" variations that have been handy
 **Find and copy:**<br><br>

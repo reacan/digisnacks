@@ -3,6 +3,7 @@ title: "Forensics & FOSS: Imaging"
 date: 2023-09-15T14:48:58+03:00
 draft: false
 tags: ["Digital Forensics", "GNU/Linux"]
+type: "post"
 ---
 <img src="Exhibit-1.png" style="width: 100%;">
 

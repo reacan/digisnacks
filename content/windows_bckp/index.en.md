@@ -2,6 +2,7 @@
 title: "Data Backup with PowerShell & Task Scheduler"
 date: 2023-09-18
 tags: ["Windows"]
+type: "post"
 ---
 
 ###### Simple automated backup solution by using the Windows built-in tools. Create a PowerShell one-liner and add it to scheduled tasks.

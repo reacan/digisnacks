@@ -3,6 +3,7 @@ title: "Interneta cenzūra Latvijā"
 date: 2023-09-03T12:43:15+03:00
 draft: false
 tags: ["Internets", "politika"]
+type: "post"
 ---
 Pirms kāda laika, pārlūkojot Internetu, kādā ziņu portālā ievēroju rakstu par Latvijā bloķētajiem Interneta resursiem. Intereses pēc pamēģināju dažas no šīm mājaslapām atvērt un rezultātā biju vīlies, jo viss darbojās. Manu Interneta pieslēgumu nodrošina viens no lielākajiem vietējiem Interneta pakalpojumu sniedzējiem (turpmāk – ISP) un es neizmantoju virtuālos privātos tīklus (VPN) vai citus tamlīdzīgus risinājumus.
 

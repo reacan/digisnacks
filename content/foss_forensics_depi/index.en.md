@@ -2,6 +2,7 @@
 title: "Forensics & FOSS: DEPI/IPED"
 date: 2023-09-13T20:29:41+03:00
 tags: ["Digital Forensics"]
+type: "post"
 ---
 Today I would like to introduce you to a free and open source digital forensics tool that, in my opinion, is on par with its commercial counterparts – **Digital Evidence Processor and Indexer** (DEPI), or perhaps better known by its Portuguese name – **Indexador e Processador de Evidências Digitais** (IPED).
 

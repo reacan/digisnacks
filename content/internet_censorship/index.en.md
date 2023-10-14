@@ -3,6 +3,7 @@ title: "Internet censorship in Latvia"
 date: 2023-09-03T12:43:15+03:00
 draft: false
 tags: ["Internet", "politics"]
+type: "post"
 ---
 A while ago while browsing the Internet I came accross a news article with a list of websites that are apparently blocked in Latvia. When I tried to open some of these websites from my laptop, I was very disappointed. Everything was working. My Internet connection is provided by one of the largest local ISP's and I am not using VPN's or other similar solutions.
 

@@ -4,6 +4,7 @@ publishdate: "2023-09-01"
 lastmod: "2023-09-02"
 draft: false
 tags: ["GNU/Linux", "CLI"]
+type: "post"
 ---
 ## Dažas "find" variācijas, kuras man ir noderējušas
 
