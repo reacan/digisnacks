@@ -83,14 +83,20 @@ icat -o 2048 /dev/sda 69 > lol.png
 In the above example, the number **69** is the inode number of the file lol.png as seen in the output of **fls**.
 {{< /note >}}
 
+#### Listing the contents of the deleted directory "political_science":
+
+{{< cmd >}}
+fls -o 2048 /dev/sda -r -p | grep political_science
+{{< /cmd >}}
+
+**-r**: Recurse on directory entries<br>
+**-p**: Display full path for each file<br>
+
 #### Listing all the contents of the NTFS filesystem recursively and redirecting the output to a file:
 
 {{< cmd >}}
 fls -o 2048 /dev/sda -r -p > MFT.csv
 {{< /cmd >}}
-
-**-r**: Recurse on directory entries<br>
-**-p**: Display full path for each file<br>
 
 #### "fls" parameters that I use most often along with -r and -p:
 
