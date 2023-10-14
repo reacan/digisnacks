@@ -69,7 +69,7 @@ r/r 64-128-2:	polise_printet.pdf
 V/V 89:	$OrphanFiles
 ```
 {{< note >}}
-The NTFS filesystem contains an existing directory "polises_info" and an existing file "polise_printet.pdf"
+The NTFS filesystem's root contains an existing directory "polises_info" and an existing file "polise_printet.pdf"
 It also contains two deleted _.png_ files and three deleted directories. 
 {{< /note >}}
 
