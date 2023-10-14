@@ -14,7 +14,7 @@ imaging:
 
 params:
   hideHomeSection: true
-  homeMetaContent:
+  homeMetaContent: Dāvis' WWW playground. Notes, thoughts, ideas. 
     # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   codePenUser: 
