@@ -11,6 +11,7 @@
   {{ end }}
   <ul class="patterns-list" id="list">
     {{ range .Pages.ByPublishDate.Reverse }}
+                {{ if ne .Type "exclude-me" }}
     <li>
       <h2>
         <a href="{{ .RelPermalink }}">
@@ -27,6 +28,8 @@
       </h2>
     </li>
     {{ end }}
+            {{ end }}
+
   </ul>
 </main>
 {{ end }}

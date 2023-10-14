@@ -13,6 +13,7 @@ imaging:
   quality: 99
 
 params:
+  hideHomeSection: true
   homeMetaContent:
     # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
@@ -43,21 +44,21 @@ languages:
     logoAlt: Lapas logo, lupa ar eņģeļa spārniem un kafijas krūzīte
     menu:
      nav:
-       - name: Sākums
+#       - name: Sākums
+#         url: /lv/
+#         weight: 1
+       - name: Ieraksti
          url: /lv/
          weight: 1
-       - name: Ieraksti
-         url: /lv/post/
-         weight: 2
        - name: Tēmturi
          url: /lv/tags/
-         weight: 3
+         weight: 2
        - name: Foto
          url: /lv/gallery/
-         weight: 4  
+         weight: 3  
        - name: Par
          url: /lv/about/
-         weight: 5
+         weight: 4
     params:
       footer: 2023 © Dāvis Vilcāns
   en:
@@ -68,21 +69,21 @@ languages:
     logoAlt: Site logo, lupa with angel wings and a cup of coffee
     menu:
      nav:
-       - name: Home
+#       - name: Home
+#         url: /en/
+#         weight: 1
+       - name: Entries
          url: /en/
          weight: 1
-       - name: Entries
-         url: /en/post/
-         weight: 2
        - name: Tags
          url: /en/tags/
-         weight: 3
+         weight: 2
        - name: Photos
          url: /en/gallery/
-         weight: 4 
+         weight: 3 
        - name: About
          url: /en/about/
-         weight: 5
+         weight: 4
     params:
       footer: 2023 © Dāvis Vilcāns   
 markup:

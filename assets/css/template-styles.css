@@ -1124,3 +1124,7 @@ transition: 1s ease;
     height: 100%;
 }
 
+.imgcnt * {
+    background-color: transparent;
+}
+

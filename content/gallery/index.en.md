@@ -2,6 +2,7 @@
 title: "Photos"
 date: 2023-08-31T20:24:40+03:00
 lastmod: "2023-09-08"
+type: "exclude-me"
 ---
 {{< figureCupper
 img="latgale.jpg"

@@ -10,12 +10,12 @@
   <ul id="patterns-list">
   {{ range .Site.Menus.nav }}
     <li class="pattern">
+        
       {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
       {{ $active = or $active (eq .Name $current.Title) }}
-      {{ $active = or $active (and (eq .Name "Entries") (eq $current.Section "post")) }}
-      {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
       {{ $active = or $active (and (eq .Name "Tēmturi") (eq $current.Section "tags")) }}
-      {{ $active = or $active (and (eq .Name "Ieraksti") (eq $current.Section "post")) }}    
+
+
       <a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use href="#bookmark"></use>

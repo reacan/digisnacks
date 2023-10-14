@@ -2,6 +2,7 @@
 title: "About"
 date: 2023-08-31T20:24:40+03:00
 lastmod: "2023-10-11"
+type: "exclude-me"
 ---
 In the beginning it was all fairies and flowerdust.
 
