@@ -1118,7 +1118,7 @@ transition: 1s ease;
     	url('{{ "images/lielvarde_dark.svg" | relURL }}');
    	/* url('{{ "images/lielvarde_dark.svg" | relURL }}') */
     background-size: 10rem 25rem; /* ,5rem 20rem;  10rem width, 100% height for both images */
-    background-position: left -7% top; /* right 1rem top; /* Align to left top corner */
+    background-position: left -3rem top; /* right 1rem top; /* Align to left top corner */
     background-repeat: repeat-y; /* ,repeat-y; /* Do not repeat the image */
     min-height: 100vh; /* Stretch the background to cover the entire viewport height */
     height: 100%;
