@@ -9,7 +9,7 @@ Sākumā bija tikai laumiņas un ziedputekšņi.
 Fascinē informācijas tehnoloģijas, it īpaši atvērtā koda programmatūra un UNIX-veidīgas operētājsistēmas.<br><br>
 Atvērts jauniem projektiem un sadarbībai. Ar mani var sazināties rakstot uz e-pastu: mail@dvilcans.com
 
-<a href="./mail-dvilcans-public.asc" target="_blank" rel="noopener noreferrer">PGP publiskā atslēga</a>
+<a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP publiskā atslēga</a>
 
 
 

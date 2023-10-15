@@ -9,7 +9,7 @@ In the beginning it was all fairies and flowerdust.
 Passionate about information technology, in particular open source software and UNIX-like operating systems.<br><br>
 Open for new projects and collaborations. You can get in touch with me by dropping an email to: mail@dvilcans.com
 
-<a href="./mail-dvilcans-public.asc" target="_blank" rel="noopener noreferrer">PGP public key</a>
+<a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP public key</a>
 
 
 
