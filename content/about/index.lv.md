@@ -9,14 +9,8 @@ Sākumā bija tikai laumiņas un ziedputekšņi.
 Fascinē informācijas tehnoloģijas, it īpaši atvērtā koda programmatūra un UNIX-veidīgas operētājsistēmas.<br><br>
 Atvērts jauniem projektiem un sadarbībai. Ar mani var sazināties rakstot uz e-pastu: mail@dvilcans.com
 
-<script>
-    document.getElementById('pgp-link').addEventListener('click', function(event) {
-        event.preventDefault();
-        window.open(this.getAttribute('href'), '_blank');
-    });
-</script>
+<a href="./mail-dvilcans-public.asc" target="_blank" rel="noopener noreferrer">PGP publiskā atslēga</a>
 
-<a href="./mail-dvilcans-public.asc" id="pgp-link">PGP publiskā atslēga</a>
 
 
 <script>

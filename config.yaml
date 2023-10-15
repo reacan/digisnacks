@@ -12,6 +12,10 @@ permalinks:
 imaging:
   quality: 99
 
+mediaTypes:
+  "text/plain":
+    suffixes: ["asc"]
+
 params:
   hideHomeSection: true
   homeMetaContent: Dāvis' WWW playground. Notes, thoughts, ideas. 

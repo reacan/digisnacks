@@ -9,15 +9,8 @@ In the beginning it was all fairies and flowerdust.
 Passionate about information technology, in particular open source software and UNIX-like operating systems.<br><br>
 Open for new projects and collaborations. You can get in touch with me by dropping an email to: mail@dvilcans.com
 
+<a href="./mail-dvilcans-public.asc" target="_blank" rel="noopener noreferrer">PGP public key</a>
 
-<script>
-    document.getElementById('pgp-link').addEventListener('click', function(event) {
-        event.preventDefault();
-        window.open(this.getAttribute('href'), '_blank');
-    });
-</script>
-
-<a href="./mail-dvilcans-public.asc" id="pgp-link">PGP public key</a>
 
 
 
