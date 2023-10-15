@@ -81,7 +81,7 @@ icat -o 2048 /dev/sda 69 > lol.png
 {{< /cmd >}}
 
 {{< note >}}
-In the above example, the number **69** is the inode number of the file lol.png as seen in the output of **fls**.
+In the above example, the number **69** is the inode number of the file "lol.png" as seen in the output of **fls**.
 {{< /note >}}
 
 #### Listing the contents of the deleted directory "political_science":

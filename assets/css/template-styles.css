@@ -168,10 +168,10 @@ code {
 }
 .cmd {
     padding: 0.75rem;
-    background: #111;
+    background: #fefefe; /*this be the BG color for CMD box 111 is black fefefe is white */
 }
 .cmd code {
-    color: #fefefe;
+    color: #111;  /*this be the text color for the CMD box 111 is black fefefe is white */
     white-space: pre-wrap;
 }
 .cmd code::before {
@@ -179,10 +179,11 @@ code {
     font-weight: bold;
     padding-right: 0.25em;
 }
-.cmd code::selection{
-    background: #fefefe;
+/*.cmd code::selection{
+    background: #111;  /*this be the text highlight color
     color: rgba(0,0,0,.8);
-}
+}*/
+
 /* Lists */
 main ul,
 main ol {
