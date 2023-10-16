@@ -14,7 +14,7 @@ In 2012, I became acquainted with several innovative and revolutionary concepts.
 
 ## Constitutional Patriotism
 
-The concept of constitutional patriotism, originally coined by German philosophers Karl Jasper and his scholar Dolf Sternberger in the post-WWII period and later adopted by Jurgen Habermas, aimed to replace the notion of “conventional patriotism” — where national identity plays the most crucial role.
+The concept of constitutional patriotism, originally coined by German philosophers Karl Jasper and his scholar Dolf Sternberger in the post-WWII period and later adopted by Jurgen Habermas, aimed to replace the notion of “conventional patriotism” ‒ where national identity plays the most crucial role.
 
 ### German national identity
 
