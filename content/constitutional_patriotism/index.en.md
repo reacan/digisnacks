@@ -6,11 +6,11 @@ tags: ["politics"]
 type: "post"
 ---
 ## Haters vs. Innovators
-A week ago the newly appointed minister of culture of Latvia Ms.Agnese Logina gave an [interview](https://satori.lv/article/seit-mes-cinamies-par-galvam-saruna-ar-kulturas-ministri-agnesi-loginu) where she emphasized the need to **redefine patriotism** in order to promote a more inclusive society, a society where the feeling of belonging transcends ethnic characteristics, where people should find a sense of home and acceptance irrespective of their cultural background. 
+A week ago the newly appointed minister of culture of Latvia Ms.Agnese Logina gave an [interview](https://satori.lv/article/seit-mes-cinamies-par-galvam-saruna-ar-kulturas-ministri-agnesi-loginu) where she emphasized the need to redefine patriotism in order to promote a more inclusive society, a society where the feeling of belonging transcends ethnic characteristics, where people should find a sense of home and acceptance irrespective of their cultural background. 
 
 However, Ms.Logina's visionary call to redefine patriotism in the pursuit of a more inclusive society was met with harsh and unfounded criticism. These critics were seemingly out of touch with the global discourse on successful post-nationalism concepts. 
 
-Way back in 2012, I got clued into some of these innovative and revolutionary concepts. I would like to share a refreshed snippet from an essay I wrote back in the day on a concept with a rather interesting backstory.
+In 2012, I became acquainted with several innovative and revolutionary concepts. I would like to share an updated excerpt from an essay I wrote back then, discussing a concept with a particularly interesting backstory.
 
 ## Constitutional Patriotism
 
