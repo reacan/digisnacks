@@ -10,8 +10,6 @@ A week ago the newly appointed minister of culture of Latvia Ms.Agnese Logina ga
 
 However, Ms.Logina's visionary call to redefine patriotism in the pursuit of a more inclusive society was met with harsh and unfounded criticism. These critics were seemingly out of touch with the global discourse on successful post-nationalism concepts. 
 
-In 2012, I became acquainted with several interesting post-nationalism concepts. I would like to share an updated excerpt from an essay I wrote back then, discussing a concept with a particularly interesting backstory.
-
 ## Constitutional Patriotism
 
 The concept of constitutional patriotism, originally coined by German philosophers Karl Jasper and his scholar Dolf Sternberger in the post-WWII period and later adopted by Jurgen Habermas, aimed to replace the notion of “conventional patriotism” ‒ where national identity plays the most crucial role.
