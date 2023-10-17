@@ -33,7 +33,7 @@ params:
     - js/custom_02.js  
 enableRobotsTXT: true
 DefaultContentLanguage: en
-DefaultContentLanguageInSubdir: true
+DefaultContentLanguageInSubdir: false
 languages:
   lv:
     languageName: Latviski 🇱🇻
@@ -73,16 +73,16 @@ languages:
 #         url: /en/
 #         weight: 1
        - name: Entries
-         url: /en/
+         url: /
          weight: 1
        - name: Tags
-         url: /en/tags/
+         url: /tags/
          weight: 2
        - name: Photos
-         url: /en/gallery/
+         url: /gallery/
          weight: 3 
        - name: About
-         url: /en/about/
+         url: /about/
          weight: 4
     params:
       footer: 2023 © Dāvis Vilcāns   
