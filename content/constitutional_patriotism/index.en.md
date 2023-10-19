@@ -1,5 +1,5 @@
 ---
-title: "Redefining Patriotism"
+title: "Redefining patriotism"
 date: 2023-10-15T14:49:03+03:00
 draft: false
 tags: ["politics"]
