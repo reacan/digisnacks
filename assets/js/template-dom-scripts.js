@@ -110,6 +110,7 @@
     
     
    imageElement.src = "{{ "images/light_off.svg" | relURL }}"; // Path to your dark theme image
+   imageElement.title = "Lights!"; // Tooltip text for the light theme
 
   }
 
@@ -119,6 +120,8 @@
     
     
     imageElement.src = "{{ "images/light_on.svg" | relURL }}"; // Path to your light theme image
+    imageElement.title = "Lights Please!"; // Tooltip text for the dark theme
+
 
   }
 
