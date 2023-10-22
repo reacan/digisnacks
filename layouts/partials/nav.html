@@ -9,10 +9,11 @@
   {{ $current := . }}
   <ul id="patterns-list">
   {{ range .Site.Menus.nav }}
-    <li class="pattern">
-        
+    <li class="pattern">     
       {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
       {{ $active = or $active (eq .Name $current.Title) }}
+      {{ $active = or $active (and (eq .Name "Entries") (eq $current.Section "post")) }}
+      {{ $active = or $active (and (eq .Name "Ieraksti") (eq $current.Section "post")) }}
       {{ $active = or $active (and (eq .Name "Tēmturi") (eq $current.Section "tags")) }}
 
 
