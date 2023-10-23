@@ -56,8 +56,8 @@ languages:
        - name: Foto
          url: /lv/gallery/
          weight: 3  
-       - name: Par
-         url: /lv/about/
+       - name: Šobrīd
+         url: /lv/now/
          weight: 4
     params:
       footer: 2023 © Dāvis Vilcāns
@@ -81,8 +81,8 @@ languages:
        - name: Photos
          url: /gallery/
          weight: 3 
-       - name: About
-         url: /about/
+       - name: Now
+         url: /now/
          weight: 4
     params:
       footer: 2023 © Dāvis Vilcāns   

@@ -1,15 +1,20 @@
 ---
-title: "Par"
+title: "Now"
 date: 2023-08-31T20:24:40+03:00
 lastmod: "2023-10-11"
 type: "exclude-me"
 ---
-Sākumā bija tikai laumiņas un ziedputekšņi.
+Over the past couple of years, my professional journey has been quite a ride. I've shifted from people-oriented roles to tech-focused positions and _vice versa_. My adventurous spirit has taken me to places most folks would steer clear of, all driven by ideals and a hunger for experience.
 
-Fascinē informācijas tehnoloģijas, it īpaši atvērtā koda programmatūra un UNIX-veidīgas operētājsistēmas.<br><br>
-Atvērts jauniem projektiem un sadarbībai. Ar mani var sazināties rakstot uz e-pastu: mail@dvilcans.com
+With a passion for UNIX-like operating systems, information security and digital forensics, I am now venturing in a slightly different direction looking to explore the world of web development.
 
-<a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP publiskā atslēga</a>
+This blog is my digital playground and place for reflection. In the future I intend to experiment more with _JavaScript_ and I will also share some, hopefully, interesting stories about my past experiences working for various Latvian state institutions.
+
+
+Feel free to reach out by dropping a message to: mail@dvilcans.com.
+
+<a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP public key</a>
+
 
 
 
