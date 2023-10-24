@@ -4,16 +4,21 @@ date: 2023-08-31T20:24:40+03:00
 lastmod: "2023-10-11"
 type: "exclude-me"
 ---
-Mans pēdējo pāris gadu profesionālais ceļojums ir bijis visnotaļ interesants un daudzpusīgs. Esmu strādājis kā ar cilvēkiem tā ar tehnoloģijām un pateicoties kārei pēc piedzīvojumiem esmu pabijis dažādās _eksotiskās_ vietās, no kurām vairums cilvēku visticamāk labprātāk turētos pa gabalu.
-
-Aizraujos ar UNIX-veidīgām operētājsistēmām, informācijas drošību un _digital forensics_, šobrīd vēlos vairāk pievērsties tīmekļa tehnoloģijām un _web_ izstrādes jomai.
-
-Šis blogs ir mans digitālais rotaļlaukums un vieta pārdomām. Nākotnē es plānoju vairāk eksperimentēt ar _JavaScript_, un dalīties ar, cerams, interesantiem stāstiem par savu iepriekšējo pieredzi, strādājot dažādās Latvijas valsts iestādēs.
-
-Ja vēlaties ar mani sazināties, varat droši rakstīt uz: mail@dvilcans.com.
-
+<div style="text-align: justify;">
+Mans pēdējo pāris gadu profesionālais ceļojums ir bijis visnotaļ interesants un daudzpusīgs. Esmu strādājis kā ar cilvēkiem tā ar tehnoloģijām un pateicoties kārei pēc piedzīvojumiem esmu pabijis dažādās <i>eksotiskās</i> vietās, no kurām vairums cilvēku visticamāk labprātāk turētos pa gabalu.
+<br>
+<br>
+Aizraujos ar <i>UNIX</i>-veidīgām operētājsistēmām, informācijas drošību un <i>digital forensics</i>, šobrīd vēlos vairāk pievērsties tīmekļa tehnoloģijām un <i>web</i> izstrādes jomai.
+<br>
+<br>
+Šis blogs ir mans digitālais rotaļlaukums un vieta pārdomām. Nākotnē es plānoju vairāk eksperimentēt ar <i>JavaScript</i>, un dalīties ar, cerams, interesantiem stāstiem par savu iepriekšējo pieredzi, strādājot dažādās Latvijas valsts iestādēs.
+<br>
+<br>
+Ja vēlaties ar mani sazināties, varat droši rakstīt uz: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>.
+<br>
+<br>
 <a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP publiskā atslēga</a>
-
+</div>
 
 
 <script>
