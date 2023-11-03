@@ -5,7 +5,7 @@ draft: false
 tags: ["dzīve"]
 type: "post"
 ---
-### Sveiciens visiem, kam rūp mans [liktenis](https://www.lsm.lv/raksts/zinas/latvija/28.09.2023-tikai-puse-no-ulubelei-ziedotas-naudas-nonak-dzivniekiem-un-patversmes-uzturesanai.a525512/)!
+### Sveiciens visiem, kam rūp [mans liktenis](https://www.lsm.lv/raksts/zinas/latvija/28.09.2023-tikai-puse-no-ulubelei-ziedotas-naudas-nonak-dzivniekiem-un-patversmes-uzturesanai.a525512/)!
  
 Ir pagājis nedaudz vairāk kā gads, kopš dzīvoju šajā ģimenē. Toreiz, lepni iebraucot lielajā, zaļajā pagalmā biju nobijusies no plašuma un brīvības, bet mani divkāji tik priecīgi bužināja mani un iedrošināja doties pētīt pagalmu.  
 

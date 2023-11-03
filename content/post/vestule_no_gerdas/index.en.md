@@ -6,7 +6,7 @@ tags: ["life"]
 type: "post"
 ---
 
-### Yo, what's good to all my peeps who care 'bout my [destiny](https://eng.lsm.lv/article/society/society/29.09.2023-latvian-radio-investigation-involves-dog-homeless-man-gas-station-animal-shelter-billionaire.a525652/)!
+### Yo, what's good to all my peeps who care 'bout [my destiny](https://eng.lsm.lv/article/society/society/29.09.2023-latvian-radio-investigation-involves-dog-homeless-man-gas-station-animal-shelter-billionaire.a525652/)!
 
 It's been a little over a year since I've been rollin' with this fam. Back then, rollin' into the big green yard, I was kinda scared of all that space and freedom, but my two-legged crew was all hype, encouragin' me to explore the yard. 
 
