@@ -1129,4 +1129,15 @@ transition: 1s ease;
     background-color: transparent;
 }
 
+@media (prefers-color-scheme: dark) {
+    /* Styles for browsers with dark mode */
+    body {
+        background-color: slategrey;
+        color: charcoalgrey;
+    }
+    #search::placeholder {
+        color: darkslategrey; /* Replace this with your desired text color */
+    }
+}
+
 
