@@ -140,6 +140,15 @@
       clearDarkTheme();
 
     }
+    
+    // Exclude CMD boxes from dark theme by adding a class
+        var cmdBoxes = document.querySelectorAll('.cmd');
+        cmdBoxes.forEach(function(cmdBox) {
+            cmdBox.classList.add('not-dark-theme');
+        });
+    
+    
+    
 {{ end }}
   }
 

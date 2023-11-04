@@ -168,12 +168,26 @@ code {
 }
 .cmd {
     padding: 0.75rem;
-    background: #fefefe; /*this be the BG color for CMD box 111 is black fefefe is white */
+    background: #111; /*this be the BG color for CMD box 111 is black fefefe is white */
+    border: 0;
 }
 .cmd code {
-    color: #111;  /*this be the text color for the CMD box 111 is black fefefe is white */
+    color: #fefefe;  /*this be the text color for the CMD box 111 is black fefefe is white */
     white-space: pre-wrap;
 }
+
+
+/* Dark theme styles */
+@media (prefers-color-scheme: dark) {
+    .cmd {
+        background: #111; /* Background color for CMD box in dark theme (black) */
+        color: #fefefe; /* Text color for CMD box in dark theme (white) */
+    }
+}
+
+
+
+
 .cmd code::before {
     content: '$';
     font-weight: bold;
