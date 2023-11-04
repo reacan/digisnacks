@@ -1138,14 +1138,6 @@ transition: 1s ease;
         }
         
     .intro-and-nav {
-
-    font-size: 0.8rem;
-    width: 15rem;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    border-right: 0px solid transparent;
     color: #cccccc;
 }   
             
