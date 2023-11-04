@@ -349,7 +349,7 @@ caption {
     position: fixed;
     top: 0;
     left: 0;
-    border-right: 2px solid;
+    border-right: 0px solid transparent;
     
 }
 .intro-and-nav > div {
@@ -1132,9 +1132,23 @@ transition: 1s ease;
 @media (prefers-color-scheme: dark) {
     /* Styles for browsers with dark mode */
     body {
-        background-color: slategrey;
+        background-color: rgb(143, 127, 111); 
+     /* background-color: slategrey; */
         color: charcoalgrey;
-    }
+        }
+        
+    .intro-and-nav {
+
+    font-size: 0.8rem;
+    width: 15rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 0px solid transparent;
+    color: #cccccc;
+}   
+            
     #search::placeholder {
         color: darkslategrey; /* Replace this with your desired text color */
     }
