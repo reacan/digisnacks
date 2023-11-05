@@ -128,6 +128,7 @@ h3,
 h4 {
     font-family: Miriam Libre, serif;
     line-height: 1.125; /*this value is for the blog entry titles*/
+    text-align: left;
 }
 h1 {
     font-size: 2rem;
@@ -178,14 +179,14 @@ code {
 
 
 /* Dark theme styles */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     .cmd {
         background: #111; /* Background color for CMD box in dark theme (black) */
-        color: #fefefe; /* Text color for CMD box in dark theme (white) */
+        color: #fefefe; /* Text color for CMD box in dark theme (white) 
     }
 }
 
-
+*/
 
 
 .cmd code::before {

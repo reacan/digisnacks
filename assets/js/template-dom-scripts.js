@@ -109,6 +109,10 @@
     darkTheme.disabled = false;
     
     
+    
+
+    
+    
    imageElement.src = "{{ "images/light_off.svg" | relURL }}"; // Path to your dark theme image
    imageElement.title = "Lights!"; // Tooltip text for the light theme
 
@@ -117,6 +121,12 @@
   function clearDarkTheme() {
     var darkTheme = document.getElementById('darkTheme');
     darkTheme.disabled = true;
+    
+    
+    
+
+    
+    
     
     
     imageElement.src = "{{ "images/light_on.svg" | relURL }}"; // Path to your light theme image
@@ -141,13 +151,7 @@
 
     }
     
-    // Exclude CMD boxes from dark theme by adding a class
-        var cmdBoxes = document.querySelectorAll('.cmd');
-        cmdBoxes.forEach(function(cmdBox) {
-            cmdBox.classList.add('not-dark-theme');
-        });
-    
-    
+
     
 {{ end }}
   }
