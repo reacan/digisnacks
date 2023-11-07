@@ -1,5 +1,5 @@
 ---
-title: "Windows & Backups"
+title: "Windows & backups"
 date: 2023-09-18
 tags: ["Windows"]
 type: "post"
