@@ -11,7 +11,7 @@ Over the past couple of years, my professional journey has been quite a ride. I'
 With a passion for UNIX-like operating systems, information security and digital forensics, I am now venturing in a slightly different direction looking to explore the world of web development.
 <br>
 <br>
-This blog is my digital playground and place for reflection. In the future I intend to experiment more with <i>JavaScript</i> and I will also share some, hopefully, interesting stories about my past experiences working for various Latvian state institutions.
+This blog is my digital playground and place for reflection. In the future I intend to do more experiments with <i>JavaScript</i> and I will also share some, hopefully, interesting stories about my past experiences working for various Latvian state institutions.
 <br>
 <br>
 Feel free to reach out by dropping a message to: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>
