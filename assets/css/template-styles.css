@@ -182,7 +182,7 @@ code {
 /*
 @media (prefers-color-scheme: dark) {
     .cmd {
-        background: #111; /* Background color for CMD box in dark theme (black) */
+        background: #111; /* Background color for CMD box in dark theme (black) *//*
         color: #fefefe; /* Text color for CMD box in dark theme (white) 
     }
 }
