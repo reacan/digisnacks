@@ -4,5 +4,5 @@ I have made two modifications to the original Cupper theme:
 
 * Implemented a language switcher and placed it under the logo.
 * Moved the theme switcher button under the logo.
-
+* Other small bits and things
  
