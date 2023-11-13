@@ -11,5 +11,4 @@ The mock case is about analyzing a computer image, finding certain files based o
 
 If you have ever wondered about how digital evidence is being processed an analyzed then this video could be of interest to you. 
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ude0OwamgT4?si=2K2qUdOvfqvJxekp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
-
+<center><iframe class="youtube-video" src="https://www.youtube.com/embed/ude0OwamgT4?si=2K2qUdOvfqvJxekp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
