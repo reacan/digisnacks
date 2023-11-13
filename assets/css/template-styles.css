@@ -179,7 +179,8 @@ code {
 
 
 /* Dark theme styles */
-/* @media (prefers-color-scheme: dark) {
+/*
+@media (prefers-color-scheme: dark) {
     .cmd {
         background: #111; /* Background color for CMD box in dark theme (black) */
         color: #fefefe; /* Text color for CMD box in dark theme (white) 
@@ -194,10 +195,10 @@ code {
     font-weight: bold;
     padding-right: 0.25em;
 }
-/*.cmd code::selection{
-    background: #111;  /*this be the text highlight color
+.cmd code::selection{
+    background: #fefefe;  /*this be the text highlight color*/
     color: rgba(0,0,0,.8);
-}*/
+}
 
 /* Lists */
 main ul,
