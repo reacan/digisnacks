@@ -1,9 +1,15 @@
 ---
 title: "Photos"
 date: 2023-08-31T20:24:40+03:00
-lastmod: "2023-09-08"
+lastmod: "2023-11-17"
 type: "exclude-me"
 ---
+{{< figureCupper
+img="driver.jpg"
+caption="My personal Driver"
+command="Resize"
+options="700x" >}}
+
 {{< figureCupper
 img="latgale.jpg"
 caption="Somewhere in Latgale"
