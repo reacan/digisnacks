@@ -1160,6 +1160,31 @@ transition: 1s ease;
     #search::placeholder {
         color: darkslategrey; /* Replace this with your desired text color */
     }
+    
+/* For WebKit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Adjust this color to fit your dark mode scheme */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1a1a1a; /* Adjust this color to fit your dark mode scheme */
+}    
+    
+/* For Firefox */
+/* You might need to adjust this color as well */
+scrollbar-color: #333 #1a1a1a;
+scrollbar-width: thin;
+
+/* For older versions of Firefox */
+/* You might need to adjust this color as well */
+-moz-appearance: none;
+-moz-scrollbar-color: #333 #1a1a1a;   
+    
+    
 }
 
 .youtube-video {
