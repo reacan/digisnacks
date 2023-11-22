@@ -54,8 +54,8 @@ languages:
          url: /lv/tags/
          weight: 2
        - name: Foto
-         url: /lv/gallery/
-         weight: 3  
+         url: "https://gallery.dvilcans.com/lv"
+         weight: 3
        - name: Šobrīd
          url: /lv/now/
          weight: 4
@@ -79,8 +79,8 @@ languages:
          url: /tags/
          weight: 2
        - name: Photos
-         url: /gallery/
-         weight: 3 
+         url: "https://gallery.dvilcans.com/"
+         weight: 3
        - name: Now
          url: /now/
          weight: 4
