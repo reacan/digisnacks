@@ -53,7 +53,7 @@ languages:
        - name: Tēmturi
          url: /lv/tags/
          weight: 2
-       - name: Foto
+       - name: Galerija
          url: "https://gallery.dvilcans.com/lv"
          weight: 3
        - name: Šobrīd
@@ -78,7 +78,7 @@ languages:
        - name: Tags
          url: /tags/
          weight: 2
-       - name: Photos
+       - name: Gallery
          url: "https://gallery.dvilcans.com/"
          weight: 3
        - name: Now
