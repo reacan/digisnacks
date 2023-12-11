@@ -20,7 +20,7 @@ Feel free to reach out by dropping a message to: <a href=mailto:mail@dvilcans.co
 <a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP public key</a>
 </div>
 
-<center><img src="DnJnG_rounded.png" alt="This is how we chill ;)" style="background: transparent;"></center>
+<center><img src="DnJnG2.png" alt="This is how we chill ;)" style="background: transparent;"></center>
 
 
 <script>

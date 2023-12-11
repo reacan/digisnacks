@@ -20,7 +20,7 @@ Ja vēlaties ar mani sazināties, varat droši rakstīt uz: <a href=mailto:mail@
 <a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP publiskā atslēga</a>
 </div>
 
-<center><img src="DnJnG_rounded.png" alt="This is how we chill ;)" style="background: transparent;"></center>
+<center><img src="DnJnG2.png" alt="This is how we chill ;)" style="background: transparent;"></center>
 <script>
 
 // oneko.js: https://github.com/adryd325/oneko.js
