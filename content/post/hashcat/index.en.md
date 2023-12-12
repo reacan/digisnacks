@@ -35,7 +35,7 @@ A hash is like a cooked up secret sauce made up from a password, and in some cas
 
 ### Extracting the hash
 
-The extraction of hashes is performed by scripts. For each encrypted file type you can find a corresponding script on the Internet that will extract the hash. These scripts are usually named in the following fasion -- \<type>2john.ext, for example zip2john.c, telegram2john.py, signal2john.py, etc.
+The extraction of hashes is performed by scripts. For each encrypted file type you can find a corresponding script on the Internet that will extract the hash. These scripts are usually named in the following fashion -- \<type>2john.ext, for example zip2john.c, telegram2john.py, signal2john.py, etc.
 
 To get the hash from a Microsoft Office document I will use a script called **office2john.py**, it is a Python2 script:
 
