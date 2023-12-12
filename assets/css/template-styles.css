@@ -1187,7 +1187,13 @@ scrollbar-width: thin;
     
 }
 
+.youtube-video-container {
+  width: 100%;
+  max-width: 800px; /* Adjust this to your liking */
+  margin: 0 auto; /* Center that ish */
+}
+
 .youtube-video {
   aspect-ratio: 16 / 9;
-  width: 80%;
+  width: 90%;
 }
