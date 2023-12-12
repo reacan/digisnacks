@@ -1145,12 +1145,12 @@ transition: 1s ease;
     background-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) { */
     /* Styles for browsers with dark mode */
-    body {
+/*    body {
         background-color: rgb(143, 127, 111); 
-     /* background-color: slategrey; */
-        color: charcoalgrey;
+     /* background-color: slategrey; */ 
+/*        color: charcoalgrey;
         }
         
     .intro-and-nav {
@@ -1158,9 +1158,9 @@ transition: 1s ease;
 }   
             
     #search::placeholder {
-        color: darkslategrey; /* Replace this with your desired text color */
+        color: darkslategrey; /* Replace this with your desired text color *//*
     }
-    
+   */
 /* For WebKit Browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 12px;
