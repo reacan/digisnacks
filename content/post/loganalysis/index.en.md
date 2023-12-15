@@ -17,7 +17,7 @@ Don't have any logs, but want to test out the below commands? Here you go:
 
 <a href=access_1.log>access_1.log</a>  
 <a href=access_2.log>access_2.log</a>  
-<a href=access_2.log>access_3.log</a>  
+<a href=access_3.log>access_3.log</a>  
 
 ### How many unique IP's are in the access logs?
 
