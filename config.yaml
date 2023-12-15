@@ -16,7 +16,10 @@ params:
   hideHomeSection: true
   homeMetaContent: Dāvis' WWW playground. Notes, thoughts, ideas. 
     # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
+# dateFormat: Jan 2, 2006
+  dateFormats:
+    en: Jan 2, 2006
+    lv: Jan 2, 2006
   codePenUser: 
   katex: false
   hideHeaderLinks: false
@@ -24,13 +27,15 @@ params:
   showThemeSwitcher: true
   defaultDarkTheme: false
   moveFooterToHeader: false
-  #navTitleText: Cupper Theme
+# navTitleText: Cupper Theme
   customCss:
     - css/custom_01.css
     - css/custom_02.css
   customJs:
     - js/custom_01.js
-    - js/custom_02.js  
+    - js/custom_02.js
+  logoAlt: Site logo, lupa with angel wings and a cup of coffee
+# description: Davis' WWW playground. Notes, thoughts, ideas.
 enableRobotsTXT: true
 DefaultContentLanguage: en
 DefaultContentLanguageInSubdir: false
@@ -39,9 +44,8 @@ languages:
     languageName: Latviski 🇱🇻
     staticDir: static
     title: ☮ DV
-    description:
+#   dateFormat: Jan 2, 2006
     weight: 0
-    logoAlt: Lapas logo, lupa ar eņģeļa spārniem un kafijas krūzīte
     menu:
      nav:
 #       - name: Sākums
@@ -65,8 +69,8 @@ languages:
     languageName: English 🇬🇧
     contentdir: content
     title: ☮ DV
+#   dateFormat: Jan 2, 2006
     weight: 1
-    logoAlt: Site logo, lupa with angel wings and a cup of coffee
     menu:
      nav:
 #       - name: Home

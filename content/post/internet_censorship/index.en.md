@@ -5,6 +5,8 @@ draft: false
 tags: ["Internet", "politics"]
 type: "post"
 ---
+<img src="h34d.png" style="width: 100%;">
+
 A while ago while browsing the Internet I came accross a news article with a list of websites that are apparently blocked in Latvia. When I tried to open some of these websites from my laptop, I was very disappointed. Everything was working. My Internet connection is provided by one of the largest local ISP's and I am not using VPN's or other similar solutions.
 
 It made me curious so I decided to investigate a little bit. It appears that the way the supervisory authority ([NEPLP](https://www.neplp.lv/lv/ierobezoto-domenu-vardu-saraksts)) has implemented this website blocking is very basic. I am able to access the "blocked websites" because I am not using my ISP's DNS servers. This "website blocking" is achieved by making the ISP's change the DNS entries for these websites.

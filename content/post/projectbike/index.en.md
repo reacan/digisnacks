@@ -5,6 +5,8 @@ draft: false
 tags: ["bicycles"]
 type: "post"
 ---
+<img src="h34d.png" style="width: 100%;">
+
 ## A little backstory
 As long as I remember myself I've always been an avid cyclist. But I was never really bothered by the technical aspects of cycling. I knew the basics – how to fix a flat tire, adjust the brakes, lube the chain, etc., and it was enough for me. For more complex repairs I would simply take my bike to the local bike shop. 
 

@@ -5,6 +5,8 @@ draft: false
 tags: ["Internets", "politika"]
 type: "post"
 ---
+<img src="h34d.png" style="width: 100%;">
+
 Pirms kāda laika, pārlūkojot Internetu, kādā ziņu portālā ievēroju rakstu par Latvijā bloķētajiem Interneta resursiem. Intereses pēc pamēģināju dažas no šīm mājaslapām atvērt un rezultātā biju vīlies, jo viss darbojās. Manu Interneta pieslēgumu nodrošina viens no lielākajiem vietējiem Interneta pakalpojumu sniedzējiem (turpmāk – ISP) un es neizmantoju virtuālos privātos tīklus (VPN) vai citus tamlīdzīgus risinājumus.
 
 Nolēmu nedaudz šo jautājumu papētīt. Noskaidroju, ka uzraugošā iestāde ([NEPLP](https://www.neplp.lv/lv/ierobezoto-domenu-vardu-saraksts)) šo Interneta resursu bloķēšanu ir ieviesusi ļoti vienkāršotā veidā. Es varu piekļūt bloķētajiem resursiem, jo neizmantoju sava ISP piedāvātos DNS serverus. Šī Interneta resursu bloķēšana tiek nodrošināta liekot ISP savos DNS serveros izmainīt konkrētajiem resursiem piekritīgos ierakstus.
