@@ -176,6 +176,7 @@ code {
     color: #fefefe;  /*this be the text color for the CMD box 111 is black fefefe is white */
     white-space: pre-wrap;
     display: inline-block;
+    text-align: left;
 
 }
 
