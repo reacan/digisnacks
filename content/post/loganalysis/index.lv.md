@@ -2,7 +2,7 @@
 title: "Apache žurnālfailu analīze"
 date: 2023-12-15
 draft: false
-tags: ["Digital Forensics", "GNU/Linux"]
+tags: ["Digital Forensics", "GNU/Linux", "CLI"]
 type: "post"
 ---
 <img src="h34d.png" style="width: 100%;">
