@@ -64,7 +64,7 @@ languages:
          url: /lv/now/
          weight: 4
     params:
-      footer: 2023 © Dāvis Vilcāns
+      footer: © Dāvis Vilcāns
   en:
     languageName: English 🇬🇧
     contentdir: content
@@ -89,7 +89,7 @@ languages:
          url: /now/
          weight: 4
     params:
-      footer: 2023 © Dāvis Vilcāns   
+      footer: © Dāvis Vilcāns   
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
