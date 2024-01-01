@@ -19,7 +19,7 @@ type: "post"
 
 ### No jauna iemācīties rakstīt kā [vecajos laikos](https://dvilcans.wordpress.com/);
 
-### Klausīties [Radio Paradise](https://radioparadise.com/player/info/mellow-mix) Mellow Mix un tvert lietas vieglāk;
+### Klausīties [Radio Paradise](https://radioparadise.com/player/info/mellow-mix) Mellow Mix un tvert lietas vieglāk.
 
 <center><img src="IMG_20180716_1857245.jpg"></center>
 
