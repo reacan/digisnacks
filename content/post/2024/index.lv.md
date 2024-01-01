@@ -2,7 +2,7 @@
 title: "Piezīmes 2024."
 date: 2023-12-31
 draft: false
-tags: ["life"]
+tags: ["dzīve"]
 type: "post"
 ---
 # Nekādi vēlējumi vai apņemšanās, vienkārši pāris piezīmes.
