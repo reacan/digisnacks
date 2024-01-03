@@ -59,10 +59,13 @@ languages:
          weight: 2
 #       - name: Galerija
 #         url: "https://gallery.dvilcans.com/lv"
-         weight: 3
+#         weight: 3
        - name: Šobrīd
          url: /lv/now/
          weight: 4
+       - name: ÐiSCO
+         url: "https://disco.dvilcans.com"
+         weight: 5
     params:
       footer: © Dāvis Vilcāns
   en:
@@ -84,10 +87,13 @@ languages:
          weight: 2
 #       - name: Gallery
 #         url: "https://gallery.dvilcans.com/"
-         weight: 3
+#         weight: 3
        - name: Now
          url: /now/
          weight: 4
+       - name: ÐiSCO
+         url: "https://disco.dvilcans.com/en"
+         weight: 5
     params:
       footer: © Dāvis Vilcāns   
 markup:
