@@ -5,8 +5,6 @@ draft: false
 tags: ["life"]
 type: "post"
 ---
-# No cheesy seasons greetings or resolutions, just some notes.
-
 
 ### Monetize a hobby;
 

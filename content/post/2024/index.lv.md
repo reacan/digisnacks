@@ -5,9 +5,6 @@ draft: false
 tags: ["dzīve"]
 type: "post"
 ---
-# Nekādi vēlējumi vai apņemšanās, vienkārši pāris piezīmes.
-
-
 
 ### Pavadīt vairāk laika dabā;
 
