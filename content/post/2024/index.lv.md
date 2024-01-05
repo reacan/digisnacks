@@ -21,9 +21,10 @@ type: "post"
 <center><img src="IMG_20180716_1857245.jpg"></center>
 
 
+
 <style>
   #countdown {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding-top: 4rem;
     color: #000000;
     font-family: 'Comic Sans MS', cursive;
@@ -31,7 +32,7 @@ type: "post"
   }
 
   #title {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #000000;
     font-family: 'Comic Sans MS', cursive;
     text-align: center;
@@ -78,3 +79,5 @@ type: "post"
     }, 1000);
   }
 </script>
+
+
