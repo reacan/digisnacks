@@ -6,3 +6,4 @@ I have made two modifications to the original Cupper theme:
 * Moved the theme switcher button under the logo.
 * Other small bits and things
  
+This blog is fun!
