@@ -5,7 +5,7 @@ draft: false
 tags: ["dzīve", "ēdiens"]
 type: "post"
 ---
-Ēst gatavošana ir viens no maniem hobijiem un nesen es aizdomājos par to, vai pastāv tāda lieta kā vistas steiks? Manuprāt, pastāv un lūk mana interpretācija par to. 
+Viens no maniem hobijiem ir ēdiena gatavošana un nesen es aizdomājos par to, vai pastāv tāda lieta kā vistas steiks? Manuprāt, pastāv un lūk mana interpretācija par to. 
 
 #### Sastāvdaļas:
 
