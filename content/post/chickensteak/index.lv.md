@@ -86,7 +86,7 @@ Parasti es šo ēdienu pasniedzu ar olu nūdelēm, rīsiem, vai vienkārši kād
 <script>
   window.onload = function () {
     // Create a JavaScript Date object
-    var countDownDate = new Date("Jan 21, 2024").getTime();
+    var countDownDate = new Date("Jan 17, 2024").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {

@@ -1200,3 +1200,8 @@ scrollbar-width: thin;
   aspect-ratio: 16 / 9;
   width: 90%;
 }
+
+.quizdown {
+  text-align: left; !important
+}
+

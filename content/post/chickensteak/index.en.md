@@ -85,7 +85,7 @@ I usually serve it with egg noodles, rice, or simply with some nice bread and fr
 <script>
   window.onload = function () {
     // Create a JavaScript Date object
-    var countDownDate = new Date("Jan 21, 2024").getTime();
+    var countDownDate = new Date("Jan 17, 2024").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {

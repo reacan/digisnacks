@@ -31,9 +31,6 @@ params:
   customCss:
     - css/custom_01.css
     - css/custom_02.css
-  customJs:
-    - js/custom_01.js
-    - js/custom_02.js
   logoAlt: Site logo, lupa with angel wings and a cup of coffee
 # description: Davis' WWW playground. Notes, thoughts, ideas.
 enableRobotsTXT: true
@@ -68,6 +65,12 @@ languages:
          weight: 5
     params:
       footer: © Dāvis Vilcāns
+      customJs:
+        - js/quizdown.js
+        - js/custom_01.js
+        - js/custom_02.js
+        - js/quizdownHighlight.js
+        - js/quizdownKatex.js
   en:
     languageName: English 🇬🇧
     contentdir: content
@@ -95,7 +98,13 @@ languages:
          url: "https://disco.dvilcans.com/en"
          weight: 5
     params:
-      footer: © Dāvis Vilcāns   
+      footer: © Dāvis Vilcāns
+      customJs:
+        - js/quizdown_en.js   
+        - js/custom_01.js
+        - js/custom_02.js
+        - js/quizdownHighlight.js
+        - js/quizdownKatex.js        
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:

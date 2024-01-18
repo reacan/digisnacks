@@ -1,0 +1,12 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class='quizdown' id='delayedQuiz'>
+  <noscript>{{ .Inner }}</noscript>
+</div>
+
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+      document.getElementById('delayedQuiz').innerHTML = '{{ .Inner }}';
+    }, 1000); // Adjust the delay time in milliseconds (e.g., 1000 = 1 second)
+  });
+</script>
