@@ -13,7 +13,7 @@ tags: ["AI"]
 </head>
 <body>
 
-  <h1>Aprakstiet attēlu:</h1>
+  <h1>Aprakstiet attēlu (angliski):</h1>
 
 
 
