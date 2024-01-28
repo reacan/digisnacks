@@ -265,6 +265,10 @@ button {
     border: 0;
 }
 
+.aimgen:active {
+    font-size: 0.5rem; /* Adjust the size as needed */
+}
+
 [data-launch] {
   font-size: 0.66rem !important;
   padding: 0.5rem !important;
