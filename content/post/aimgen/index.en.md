@@ -91,7 +91,14 @@ tags: ["AI"]
 
     if (images.length > 0) {
       const link = document.createElement('a');
-      link.href = images[0].src;
+      const canvas = document.createElement('canvas');
+      const context = canvas.getContext('2d');
+
+      canvas.width = images[0].naturalWidth;
+      canvas.height = images[0].naturalHeight;
+      context.drawImage(images[0], 0, 0);
+
+      link.href = canvas.toDataURL();
       link.download = 'generated_image.png';
       link.click();
     } else {
