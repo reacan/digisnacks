@@ -30,6 +30,9 @@ tags: ["AI"]
 
 <script>
   async function generateImage() {
+     // Hide the Save Image button
+    document.getElementById('saveButton').style.display = 'none';
+
     const promptInput = document.getElementById('prompt').value;
     const resultDiv = document.getElementById('result');
     const loadingDiv = document.getElementById('loading');
