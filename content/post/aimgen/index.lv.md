@@ -19,7 +19,7 @@ tags: ["AI"]
 
   <input type="text" id="prompt" placeholder="Piem., Girl with an umbrella walking in the rain">
 
-  <center><button onclick="generateImage()">Ģenerēt attēlu</button></center>
+  <center><button class=aimgen onclick="generateImage()">Ģenerēt attēlu</button></center>
   <br>
 
   <!-- Add a loading tile -->

@@ -10,7 +10,7 @@ tags: ["AI"]
 
   <input type="text" id="prompt" placeholder="E.g., Girl with an umbrella walking in the rain">
 
-  <center><button onclick="generateImage()">Generate Image</button></center>
+  <center><button class=aimgen onclick="generateImage()">Generate Image</button></center>
   <br>
 
   <!-- Add a loading tile -->
