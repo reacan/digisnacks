@@ -59,6 +59,8 @@ languages:
 #         weight: 3
        - name: Šobrīd
          url: /lv/now/
+#       - name: AI IMG
+#         url: /lv/aimgen/
          weight: 4
        - name: ÐiSCO
          url: "https://disco.dvilcans.com"
@@ -93,6 +95,8 @@ languages:
 #         weight: 3
        - name: Now
          url: /now/
+#       - name: AI IMG
+#         url: /aimgen/
          weight: 4
        - name: ÐiSCO
          url: "https://disco.dvilcans.com/en"

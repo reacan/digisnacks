@@ -244,12 +244,13 @@ blockquote .author {
 
 /* Buttons */
 button {
-    font-size: 1.25rem;
+    font-size: 0.6rem;
+    font-weight: bold;
     border-radius: 0.33em;
     font-family: inherit;
     background: #111;
     color: #fefefe;
-    padding: 0.75rem;
+    padding: 0.5rem;
     border: 0;
 }
 [data-launch] {
@@ -1205,3 +1206,25 @@ scrollbar-width: thin;
   text-align: left; !important
 }
 
+
+
+input {
+  padding: 10px; /* Cushion it up, comfort is key */
+  font-size: 1em; /* Match it with the label, keepin' it smooth */
+  border: 2px solid #1da1f2; /* Border game strong, stand out in the crowd */
+  border-radius: 5px; /* Round the edges, no sharp corners here */
+  width: 100%; /* Spread it wide, take up the whole block */
+  box-sizing: border-box; /* Keepin' it real with that box-sizing */
+}
+
+/* Placeholder styling, make it subtle but noticeable */
+input::placeholder {
+  color: #a0a0a0;
+}
+
+/* Focus state, let 'em know where the spotlight's at */
+input:focus {
+  outline: none; /* No ugly outlines, we keepin' it clean */
+  border-color: #ff69b4; /* Pink border for that focus vibe */
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.5); /* A touch of glow, like a superstar */
+}
