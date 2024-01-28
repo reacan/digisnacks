@@ -25,7 +25,7 @@ tags: ["AI"]
   </div>
   <br>
   <!-- Add Save Image button, initially hidden -->
-  <button id="saveButton" class=aimgen style="display: none;" onclick="saveImage()">Save Image</button>
+  <button id="saveButton" style="display: none;" onclick="saveImage()">Save Image</button>
 </center>
 
 <script>
@@ -87,18 +87,11 @@ tags: ["AI"]
   // Function to save the displayed image
   function saveImage() {
     const resultDiv = document.getElementById('result');
-    const canvas = document.createElement('canvas');
-    const context = canvas.getContext('2d');
     const images = resultDiv.getElementsByTagName('img');
 
     if (images.length > 0) {
-      canvas.width = images[0].width;
-      canvas.height = images[0].height;
-      context.drawImage(images[0], 0, 0, images[0].width, images[0].height);
-      
-      // Trigger download
       const link = document.createElement('a');
-      link.href = canvas.toDataURL();
+      link.href = images[0].src;
       link.download = 'generated_image.png';
       link.click();
     } else {
