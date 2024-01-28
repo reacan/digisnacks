@@ -25,7 +25,7 @@ tags: ["AI"]
   </div>
   <br>
   <!-- Add Save Image button, initially hidden -->
-  <button id="saveButton" style="display: none;" onclick="saveImage()">Save Image</button>
+  <button id="saveButton" class=aimgen style="display: none;" onclick="saveImage()">Save Image</button>
 </center>
 
 <script>
