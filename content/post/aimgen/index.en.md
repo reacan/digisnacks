@@ -13,21 +13,27 @@ tags: ["AI"]
   <center><button class=aimgen onclick="generateImage()">Generate Image</button></center>
   <br>
 
-  <!-- Add a loading tile -->
-  <div id="loading" style="display: none;">
+<!-- Add a loading tile -->
+<div id="loading" style="display: none;">
   <center>Image generation can take up to three minutes.</center>
   <center><img src="infinite-spinner.svg" alt="Loading Spinner"></center>
-  </div>
+</div>
 
-  <center><div id="result">
+<center>
+  <div id="result">
     <!-- Image will be displayed here -->
-  </div></center>
+  </div>
+  <br>
+  <!-- Add Save Image button, initially hidden -->
+  <button id="saveButton" class=aimgen style="display: none;" onclick="saveImage()">Save Image</button>
+</center>
 
 <script>
   async function generateImage() {
     const promptInput = document.getElementById('prompt').value;
     const resultDiv = document.getElementById('result');
     const loadingDiv = document.getElementById('loading');
+    const saveButton = document.getElementById('saveButton');
 
     // Clear the error message
     resultDiv.innerHTML = '';
@@ -53,6 +59,8 @@ tags: ["AI"]
         loadingDiv.style.display = 'none';
         resultDiv.appendChild(myImage);
         loadingVisible = false;
+        // Show the Save Image button when an image is present
+        saveButton.style.display = 'block';
       };
     } catch (error) {
       console.error('Error:', error.message);
@@ -61,6 +69,8 @@ tags: ["AI"]
       // Hide the loading tile on error
       loadingDiv.style.display = 'none';
       loadingVisible = false;
+      // Hide the Save Image button when there is an error
+      saveButton.style.display = 'none';
     }
 
     // Set a timeout to hide loading screen and show error message after two minutes
@@ -68,8 +78,32 @@ tags: ["AI"]
       if (loadingVisible && getComputedStyle(loadingDiv).display === 'block') {
         loadingDiv.style.display = 'none';
         resultDiv.innerHTML = 'Oops, something went wrong! The request took too long. Please try again.';
+        // Hide the Save Image button when there is an error
+        saveButton.style.display = 'none';
       }
     }, 1200000); // 120000 milliseconds = 2 minutes
+  }
+
+  // Function to save the displayed image
+  function saveImage() {
+    const resultDiv = document.getElementById('result');
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d');
+    const images = resultDiv.getElementsByTagName('img');
+
+    if (images.length > 0) {
+      canvas.width = images[0].width;
+      canvas.height = images[0].height;
+      context.drawImage(images[0], 0, 0, images[0].width, images[0].height);
+      
+      // Trigger download
+      const link = document.createElement('a');
+      link.href = canvas.toDataURL();
+      link.download = 'generated_image.png';
+      link.click();
+    } else {
+      console.error('No image to save.');
+    }
   }
 </script>
 
