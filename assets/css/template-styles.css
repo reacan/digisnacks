@@ -1244,3 +1244,22 @@ input:focus {
   border-color: #ff69b4; /* Pink border for that focus vibe */
   box-shadow: 0 0 5px rgba(255, 105, 180, 0.5); /* A touch of glow, like a superstar */
 }
+
+
+/*Here be them frames maan */
+
+iframe {
+        width: 100%;
+	min-height: calc(100vh - 13rem);
+}
+    
+
+    /* Media query for smaller screens */
+    @media screen and (max-width: 600px) {
+      iframe {
+        width: 100%;
+	min-height: calc(100vh - 30rem);
+      }
+    }
+
+

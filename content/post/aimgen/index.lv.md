@@ -24,7 +24,7 @@ tags: ["AI"]
 
   <!-- Add a loading tile -->
   <div id="loading" style="display: none;">
-  <center>Attēla ģenerēšana var aizņemt līdz trīs minūtēm.</center>
+  <center>Attēla ģenerēšana var aizņemt līdz vienai minūtei.</center>
   <center><img src="infinite-spinner.svg" alt="Loading Spinner"></center>
   </div>
 

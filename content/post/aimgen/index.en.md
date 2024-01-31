@@ -15,7 +15,7 @@ tags: ["AI"]
 
 <!-- Add a loading tile -->
 <div id="loading" style="display: none;">
-  <center>Image generation can take up to three minutes.</center>
+  <center>Image generation can take up to a minute.</center>
   <center><img src="infinite-spinner.svg" alt="Loading Spinner"></center>
 </div>
 
