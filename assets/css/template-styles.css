@@ -1258,7 +1258,7 @@ iframe {
     @media screen and (max-width: 600px) {
       iframe {
         width: 100%;
-	min-height: calc(100vh - 30rem);
+	min-height: calc(100vh - 13rem);
       }
     }
 
