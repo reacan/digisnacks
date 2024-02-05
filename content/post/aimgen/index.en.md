@@ -37,18 +37,6 @@ tags: ["AI"]
     const resultDiv = document.getElementById('result');
     const loadingDiv = document.getElementById('loading');
     const saveButton = document.getElementById('saveButton');
-    const userIdKey = 'userId';
-    
-    
-    // Retrieve userId from local storage if it exists
-    let userId = localStorage.getItem(userIdKey);
-
-    // If userId doesn't exist in local storage, generate a new one
-    if (!userId) {
-    userId = generateUserId();
-    localStorage.setItem(userIdKey, userId);
-    }
-
 
     // Clear the error message
     resultDiv.innerHTML = '';
