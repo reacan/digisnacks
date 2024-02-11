@@ -3,21 +3,22 @@ title: "Forensics & FOSS: DEPI/IPED"
 date: 2023-09-13T20:29:41+03:00
 tags: ["Digital Forensics"]
 type: "post"
+toc: true
 ---
 Today I would like to introduce you to a free and open source digital forensics tool that, in my opinion, is on par with its commercial counterparts – **Digital Evidence Processor and Indexer** (DEPI), or perhaps better known by its Portuguese name – **Indexador e Processador de Evidências Digitais** (IPED).
 
-###### The industry:
+## The industry
 
 I've had the chance to work with some of the industries most recognized commercial tools, to name a few – EnCase Forensic, Magnet AXIOM, BelkaSoft Evidence Center. These programs cost considerable sums of money, for example, a single-user license of EnCase will set you back for around $3500, AXIOM, on the other hand, goes for as much as $5000. Haven't heard of these companies offering site licenses. Single-user license means one user at a time. That's an impressive price tag when you have a whole team to equip.  
 
-###### Free and open source state-of-the-art digital forensics software:
+## Free and open source state-of-the-art digital forensics software
 DEPI/IPED is a tool created by digital forensic experts from the Brazilian Federal Police. According to the tool's [GitHub repository](https://iped.dev) it has been in continuous development since 2012 and although it has always been open source, its code was oficially published only in 2019. DEPI is published under the GNU GPL v3 license. It is written in Java, thus ensuring platform independence – it has been tested on Windows and Linux operating systems.
 
-###### Localization:
+## Localization
 
 DEPI's code is locale-independent, it features the Java ResourceBundle framework, allowing for easy implementation of locales. Currently DEPI is officially available in English, Spanish, Portuguese, Italian and German. Also I have created my own unofficial Latvian localization.
 
-###### Processing:
+## Processing
 When using modern hardware the processing speeds can reach up to 400 gigabytes an hour.
 
 The processing is very stable, everything that the program does is being logged and the logs can be checked in real-time. 
@@ -32,7 +33,7 @@ caption="Processing interface with locale set to \"Latvian\""
 command="Resize"
 options="700x" >}}
 
-###### Analysis:
+## Analysis
 
 The analysis interface is snappy and intuitive. It features various options aimed at improving the user experience, like interface scaling, switching between light and dark themes, rearranging the panels and columns, saving the layout and loading the saved layout. The panels can be detached and moved thus allowing one to take full advantage of a multi-monitor setup. 
 
@@ -44,7 +45,7 @@ caption="Analysis interface in a dual-monitor setup"
 command="Resize"
 options="700x" >}}
 
-###### Reporting:
+## Reporting
 
 One of the most fundamental aspects of any digital forensic investigation or eDiscovery endevour is presenting the findings.
 DEPI allows its users to tag the relevant information and easily prepare comprehensive HTML reports. **The HTML reports also contain a portable case which stakeholders and clients can launch to perform their own additional analysis.**
@@ -55,7 +56,7 @@ caption="Title page of an HTML report"
 command="Resize"
 options="700x" >}}
 
-###### Customization: 
+## Customization
 
 DEPI's major advantage over its commercial counterparts is the open source code. The field of information technology is very dynamic, constantly evolving and everchanging. Closed source solutions simply cannot keep up with the pace as well as their open source counterparts. It can take months to get a commercial company to implement a new parser in their software, however with open source it can be a matter of days, if not hours. 
 
@@ -67,7 +68,7 @@ caption="DEPI with a custom loading screen"
 command="Resize"
 options="700x" >}}
 
-###### Implementation:
+## Implementation
 
 I have assisted various organizations in implementing DEPI as a Digital Forensics, eDiscovery and Electronic Archive Management solution. If you are interested in seeing what DEPI can do for your organization, you are welcome to contact me by sending a message to: mail@dvilcans.com.   
 
@@ -133,3 +134,68 @@ command="Resize"
 options="700x" >}}
 
 {{< /expandable >}}
+
+<script>
+// Function to create and append the "Back to Top" button
+function createBackToTopButton() {
+  // Create a button element
+  var button = document.createElement('button');
+  button.textContent = '↑'; // Set the button text
+  
+  // Add a click event listener to scroll to the top when clicked
+  button.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+  
+
+  // Apply CSS styles to style the button
+  button.style.position = 'fixed';
+  button.style.bottom = '2rem';
+  button.style.right = '2rem';
+  button.style.zIndex = '999';
+  button.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+  button.style.color = '#fff';
+  button.style.width = '2.5rem';
+  button.style.height = '2.5rem';
+  button.style.borderRadius = '50%';
+  button.style.border = 'none';
+  button.style.fontSize = '2rem'; // Larger arrow size
+  button.style.lineHeight = '1rem';
+  button.style.textAlign = 'center';
+  
+  // Append the button to the body of the document
+  document.body.appendChild(button);
+  
+  // Add event listener to hide/show the button based on scroll position
+  window.addEventListener('scroll', function() {
+    // Check if the user is at the top of the page
+    if (window.scrollY === 0) {
+      // Hide the button if the user is at the top
+      button.style.display = 'none';
+    } else {
+      // Show the button if the user is not at the top
+      button.style.display = 'block';
+    }
+  });
+
+  // Check the initial scroll position
+  if (window.scrollY === 0) {
+    // Hide the button if the initial scroll position is at the top
+    button.style.display = 'none';
+  }
+}
+// Check if the URL contains '#top'
+if (window.location.href.includes('#top')) {
+  // If '#top' is present, scroll to the top
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+// Create and append the "Back to Top" button
+createBackToTopButton();
+</script>

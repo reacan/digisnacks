@@ -62,15 +62,15 @@ languages:
 #       - name: AI IMG
 #         url: /lv/aimgen/
          weight: 4
-       - name: ÐiSCO
-         url: "https://disco.dvilcans.com"
-         weight: 5
-       - name: txt2img
-         url: "https://txt2img.dvilcans.com/"
-         weight: 6             
-       - name: Harry the O.G.
-         url: "https://chat.dvilcans.com/"
-         weight: 7         
+#       - name: ÐiSCO
+#         url: "https://disco.dvilcans.com"
+#         weight: 5
+#       - name: txt2img
+#         url: "https://txt2img.dvilcans.com/"
+#         weight: 6             
+#       - name: Harry the O.G.
+#         url: "https://chat.dvilcans.com/"
+#         weight: 7         
     params:
       footer: © Dāvis Vilcāns
       customJs:
@@ -104,15 +104,15 @@ languages:
 #       - name: AI IMG
 #         url: /aimgen/
          weight: 4
-       - name: ÐiSCO
-         url: "https://disco.dvilcans.com/en"
-         weight: 5
-       - name: txt2img
-         url: "https://txt2img.dvilcans.com/"
-         weight: 6         
-       - name: Harry the O.G.
-         url: "https://chat.dvilcans.com/"
-         weight: 7
+#       - name: ÐiSCO
+#         url: "https://disco.dvilcans.com/en"
+#         weight: 5
+#       - name: txt2img
+#         url: "https://txt2img.dvilcans.com/"
+#         weight: 6         
+#       - name: Harry the O.G.
+#         url: "https://chat.dvilcans.com/"
+#         weight: 7
     params:
       footer: © Dāvis Vilcāns
       customJs:
@@ -120,7 +120,7 @@ languages:
         - js/custom_01.js
         - js/custom_02.js
         - js/quizdownHighlight.js
-        - js/quizdownKatex.js        
+        - js/quizdownKatex.js
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:

@@ -1,26 +1,29 @@
 ---
 title: "Now"
 date: 2023-08-31T20:24:40+03:00
-lastmod: "2023-10-11"
+lastmod: "2024-02-10"
 type: "exclude-me"
 ---
 <div style="text-align: justify;">
 Over the past couple of years, my professional journey has been quite a ride. I've shifted from people-oriented roles to tech-focused positions and <i>vice versa</i>. My adventurous spirit has taken me to places most folks would steer clear of, all driven by ideals and a hunger for experience.
 <br>
 <br>
-With a passion for UNIX-like operating systems, information security and digital forensics, I am now venturing in a slightly different direction looking to explore the world of web development.
+I am passionate about all things information technology and it specially UNIX-like operating systems, information security, and data/information analysis. Currently, I am open to new challenges and projects.
 <br>
 <br>
-This blog is my digital playground and place for reflection. In the future I intend to do more experiments with <i>JavaScript</i> and I will also share some, hopefully, interesting stories about my past experiences working for various Latvian state institutions.
+Feel free to contact me by sending a message to: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>
 <br>
 <br>
-Feel free to reach out by dropping a message to: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>
-<br>
-<br>
-<a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP public key</a>
+
 </div>
 
-<center><img src="DnJnG2.png" alt="This is how we chill ;)" style="background: transparent;"></center>
+#### Some of my projects/experiments:
+
+[ÐiSCO](https://disco.dvilcans.com/en) -- Graphical user interface for launching data processing with [DEPI/IPED](https://dvilcans.com/depi/);   
+[txt2img](https://txt2img.dvilcans.com) -- Online AI tool for text to image generation;  
+[Harry the O.G.](https://chat.dvilcans.com) -- A simple online AI chatbot.
+
+
 
 
 <script>

@@ -1,26 +1,31 @@
 ---
 title: "Šobrīd"
 date: 2023-08-31T20:24:40+03:00
-lastmod: "2023-10-11"
+lastmod: "2024-02-10"
 type: "exclude-me"
 ---
 <div style="text-align: justify;">
 Mans pēdējo pāris gadu profesionālais ceļojums ir bijis visnotaļ interesants un daudzpusīgs. Esmu strādājis kā ar cilvēkiem tā ar tehnoloģijām un pateicoties kārei pēc piedzīvojumiem esmu pabijis dažādās <i>eksotiskās</i> vietās, no kurām vairums cilvēku visticamāk labprātāk turētos pa gabalu.
 <br>
 <br>
-Aizraujos ar <i>UNIX</i>-veidīgām operētājsistēmām, informācijas drošību un <i>digital forensics</i>, šobrīd vēlos vairāk pievērsties tīmekļa tehnoloģijām un <i>web</i> izstrādes jomai.
+Mani aizrauj viss, kas saistīts ar informācijas tehnoloģijām, it īpaši <i>UNIX</i>-veidīgām operētājsistēmām, informācijas drošību un datu/informācijas analīzi.  Šobrīd esmu atvērts jauniem izaicinājumiem un projektiem.
 <br>
 <br>
-Šis blogs ir mans digitālais rotaļlaukums un vieta pārdomām. Nākotnē es plānoju vairāk eksperimentēt ar <i>JavaScript</i>, un dalīties ar, cerams, interesantiem stāstiem par savu iepriekšējo pieredzi, strādājot dažādās Latvijas valsts iestādēs.
+Ar mani var sazināties rakstot uz: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>.
 <br>
 <br>
-Ja vēlaties ar mani sazināties, varat droši rakstīt uz: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>.
-<br>
-<br>
-<a href="./mail-dvilcans-public.txt" target="_blank" rel="noopener noreferrer">PGP publiskā atslēga</a>
+
 </div>
 
-<center><img src="DnJnG2.png" alt="This is how we chill ;)" style="background: transparent;"></center>
+#### Daži no maniem projektiem/eksperimentiem:
+
+[ÐiSCO](https://disco.dvilcans.com) -- Grafiskā lietotāja saskarne, lai uzsākt datu apstrādi ar [DEPI/IPED](https://dvilcans.com/depi/);   
+[txt2img](https://txt2img.dvilcans.com) -- Tiešsaistes mākslīgā intelekta rīks, kas no teksta ģenerē attēlus;  
+[Harry the O.G.](https://chat.dvilcans.com) -- Vienkāršs tiešsaistes mākslīgā intelekta čatbots.
+
+
+
+
 <script>
 
 // oneko.js: https://github.com/adryd325/oneko.js
