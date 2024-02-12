@@ -5,6 +5,8 @@ draft: false
 tags: ["quiz", "politics"]
 type: "post"
 ---
+#### A little experiment with [Hugo Quizdown](https://github.com/bonartm/hugo-quiz) implementation and localization
+
 
 {{< quizdown >}}
 

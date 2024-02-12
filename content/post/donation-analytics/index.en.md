@@ -1,7 +1,7 @@
 ---
 title: "Linux, Python & AI: Analysis of Political Donations"
 date: 2024-02-10
-lastmod: 2024-02-10
+lastmod: 2024-02-12
 tags: ["GNU/Linux", "Python", "AI", "politics"]
 toc: true
 ---
@@ -10,13 +10,13 @@ toc: true
 I sought to exercise my data analysis skills with an intriguing dataset. I wanted to focus on data analysis rather than data collection, so I needed interesting and readily accessible data. It turns out that the [KNAB party finance database](https://info.knab.gov.lv/lv/db/ziedojumi/) offers the convenience of extracting and storing all the information using just a web browser.
 <br>
 <br>
-To preserve all the information, I needed five iterations due to the large volume of data, dividing the information by years. Subsequently, I used _Bash_ to slightly format all the information and merge it into a single .csv file.
+To preserve all the information, I needed five iterations due to the large volume of data, dividing the information by years. Subsequently, I used _Bash_ to slightly format all the information and merge it into a single _.csv_ file.
 <br>
 <br>
-Data analysis was conducted using _Python_ scripts, which were not solely my creation but were crafted with the assistance of artificial intelligence.
+Data analysis was conducted using _Python_ scripts, which were not solely my creation but were crafted with the assistance of artificial intelligence. I had a lot of fun analyzing this data and I will get back to it when I'll have more time to spare, so this article will be definitely updated.
 <br>
 <br>
-For anyone interested in experimenting with this data, the .csv file is available [here](unified.csv), it contains 75279 lines, supposedly all the public information on donations to political parties in Latvia from year 2002 till 2024.
+For anyone interested in experimenting with this data, the _.csv_ file is available [here](unified.csv), it contains 75279 lines, supposedly all the public information on donations to political parties in Latvia from year 2002 till 2024.
 <br>
 
 ## Number of unique donors

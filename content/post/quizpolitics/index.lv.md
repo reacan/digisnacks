@@ -5,6 +5,8 @@ draft: false
 tags: ["viktorīna", "politika"]
 type: "post"
 ---
+#### Neliels eksperiments ar [Hugo Quizdown](https://github.com/bonartm/hugo-quiz) implementāciju un lokalizāciju
+
 {{< quizdown >}}
 
 ---

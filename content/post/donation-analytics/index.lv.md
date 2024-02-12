@@ -1,7 +1,7 @@
 ---
 title: "Linux, Python & AI: Politisko ziedojumu analīze"
 date: 2024-02-10
-lastmod: 2024-02-10
+lastmod: 2024-02-12
 tags: ["GNU/Linux", "Python", "AI", "politika"]
 toc: true
 ---
@@ -14,7 +14,7 @@ Izrādās, ka [KNAB partiju finanšu datubāze](https://info.knab.gov.lv/lv/db/z
 Lai saglabātu visu informāciju, lielā apjoma dēļ man bija nepieciešami pieci piegājieni, informāciju sadalīju pa gadiem. Rezultātā, izmantojot _Bash_, visu informāciju nedaudz noformatēju un apvienoju vienā _.csv_ failā.
 <br>
 <br>
-Datu analīze tika veikta, izmantojot _Python_ skriptus, skripti nav pilnībā mans veikums, tie tika izveidoti ar mākslīgā intelekta palīdzību. 
+Datu analīze tika veikta, izmantojot _Python_ skriptus, skripti nav pilnībā mans veikums, tie tika izveidoti ar mākslīgā intelekta palīdzību. Man bija ļoti interesanti analizēt šos datus un es pie tiem atgriezīšos kādā brīvākā brīdī. Šis ieraksts noteikti tiks papildināts.
 <br>
 <br>
 Ja kāds vēlas paeksperimentēt ar šiem datiem, _.csv_ fails ir pieejams [šeit](unified.csv), tas satur 75279 rindiņas, domājams visu publisko informāciju par ziedojumiem Latvijas politiskajām partijām laikā no 2002. līdz 2024.gadam. 
