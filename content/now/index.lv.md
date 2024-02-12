@@ -17,11 +17,11 @@ Ar mani var sazināties rakstot uz: <a href=mailto:mail@dvilcans.com>mail@dvilca
 
 </div>
 
-#### Daži no maniem projektiem/eksperimentiem:
+#### Daži no maniem pēdējā laika projektiem:
 
-[ÐiSCO](https://disco.dvilcans.com) -- Grafiskā lietotāja saskarne, lai uzsākt datu apstrādi ar [DEPI/IPED](https://dvilcans.com/depi/);   
-[txt2img](https://txt2img.dvilcans.com) -- Tiešsaistes mākslīgā intelekta rīks, kas no teksta ģenerē attēlus;  
-[Harry the O.G.](https://chat.dvilcans.com) -- Vienkāršs tiešsaistes mākslīgā intelekta čatbots.
+* [ÐiSCO](https://disco.dvilcans.com) -- Grafiskā lietotāja saskarne, lai uzsākt datu apstrādi ar [DEPI/IPED](https://dvilcans.com/depi/);   
+* [txt2img](https://txt2img.dvilcans.com) -- Tiešsaistes mākslīgā intelekta rīks, kas no teksta ģenerē attēlus;  
+* [Harry the O.G.](https://chat.dvilcans.com) -- Vienkāršs tiešsaistes mākslīgā intelekta čatbots.
 
 
 
