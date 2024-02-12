@@ -263,10 +263,10 @@ Top 20 most generous donors and their beneficiaries.
 15   Edgars Čeporjus        Izaugsme                         21500.00
 16   Juris Visockis         Jaunais Centrs                   49.80
 16   Juris Visockis         Jaunais laiks                    87869.95
-16   Juris Visockis         Jaunā Vienotība        	        7114.40
-16   Juris Visockis         Latvijas Ceļš  		        15295.96
+16   Juris Visockis         Jaunā Vienotība                  7114.40
+16   Juris Visockis         Latvijas Ceļš                    15295.96
 16   Juris Visockis         Vienotība                        27224.82
-16   Juris Visockis         Visu Latvijai!    		        142.29
+16   Juris Visockis         Visu Latvijai!                   142.29
 17   Olafs Berķis           Jaunā Vienotība  		        19574.57
 17   Olafs Berķis           Latvijas attīstībai              115000.09
 17   Olafs Berķis           PLI                              2100.00
@@ -361,17 +361,17 @@ Top 20 legal entities by amount and the parties they have donated to.
 5    SIA Ošukalns                     Tautas partija         35572.00
 6    AS Rietumu Banka                 Jaunais laiks          35572.00
 7    SIA Tezei S                      Tautas partija         34860.56
-8    SIA Enri Holding                 PCTVL	    	        34319.86
+8    SIA Enri Holding                 PCTVL                  34319.86
 9    SIA GPA                          Tautas partija         31303.35
 10   SIA Inko Partneri                Tautas partija         31303.35
 11   AS Liepājas SEZ                  Jaunais laiks          28457.60
 12   SIA Paix                         Tautas partija         28457.60
-13   SIA Jelgavas Mežs                Latvijas Ceļš	        28457.60
-14   SIA Natre                        Latvijas Ceļš	        28457.60
+13   SIA Jelgavas Mežs                Latvijas Ceļš          28457.60
+14   SIA Natre                        Latvijas Ceļš          28457.60
 15   SIA Conrad Holding Group         Tautas partija         27746.15
-16   SIA Lido Nafta                   Latvijas Ceļš	        26892.43
-17   SIA Tranzīta Termināls           TB/LNNK 		        14228.80
-17   SIA Tranzīta Termināls           Latvijas Ceļš	        9447.92
+16   SIA Lido Nafta                   Latvijas Ceļš          26892.43
+17   SIA Tranzīta Termināls           TB/LNNK                14228.80
+17   SIA Tranzīta Termināls           Latvijas Ceļš          9447.92
 18   SIA Tilts                        Jaunais laiks          7114.40
 18   SIA Tilts                        Krievu partija	        455.3216
 18   SIA Tilts                        Latvijas Ceļš	        14228.80
