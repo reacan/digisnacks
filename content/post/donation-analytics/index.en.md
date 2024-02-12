@@ -267,7 +267,7 @@ Top 20 most generous donors and their beneficiaries.
 16   Juris Visockis         Latvijas Ceļš                    15295.96
 16   Juris Visockis         Vienotība                        27224.82
 16   Juris Visockis         Visu Latvijai!                   142.29
-17   Olafs Berķis           Jaunā Vienotība  		        19574.57
+17   Olafs Berķis           Jaunā Vienotība                  19574.57
 17   Olafs Berķis           Latvijas attīstībai              115000.09
 17   Olafs Berķis           PLI                              2100.00
 18   Sergejs Gridņevs       Jaunais Centrs                   8537.28
@@ -373,8 +373,8 @@ Top 20 legal entities by amount and the parties they have donated to.
 17   SIA Tranzīta Termināls           TB/LNNK                14228.80
 17   SIA Tranzīta Termināls           Latvijas Ceļš          9447.92
 18   SIA Tilts                        Jaunais laiks          7114.40
-18   SIA Tilts                        Krievu partija	        455.3216
-18   SIA Tilts                        Latvijas Ceļš	        14228.80
+18   SIA Tilts                        Krievu partija         455.32
+18   SIA Tilts                        Latvijas Ceļš          14228.80
 19   SIA Alpha Osta                   Jaunais laiks          21343.19
 20   Domuss SIA                       Jaunais laiks          21343.19
 ```
