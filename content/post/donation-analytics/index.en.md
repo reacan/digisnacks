@@ -263,11 +263,11 @@ Top 20 most generous donors and their beneficiaries.
 15   Edgars Čeporjus        Izaugsme                         21500.00
 16   Juris Visockis         Jaunais Centrs                   49.80
 16   Juris Visockis         Jaunais laiks                    87869.95
-16   Juris Visockis         Jaunā Vienotība        	     7114.40
-16   Juris Visockis         Latvijas Ceļš  		     15295.96
+16   Juris Visockis         Jaunā Vienotība        	        7114.40
+16   Juris Visockis         Latvijas Ceļš  		        15295.96
 16   Juris Visockis         Vienotība                        27224.82
-16   Juris Visockis         Visu Latvijai!    		     142.29
-17   Olafs Berķis           Jaunā Vienotība  		     19574.57
+16   Juris Visockis         Visu Latvijai!    		        142.29
+17   Olafs Berķis           Jaunā Vienotība  		        19574.57
 17   Olafs Berķis           Latvijas attīstībai              115000.09
 17   Olafs Berķis           PLI                              2100.00
 18   Sergejs Gridņevs       Jaunais Centrs                   8537.28
@@ -361,20 +361,20 @@ Top 20 legal entities by amount and the parties they have donated to.
 5    SIA Ošukalns                     Tautas partija         35572.00
 6    AS Rietumu Banka                 Jaunais laiks          35572.00
 7    SIA Tezei S                      Tautas partija         34860.56
-8    SIA Enri Holding                 PCTVL	    	     34319.86
+8    SIA Enri Holding                 PCTVL	    	        34319.86
 9    SIA GPA                          Tautas partija         31303.35
 10   SIA Inko Partneri                Tautas partija         31303.35
-11   AS Liepājas SEZ  		      Jaunais laiks          28457.60
+11   AS Liepājas SEZ                  Jaunais laiks          28457.60
 12   SIA Paix                         Tautas partija         28457.60
-13   SIA Jelgavas Mežs                Latvijas Ceļš	     28457.60
-14   SIA Natre                        Latvijas Ceļš	     28457.60
+13   SIA Jelgavas Mežs                Latvijas Ceļš	        28457.60
+14   SIA Natre                        Latvijas Ceļš	        28457.60
 15   SIA Conrad Holding Group         Tautas partija         27746.15
-16   SIA Lido Nafta                   Latvijas Ceļš	     26892.43
-17   SIA Tranzīta Termināls           TB/LNNK 		     14228.80
-17   SIA Tranzīta Termināls           Latvijas Ceļš	     9447.92
+16   SIA Lido Nafta                   Latvijas Ceļš	        26892.43
+17   SIA Tranzīta Termināls           TB/LNNK 		        14228.80
+17   SIA Tranzīta Termināls           Latvijas Ceļš	        9447.92
 18   SIA Tilts                        Jaunais laiks          7114.40
-18   SIA Tilts                        Krievu partija	     455.3216
-18   SIA Tilts                        Latvijas Ceļš	     14228.80
+18   SIA Tilts                        Krievu partija	        455.3216
+18   SIA Tilts                        Latvijas Ceļš	        14228.80
 19   SIA Alpha Osta                   Jaunais laiks          21343.19
 20   Domuss SIA                       Jaunais laiks          21343.19
 ```
@@ -459,7 +459,7 @@ Top 20 most frequent donors.
 
 <br>
 
-## Top 10 parties by donation amount.
+## Top 10 parties by donation amount
 
 {{< expandable label="Python script" level="2" >}}
 ```python
@@ -529,9 +529,9 @@ Top 10 parties by donation amount.
 2     Vienotība                        4337851.74             5116
 3     Saskaņa                          3548203.03             4419
 4     Jaunais laiks                    3247438.85             4386
-5     Tautas partija 	               3153758.69             1326
+5     Tautas partija                   3153758.69             1326
 6     Latvijas attīstībai              2392672.50             2046
-7     LSDSP		               1933022.13             1782
+7     LSDSP                            1933022.13             1782
 8     Latvijas Zemnieku savienība      1551792.63             3331
 9     Latvijas Pirmā partija           1335026.38             720
 10    Nacionālā apvienība              1271256.30             2544
