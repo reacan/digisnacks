@@ -121,18 +121,8 @@
   function clearDarkTheme() {
     var darkTheme = document.getElementById('darkTheme');
     darkTheme.disabled = true;
-    
-    
-    
-
-    
-    
-    
-    
     imageElement.src = "{{ "images/light_on.svg" | relURL }}"; // Path to your light theme image
     imageElement.title = "Lights Please!"; // Tooltip text for the dark theme
-
-
   }
 
   function defaultDarkTheme() {

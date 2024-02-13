@@ -8,7 +8,7 @@ type: "exclude-me"
 Mans pēdējo pāris gadu profesionālais ceļojums ir bijis visnotaļ interesants un daudzpusīgs. Esmu strādājis kā ar cilvēkiem tā ar tehnoloģijām un pateicoties kārei pēc piedzīvojumiem esmu pabijis dažādās <i>eksotiskās</i> vietās, no kurām vairums cilvēku visticamāk labprātāk turētos pa gabalu.
 <br>
 <br>
-Mani aizrauj viss, kas saistīts ar informācijas tehnoloģijām, it īpaši <i>UNIX</i>-veidīgām operētājsistēmām, informācijas drošību un datu/informācijas analīzi.  Šobrīd esmu atvērts jauniem izaicinājumiem un projektiem.
+Mani aizrauj viss, kas saistīts ar informācijas tehnoloģijām, it īpaši <i>UNIX</i>-veidīgām operētājsistēmām, informācijas drošību un datu/informācijas analīzi.  Šobrīd esmu atvērts jaunām iespējām un projektiem.
 <br>
 <br>
 Ar mani var sazināties rakstot uz: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>.

@@ -8,7 +8,7 @@ type: "exclude-me"
 Over the past couple of years, my professional journey has been quite a ride. I've shifted from people-oriented roles to tech-focused positions and <i>vice versa</i>. My adventurous spirit has taken me to places most folks would steer clear of, all driven by ideals and a hunger for experience.
 <br>
 <br>
-I am passionate about all things information technology, it specially UNIX-like operating systems, information security, and data/information analysis. Currently, I am open to new challenges and projects.
+I am passionate about all things information technology, it specially UNIX-like operating systems, information security, and data/information analysis. Currently, I am open to new opportunities and projects.
 <br>
 <br>
 Feel free to contact me by sending a message to: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>
