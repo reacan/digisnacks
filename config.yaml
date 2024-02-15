@@ -57,8 +57,8 @@ languages:
 #       - name: Galerija
 #         url: "https://gallery.dvilcans.com/lv"
 #         weight: 3
-       - name: Šobrīd
-         url: /lv/now/
+       - name: Par
+         url: /lv/about/
 #       - name: AI IMG
 #         url: /lv/aimgen/
          weight: 4
@@ -99,8 +99,8 @@ languages:
 #       - name: Gallery
 #         url: "https://gallery.dvilcans.com/"
 #         weight: 3
-       - name: Now
-         url: /now/
+       - name: About
+         url: /about/
 #       - name: AI IMG
 #         url: /aimgen/
          weight: 4
