@@ -1,5 +1,5 @@
 ---
-title: "Now"
+title: "About"
 date: 2023-08-31T20:24:40+03:00
 lastmod: "2024-02-10"
 type: "exclude-me"

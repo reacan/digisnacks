@@ -11,7 +11,7 @@ Today I would like to introduce you to a free and open source digital forensics 
 
 I've had the chance to work with some of the industries most recognized commercial tools, to name a few – EnCase Forensic, Magnet AXIOM, BelkaSoft Evidence Center. These programs cost considerable sums of money, for example, a single-user license of EnCase will set you back for around $3500, AXIOM, on the other hand, goes for as much as $5000. Haven't heard of these companies offering site licenses. Single-user license means one user at a time. That's an impressive price tag when you have a whole team to equip.  
 
-## Free and open source state-of-the-art digital forensics software
+## The Software
 DEPI/IPED is a tool created by digital forensic experts from the Brazilian Federal Police. According to the tool's [GitHub repository](https://iped.dev) it has been in continuous development since 2012 and although it has always been open source, its code was oficially published only in 2019. DEPI is published under the GNU GPL v3 license. It is written in Java, thus ensuring platform independence – it has been tested on Windows and Linux operating systems.
 
 ## Localization
