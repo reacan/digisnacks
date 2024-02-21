@@ -27,7 +27,7 @@ Feel free to contact me by sending a message to: <a href=mailto:mail@dvilcans.co
 * [Harry the O.G.](https://chat.dvilcans.com) -- A simple online AI chatbot.
 
 
-
+<!-- 
 
 <script>
 
@@ -292,3 +292,5 @@ Feel free to contact me by sending a message to: <a href=mailto:mail@dvilcans.co
 
 
 </script>
+
+-->

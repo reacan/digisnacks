@@ -2,11 +2,11 @@
 {{ range .Translations }}
 {{ if eq .Site.Language.Lang "lv" }}
   	{{ $imgpath := printf "%s%s" .Site.BaseURL "images/LV.svg" }}
-  	<a style="color:rgba(255,255,255,0);" title="Latviski" href="{{ .Permalink }}"><img id="lang-switcher" src={{ $imgpath }} width=18rem height=20rem alt="Latviski" /></a>
+  	<a style="color:rgba(255,255,255,0);" title="Latviski" href="{{ .Permalink }}"><img id="lang-switcher" src={{ $imgpath }} width=25rem height=25rem alt="Latviski" /></a>
 {{ else }}
 	{{ if eq .Site.Language.Lang "en" }}
         {{ $imgpath := printf "%s%s" .Site.BaseURL "images/EN.svg" }}
-        <a style="color:rgba(255,255,255,0);" title="English" href="{{ .Permalink }}"><img id="lang-switcher" src={{ $imgpath }} width=20rem height=20rem alt="English" /></a>
+        <a style="color:rgba(255,255,255,0);" title="English" href="{{ .Permalink }}"><img id="lang-switcher" src={{ $imgpath }} width=25rem height=25rem alt="English" /></a>
 {{ end}}
 {{ end }}
 {{ end }}

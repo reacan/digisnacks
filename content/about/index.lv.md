@@ -14,7 +14,7 @@ Mans pēdējo pāris gadu profesionālais ceļojums ir bijis visnotaļ interesan
 Mani aizrauj viss, kas saistīts ar informācijas tehnoloģijām, it īpaši <i>UNIX</i>-veidīgām operētājsistēmām, informācijas drošību un datu/informācijas analīzi.  Šobrīd esmu atvērts jaunām iespējām un projektiem.
 <br>
 <br>
-Ar mani var sazināties rakstot uz: <a href=mailto:mail@dvilcans.com>mail@dvilcans.com</a>.
+Ar mani var sazināties rakstot uz: <a href=mailto:pasts@dvilcans.com>pasts@dvilcans.com</a>.
 <br>
 <br>
 
@@ -28,7 +28,7 @@ Ar mani var sazināties rakstot uz: <a href=mailto:mail@dvilcans.com>mail@dvilca
 
 
 
-
+<!--
 <script>
 
 // oneko.js: https://github.com/adryd325/oneko.js
@@ -292,3 +292,5 @@ Ar mani var sazināties rakstot uz: <a href=mailto:mail@dvilcans.com>mail@dvilca
 
 
 </script>
+
+-->

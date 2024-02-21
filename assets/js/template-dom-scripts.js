@@ -95,6 +95,7 @@
   });
 }());
 
+
 /* Switch and persist theme */
 (function () {
   var checkbox = document.getElementById('themer');
@@ -179,3 +180,77 @@
   });
 
 }());
+
+
+
+
+// Function to create and append the "Back to Top" button
+function createBackToTopButton() {
+  // Create a button element
+  var button = document.createElement('button');
+  // Create an image element for the SVG
+  var img = document.createElement('img');
+  img.src = "{{ "/images/uparrow.svg" | relURL }}"; 
+  img.setAttribute('width', '48');
+  img.setAttribute('height', '48');
+  
+  // Apply the intro-and-nav class to the SVG element
+  img.classList.add('back-to-top');
+  
+  // Append the image to the button
+  button.appendChild(img);
+  
+  // Add a click event listener to scroll to the top when clicked
+  button.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+  
+
+  // Apply CSS styles to style the button
+  button.style.position = 'fixed';
+  button.style.bottom = '2rem';
+  button.style.right = '2rem';
+  button.style.width = '3rem';
+  button.style.height = '3rem';
+  button.style.backgroundColor = 'transparent'; // Set background color to transparent
+  button.style.border = 'none'; // Remove border
+  
+  // Append the button to the body of the document
+  document.body.appendChild(button);
+  
+  // Add event listener to hide/show the button based on scroll position
+  window.addEventListener('scroll', function() {
+    // Check if the user is at the top of the page
+    if (window.scrollY === 0) {
+      // Hide the button if the user is at the top
+      button.style.display = 'none';
+    } else {
+      // Show the button if the user is not at the top
+      button.style.display = 'block';
+    }
+  });
+
+  // Check the initial scroll position
+  if (window.scrollY === 0) {
+    // Hide the button if the initial scroll position is at the top
+    button.style.display = 'none';
+  }
+}
+// Check if the URL contains '#top'
+if (window.location.href.includes('#top')) {
+  // If '#top' is present, scroll to the top
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+// Create and append the "Back to Top" button
+createBackToTopButton();
+
+
+
+
