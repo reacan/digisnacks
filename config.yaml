@@ -40,7 +40,7 @@ languages:
   lv:
     languageName: Latviski 🇱🇻
     staticDir: static
-    title: ☮ DV
+    title: Dāvis Vilcāns
 #   dateFormat: Jan 2, 2006
     weight: 0
     menu:
@@ -72,7 +72,7 @@ languages:
 #         url: "https://chat.dvilcans.com/"
 #         weight: 7         
     params:
-      footer: © Dāvis Vilcāns
+      footer: Nekādas sīkdatnes. Nekāda izsekošana.<br> © 2023-2024 Dāvis Vilcāns
       customJs:
         - js/quizdown.js
         - js/custom_01.js
@@ -82,7 +82,7 @@ languages:
   en:
     languageName: English 🇬🇧
     contentdir: content
-    title: ☮ DV
+    title: Dāvis Vilcāns
 #   dateFormat: Jan 2, 2006
     weight: 1
     menu:
@@ -114,7 +114,7 @@ languages:
 #         url: "https://chat.dvilcans.com/"
 #         weight: 7
     params:
-      footer: © Dāvis Vilcāns
+      footer: No cookies. No tracking.<br> © 2023-2024 Dāvis Vilcāns
       customJs:
         - js/quizdown_en.js   
         - js/custom_01.js

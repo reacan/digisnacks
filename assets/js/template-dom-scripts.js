@@ -96,90 +96,121 @@
 }());
 
 
-/* Switch and persist theme */
-(function () {
+
+//THEME SWITCHER
+
+// Preload images
+var lightOffImage = new Image();
+lightOffImage.src = "{{ "images/light_off.svg" | relURL }}";
+
+var lightOnImage = new Image();
+lightOnImage.src = "{{ "images/light_on.svg" | relURL }}";
+
+// Function to setup theme once images are loaded
+function setupTheme() {
   var checkbox = document.getElementById('themer');
   var imageElement = document.getElementById('theme-image');
+  var lightOffImageSrc = localStorage.getItem('lightOffImage');
+  var lightOnImageSrc = localStorage.getItem('lightOnImage');
 
-  function persistTheme(val) {
-    localStorage.setItem('darkTheme', val);
-  }
 
-  function applyDarkTheme() {
-    var darkTheme = document.getElementById('darkTheme');
-    darkTheme.disabled = false;
-    
-    
-    
-
-    
-    
-   imageElement.src = "{{ "images/light_off.svg" | relURL }}"; // Path to your dark theme image
-   imageElement.title = "Lights!"; // Tooltip text for the light theme
-
-  }
-
-  function clearDarkTheme() {
-    var darkTheme = document.getElementById('darkTheme');
-    darkTheme.disabled = true;
-    imageElement.src = "{{ "images/light_on.svg" | relURL }}"; // Path to your light theme image
-    imageElement.title = "Lights Please!"; // Tooltip text for the dark theme
-  }
-
-  function defaultDarkTheme() {
-{{- with .Site.Params.defaultDarkTheme }}
-    if (localStorage.getItem('darkTheme') == null) {
-      persistTheme('true');
-      checkbox.checked = true;
-      applyDarkTheme();
-
+    function persistTheme(val) {
+      localStorage.setItem('darkTheme', val);
     }
-{{- else }}
-    if (localStorage.getItem('darkTheme') == null) {
-      persistTheme('false');
-      checkbox.checked = false;
-      clearDarkTheme();
 
+    function applyDarkTheme() {
+      var darkTheme = document.getElementById('darkTheme');
+      darkTheme.disabled = false;
+      imageElement.src = lightOffImageSrc; // Use preloaded and cached image
+      imageElement.title = "Lights!"; // Tooltip text for the light theme
     }
-    
 
-    
-{{ end }}
-  }
+    function clearDarkTheme() {
+      var darkTheme = document.getElementById('darkTheme');
+      darkTheme.disabled = true;
+      imageElement.src = lightOnImageSrc; // Use preloaded and cached image
+      imageElement.title = "Lights Please!"; // Tooltip text for the dark theme
+    }
 
-  checkbox.addEventListener('change', function () {
+    function defaultDarkTheme() {
+      var defaultTheme = {{ .Site.Params.defaultDarkTheme }};
+      if (localStorage.getItem('darkTheme') === null) {
+        persistTheme(defaultTheme);
+        checkbox.checked = defaultTheme;
+        if (defaultTheme) {
+          applyDarkTheme();
+        } else {
+          clearDarkTheme();
+        }
+      } else {
+        if (localStorage.getItem('darkTheme') === 'true') {
+          applyDarkTheme();
+          checkbox.checked = true;
+        } else {
+          clearDarkTheme();
+          checkbox.checked = false;
+        }
+      }
+    }
+
     defaultDarkTheme();
-    if (this.checked) {
-      applyDarkTheme();
-      persistTheme('true');
-    } else {
-      clearDarkTheme();
-      persistTheme('false');
-    }
-  });
 
-  function showTheme() {
-    if (localStorage.getItem('darkTheme') === 'true') {
-      applyDarkTheme();
-      checkbox.checked = true;
-    } else {
-      clearDarkTheme();
-      checkbox.checked = false;
-    }
+    checkbox.addEventListener('change', function () {
+      if (this.checked) {
+        applyDarkTheme();
+        persistTheme('true');
+      } else {
+        clearDarkTheme();
+        persistTheme('false');
+      }
+    });
   }
 
-  function showContent() {
-    document.body.style.visibility = 'visible';
-    document.body.style.opacity = 1;
+// Check if both images are loaded
+var imagesLoaded = 0;
+
+function checkImagesLoaded() {
+  imagesLoaded++;
+  if (imagesLoaded === 2) {
+    setupTheme();
   }
+}
 
-  window.addEventListener('DOMContentLoaded', function () {
-    defaultDarkTheme();
-    showTheme();
-    showContent();
-  });
+lightOffImage.onload = function() {
+  localStorage.setItem('lightOffImage', lightOffImage.src);
+  checkImagesLoaded();
+};
 
-}());
+lightOnImage.onload = function() {
+  localStorage.setItem('lightOnImage', lightOnImage.src);
+  checkImagesLoaded();
+};
+
+// Check if images are already cached
+var lightOffImageSrc = localStorage.getItem('lightOffImage');
+var lightOnImageSrc = localStorage.getItem('lightOnImage');
+
+// If images are already cached, call setupTheme directly
+if (lightOffImageSrc && lightOnImageSrc) {
+  setupTheme();
+}
+
+
+
+// Event listeners to track image loading
+lightOffImage.onload = function() {
+  localStorage.setItem('lightOffImage', lightOffImage.src);
+  lightOffImageLoaded = true;
+  setupTheme();
+};
+
+lightOnImage.onload = function() {
+  localStorage.setItem('lightOnImage', lightOnImage.src);
+  lightOnImageLoaded = true;
+  setupTheme();
+};
+
+
 
 
 
@@ -211,8 +242,8 @@ function createBackToTopButton() {
 
   // Apply CSS styles to style the button
   button.style.position = 'fixed';
-  button.style.bottom = '2rem';
-  button.style.right = '2rem';
+  button.style.bottom = '1rem';
+  button.style.right = '1rem';
   button.style.width = '3rem';
   button.style.height = '3rem';
   button.style.backgroundColor = 'transparent'; // Set background color to transparent
