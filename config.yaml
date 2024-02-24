@@ -2,11 +2,6 @@ baseURL: https://dvilcans.com
 theme: cupper-hugo-theme
 disqusShortname:
 enableGitInfo: false
-sitemap:
-  changeFreq: "daily"
-  filename: sitemap.xml
-  priority: -1
-
 taxonomies:
   tag: tags
 
@@ -35,7 +30,7 @@ params:
   customCss:
     - css/custom_01.css
     - css/custom_02.css
-  logoAlt: Site logo, lupa with angel wings and a cup of coffee
+  logoAlt: Site logo
 # description: Davis' WWW playground. Notes, thoughts, ideas.
 enableRobotsTXT: true
 DefaultContentLanguage: en
