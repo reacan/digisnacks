@@ -1,4 +1,4 @@
-baseURL: https://dvilcans.com
+baseURL: /
 theme: cupper-hugo-theme
 disqusShortname:
 enableGitInfo: false
