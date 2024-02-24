@@ -242,12 +242,13 @@ function createBackToTopButton() {
 
   // Apply CSS styles to style the button
   button.style.position = 'fixed';
-  button.style.bottom = '1rem';
-  button.style.right = '1rem';
+  button.style.bottom = '0.3rem';
+  button.style.right = '0.3rem';
   button.style.width = '3rem';
   button.style.height = '3rem';
   button.style.backgroundColor = 'transparent'; // Set background color to transparent
   button.style.border = 'none'; // Remove border
+//button.style.opacity = '0.7'; 
   
   // Append the button to the body of the document
   document.body.appendChild(button);
