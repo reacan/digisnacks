@@ -1,5 +1,5 @@
 ---
-title: "Forensics & FOSS: DEPI/IPED"
+title: "DEPI/IPED"
 date: 2023-09-13T20:29:41+03:00
 tags: ["Digital Forensics"]
 type: "post"

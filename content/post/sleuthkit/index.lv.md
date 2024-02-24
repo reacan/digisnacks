@@ -1,5 +1,5 @@
 ---
-title: "Forensics & FOSS: sleuthkit"
+title: "The Sleuthkit"
 date: 2023-10-14T14:49:03+03:00
 draft: false
 tags: ["Digital Forensics", "GNU/Linux"]

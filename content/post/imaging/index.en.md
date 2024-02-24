@@ -1,5 +1,5 @@
 ---
-title: "Forensics & FOSS: Imaging"
+title: "Drive Imaging"
 date: 2023-09-15T14:48:58+03:00
 draft: false
 tags: ["Digital Forensics", "GNU/Linux"]
