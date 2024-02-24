@@ -1,7 +1,11 @@
-baseURL: /
+baseURL: https://dvilcans.com
 theme: cupper-hugo-theme
 disqusShortname:
 enableGitInfo: false
+sitemap:
+  changeFreq: "daily"
+  filename: sitemap.xml
+  priority: -1
 
 taxonomies:
   tag: tags
