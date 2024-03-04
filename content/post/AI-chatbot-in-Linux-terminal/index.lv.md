@@ -14,6 +14,10 @@ Bashbot ir skripts, kas ļauj sazināties ar MI čatbotu no Linux termināļa. �
 
 Es daudz darbojos Linux terminālī un vēlējos iespēju ātri nosūtīt dažādus vienkāršus vaicājumus MI čatbotam "pa taisno" no termināļa.
 
+#### Ierobežojumi:
+
+Šobrīd čatbots vienā vaicājumā spēj ģenerēt līdz 800 simboliem garu tekstu, lai palielinātu ģenerētā teksta apjomu man būtu jāizmanto [straumēšana](https://blog.cloudflare.com/workers-ai-streaming), ko es noteikti kaut kad pamēģināšu. Tad gan skripts būtu jāpārraksta izmantojot kādu programmēšanas valodu. Visacīmredzamākā izvēle, protams, būtu Python, bet es gribētu pamēģināt Go :)
+
 #### Vēlies izmēģināt Bashbot?
 
 Šis skripts un plašāka instrukcija ir pieejama manā [GitHub lapā](https://github.com/reacan/bashbot).
