@@ -26,7 +26,7 @@ params:
   showThemeSwitcher: true
   defaultDarkTheme: false
   moveFooterToHeader: false
-# navTitleText: Cupper Theme
+# navTitleText: Cupper Theme!
   customCss:
     - css/custom_01.css
     - css/custom_02.css

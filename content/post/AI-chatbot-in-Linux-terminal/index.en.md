@@ -12,7 +12,7 @@ Bashbot is a script that allows you to interact with an AI-powered chatbot from 
 
 #### Why I created Bashbot?
 
-I work a lot in the Linux terminal and it is very handy to be able to pass some quick querries to an AI without navigating away from the terminal. 
+I spend quite a lot of time in the Linux terminal and it is very handy to be able to pass some quick querries to an AI without navigating to a browser. 
 
 #### Want to try out Bashbot?
 
