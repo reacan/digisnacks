@@ -7,12 +7,12 @@ tags: ["AI", "GNU/Linux", "CLI"]
 
 #### What is Bashbot?
 
-Bashbot is a script that allows you to interact with an AI-powered chatbot from the Linux terminal. The chatbot is a Cloudflare Worker that is set to use the [deepseek-coder-6.7b-instruct-awq](https://developers.cloudflare.com/workers-ai/models/deepseek-coder-6.7b-instruct-awq/) LLM. 
+Bashbot is a script that allows you to interact with an AI-powered chatbot from the Linux terminal. The chatbot is a Cloudflare Worker that is set up to use the [deepseek-coder-6.7b-instruct-awq](https://developers.cloudflare.com/workers-ai/models/deepseek-coder-6.7b-instruct-awq/) LLM. 
 
 
 #### Why I created Bashbot?
 
-I spend quite a lot of time in the Linux terminal and it is very handy to be able to pass some quick querries to an AI without navigating to a browser. 
+I spend quite a lot of time in the Linux terminal and it is very handy to be able to pass some quick querries to an AI directly from the terminal.
 
 #### Want to try out Bashbot?
 
