@@ -16,4 +16,4 @@ Es daudz darbojos Linux terminālī un vēlējos iespēju ātri nosūtīt dažā
 
 #### Vēlies izmēģināt Bashbot?
 
-Šis skripts un plašāka instrukcija ir pieejama manā [GitHub](https://github.com/reacan/bashbot) lapā.
+Šis skripts un plašāka instrukcija ir pieejama manā [GitHub lapā](https://github.com/reacan/bashbot).
