@@ -1,8 +1,8 @@
 ---
-title: "Eksperiments ar AI čatbotu"
+title: "Eksperiments ar MI čatbotu"
 date: 2024-01-31
 lastmod: 2024-02-05
-tags: ["AI"]
+tags: ["MI"]
 ---
 
 <center><iframe src="https://chat.dvilcans.com" width="100%" height="100vh" frameborder="0"></iframe></center>

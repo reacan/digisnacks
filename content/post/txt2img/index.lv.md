@@ -1,9 +1,9 @@
 ---
-title: "AI attēlu ģenerators"
+title: "MI attēlu ģenerators"
 date: 2024-01-28
-tags: ["AI"]
+tags: ["MI"]
 ---
-#### Neliels eksperiments ar Cloudflare Workers un AI.
+#### Neliels eksperiments ar Cloudflare Workers un MI.
 <!DOCTYPE html>
 <html lang="en">
 <head>
