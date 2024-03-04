@@ -1,5 +1,5 @@
 ---
-title: "Linux, Python & AI: Politisko ziedojumu analīze"
+title: "Linux, Python & MI: Politisko ziedojumu analīze"
 date: 2024-02-10
 lastmod: 2024-02-12
 tags: ["GNU/Linux", "Python", "MI", "politika"]
