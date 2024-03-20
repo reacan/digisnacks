@@ -1,31 +1,34 @@
-// Fetch public IP address
-async function getPublicIP() {
+// Fetch user IP address
+async function getUserIP() {
   try {
-    const response = await fetch('https://api.ipify.org?format=json');
+    const response = await fetch('https://api64.ipify.org?format=json');
     const data = await response.json();
     return data.ip;
   } catch (error) {
-    console.error('Error fetching public IP:', error);
-    return null; // Return null if there's an error
+    console.error('Error fetching user IP:', error);
+    return null;
   }
 }
 
-// Update HTML with public IP address
-async function updateIPAddress() {
-  const ipAddressElement = document.getElementById("ip-address");
-  if (!ipAddressElement) {
-    console.error('Error updating public IP: Element with ID "ip-address" not found.');
+// Update HTML with user IP address
+async function displayUserIP() {
+  const ipInfoElement = document.getElementById("ip-address");
+  if (!ipInfoElement) {
+    console.error('Error updating user IP: Element with ID "user-ip-info" not found.');
     return;
   }
 
   try {
-    const ip = await getPublicIP();
-    ipAddressElement.innerText = ip;
+    const ip = await getUserIP();
+    ipInfoElement.innerText = ip;
   } catch (error) {
-    console.error('Error updating public IP:', error);
-    ipAddressElement.innerText = 'Error fetching IP';
+    console.error('Error updating user IP:', error);
+    ipInfoElement.innerText = 'Error fetching IP';
   }
 }
+
+// Call the function to display the user IP
+displayUserIP();
 
 // Fetch operating system
 function getOS() {
@@ -86,7 +89,7 @@ function prefersDarkMode() {
 
 document.addEventListener("DOMContentLoaded", function() {
     // Update the DOM with gathered info
-document.getElementById("ip-address").innerText = updateIPAddress();
+document.getElementById("ip-address").innerText = displayUserIP();
     document.getElementById("operating-system").innerText = getOS();
     document.getElementById("browser-info").innerText = getBrowser();
     document.getElementById("language").innerText = getLanguage();
