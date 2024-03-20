@@ -1,6 +1,30 @@
-// Fetch IP address
-function getIP() {
-  return window.location.host;
+// Fetch public IP address
+async function getPublicIP() {
+  try {
+    const response = await fetch('https://api.ipify.org?format=json');
+    const data = await response.json();
+    return data.ip;
+  } catch (error) {
+    console.error('Error fetching public IP:', error);
+    return null; // Return null if there's an error
+  }
+}
+
+// Update HTML with public IP address
+async function updateIPAddress() {
+  const ipAddressElement = document.getElementById("ip-address");
+  if (!ipAddressElement) {
+    console.error('Error updating public IP: Element with ID "ip-address" not found.');
+    return;
+  }
+
+  try {
+    const ip = await getPublicIP();
+    ipAddressElement.innerText = ip;
+  } catch (error) {
+    console.error('Error updating public IP:', error);
+    ipAddressElement.innerText = 'Error fetching IP';
+  }
 }
 
 // Fetch operating system
@@ -62,7 +86,7 @@ function prefersDarkMode() {
 
 document.addEventListener("DOMContentLoaded", function() {
     // Update the DOM with gathered info
-document.getElementById("ip-address").innerText = getIP();
+document.getElementById("ip-address").innerText = updateIPAddress();
     document.getElementById("operating-system").innerText = getOS();
     document.getElementById("browser-info").innerText = getBrowser();
     document.getElementById("language").innerText = getLanguage();
