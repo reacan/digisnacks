@@ -9,7 +9,6 @@ tags: ["Internet"]
 
 #### Some of the information that websites you visit can potentially collect:
 
-  <p id="info"><b>Your IP address is: </b><span id="ip-address">Loading IP address...</span></p>
   <p id="info"><b>Your browser is: </b><span id="browser-info">Loading browser info...</span></p>
   <p id="info"><b>Operating system: </b><span id="operating-system">Loading operating system...</span></p>
   <p id="info"><b>Preferred language: </b><span id="language">Loading preferred language...</span></p>
