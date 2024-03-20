@@ -5,20 +5,6 @@ tags: ["Internet"]
 ---
 <center><img src="man-watching-through-a-spiders-web.png"></center>
 
-<script src="script.js"></script>
-
-#### Some of the information that websites you visit can potentially collect:
-
-  <p id="info"><b>Your browser is: </b><span id="browser-info">Loading browser info...</span></p>
-  <p id="info"><b>Operating system: </b><span id="operating-system">Loading operating system...</span></p>
-  <p id="info"><b>Preferred language: </b><span id="language">Loading preferred language...</span></p>
-  <p id="info"><b>Screen resolution: </b><span id="screen-resolution">Loading screen resolution...</span></p>
-  <p id="info"><b>Preferred theme: </b><span id="dark-mode"></span></p>
-
-#### I am not harvesting this information
-
-But if I was I probably wouldn't be very succesful if you were using AdBlockers or similar privacy tools, because these privacy tools are striving to block data collection and tracking scripts. The above script is not trying to collect or track, it is simply displaying your information back to you.
-
 #### Websites are putting in a great deal of effort to track their users
 
 Because they are looking for ways to make more money by studying your behavior and figuring out how they can get you to buy something. Also money can be made by selling your data. 
