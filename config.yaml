@@ -71,7 +71,7 @@ languages:
 #         url: "https://chat.dvilcans.com/"
 #         weight: 7         
     params:
-      footer: Nekādas sīkdatnes. Nekāda reklāma.<br> © 2023-2024 Dāvis Vilcāns
+      footer: Nekādas sīkdatnes. Nekāda izsekošana.<br> © 2023-2024 Dāvis Vilcāns
       customJs:
         - js/quizdown.js
         - js/custom_01.js
@@ -113,7 +113,7 @@ languages:
 #         url: "https://chat.dvilcans.com/"
 #         weight: 7
     params:
-      footer: No cookies. No ads.<br> © 2023-2024 Dāvis Vilcāns
+      footer: No cookies. No tracking.<br> © 2023-2024 Dāvis Vilcāns
       customJs:
         - js/quizdown_en.js   
         - js/custom_01.js
