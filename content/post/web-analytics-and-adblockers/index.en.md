@@ -35,4 +35,4 @@ I am using the [Brave Web Browser](https://brave.com/), it is based on Chromium,
 img="my-brave-browser-stats.png"
 caption="My Brave Browser stats from last September"
 command="Resize"
-options="400x" >}}
+options="469x" >}}
