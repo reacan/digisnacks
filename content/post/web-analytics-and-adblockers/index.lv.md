@@ -1,6 +1,6 @@
 ---
 title: "Tīmekļa analītika, AdBlokeri un Sērfošana"
-date: 2024-03-19
+date: 2024-03-20
 tags: ["Internets"]
 ---
 <center><img src="man-watching-through-a-spiders-web.png"></center>
