@@ -1,5 +1,5 @@
 ---
-title: "Sāknējama Debian noturīgā dzīvā sistēma"
+title: "Debian noturīgā dzīvā sistēma"
 date: 2024-03-28
 tags: ["GNU/Linux", "Digital Forensics"]
 ---

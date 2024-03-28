@@ -1,12 +1,12 @@
 ---
-title: "Bootable Debian persistent live system"
+title: "Debian persistent live system"
 date: 2024-03-28
 tags: ["GNU/Linux", "Digital Forensics"]
 ---
 ## They say Debian runs on anything...
 <center><img src="debian-meme.jpg"></center>
 
-### Perfect for use as a bootable live system
+### Perfect for use as a live system
 
 Bootable live systems come in handy in troubleshooting hardware, examining and manipulating systems and exporting information. 
 
