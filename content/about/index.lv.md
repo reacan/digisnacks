@@ -1,7 +1,7 @@
 ---
 title: "Par"
 date: 2023-08-31T20:24:40+03:00
-lastmod: "2024-02-10"
+lastmod: "2024-03-28"
 type: "exclude-me"
 ---
 <div style="text-align: justify;">
@@ -11,7 +11,7 @@ Sveicināti, mans vārds ir Dāvis un šis ir mans stūrītis vispasaules tīmek
 Mans pēdējo pāris gadu profesionālais ceļojums ir bijis visnotaļ interesants un daudzpusīgs. Esmu strādājis kā ar cilvēkiem tā ar tehnoloģijām un pateicoties kārei pēc piedzīvojumiem esmu pabijis dažādās <i>eksotiskās</i> vietās, no kurām vairums cilvēku visticamāk labprātāk turētos pa gabalu.
 <br>
 <br>
-Mani aizrauj viss, kas saistīts ar informācijas tehnoloģijām, it īpaši <i>UNIX</i>-veidīgām operētājsistēmām, informācijas drošību un datu/informācijas analīzi.  Šobrīd esmu atvērts jaunām iespējām un projektiem.
+Mani aizrauj viss, kas saistīts ar informācijas tehnoloģijām, it īpaši <i>UNIX</i>-veidīgām operētājsistēmām, informācijas drošību un datu/informācijas analīzi. Es vienmēr esmu atvērts interesantiem projektiem un sadarbībai.
 <br>
 <br>
 Ar mani var sazināties rakstot uz: <a href=mailto:pasts@dvilcans.com>pasts@dvilcans.com</a>.
