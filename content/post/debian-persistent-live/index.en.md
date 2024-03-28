@@ -177,5 +177,24 @@ User	ALL=(ALL:ALL) ALL
 
 P.S. The default password for the default "User" is "live".
 
+### Colorizing the terminal for the root account
 
+Most of the tasks have to be run from the root account and by default it does not have any colors. In order to grant the root account some colors you can copy the default users .bashrc file to root's home directory. You have to be root to do this. 
+
+{{<cmd>}}
+cp /home/User/.bashrc /root/.bashrc
+{{</cmd>}}
+
+Now the root account will have colors. To change the color of root's username from green to red edit root's .bashrc and look for the following line:
+
+
+```
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+```    
+
+and change 32 to 31:
+
+```
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+```
 
