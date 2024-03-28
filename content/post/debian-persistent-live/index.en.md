@@ -169,7 +169,7 @@ echo "/ union" > /media/mountpoint-of-choice/persistence.conf
 
 ### First things first. Adding "User" to sudoers
 
-On the first boot you should add the default "User" to sudoers, so you can escalate privileges with sudo. To do this you can just escalate privelages with **su** and edit the **/etc/sudoers** file adding the following line:
+On the first boot you should add the default "User" to sudoers, so you can escalate privileges with sudo. To do this you can just enter the super user mode with **su** and edit the **/etc/sudoers** file adding the following line:
 
 ```
 User	ALL=(ALL:ALL) ALL
