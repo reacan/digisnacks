@@ -6,9 +6,9 @@ tags: ["GNU/Linux", "Digital Forensics"]
 ## They say Debian runs on anything...
 <center><img src="debian-meme.jpg"></center>
 
-### Perfect for use as a live system
+### Perfect for use as a live boot system
 
-Bootable live systems come in handy in troubleshooting hardware, examining and manipulating systems and exporting information. 
+Live boot systems come in handy in troubleshooting hardware, examining and manipulating systems and exporting information. 
 
 ### Forensics and security focused Linux distributions
 
@@ -22,7 +22,7 @@ I am not into penetration testing therefore I do not need the latest and greates
 
 <center><img src="debian-persistent-live-grub-boot-menu.png"></center>
 
-It can boot pretty much any device that has a 64-bit CPU, does not matter if the device uses BIOS or UEFI, and it get's along with secure boot real nice. Yes, the boot menu is boringly grey, as not to attract any unnecessary attention when used in public.
+It can boot pretty much any device that has a 64-bit CPU, does not matter if the device uses BIOS or UEFI, and it gets along with secure boot real nice. The boot menu is boringly grey, as not to attract any unnecessary attention when used in public.
 
 {{< figureCupper
 img="Screenshot from 2024-03-22 14-26-03.png"
