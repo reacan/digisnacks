@@ -34,7 +34,7 @@ On Linux you type in a single tiny line of text in the terminal in order to crea
 
 ## Booting from a USB stick
 
-Usually tapping the **F12** key during the boot brings up the quick boot menu on PC's and on Macs you just have to hold the **option key (⌥)**. On PC's the quick boot menu may be disabled and you may have to tinker with BIOS/UEFI. If it is a real life case I recommend dettaching the device's disk drive on first boot if possible. 
+Usually tapping the **F12** key during the boot brings up the quick boot menu on PCs and on Macs you just have to hold the **option key (⌥)**. On PCs the quick boot menu may be disabled and you may have to tinker with BIOS/UEFI. If it is a real life case I recommend dettaching the device's disk drive on first boot if possible. 
 
 #### Common issues when booting from a USB stick
 
