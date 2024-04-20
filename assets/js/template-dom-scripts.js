@@ -227,7 +227,7 @@ function createBackToTopButton() {
   button.style.height = '4.0rem';
   button.style.backgroundColor = 'transparent'; // Set background color to transparent
   button.style.border = 'none'; // Remove border
-//  button.style.opacity = '0.8'; 
+  button.style.opacity = '1.0'; 
   
   
 // Add a media query for mobile devices
