@@ -28,6 +28,8 @@ body {
     /* Fixes #77 */
     overscroll-behavior-y: none;
 }
+
+
 template {
   display: none !important;
 

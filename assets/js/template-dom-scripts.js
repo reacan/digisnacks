@@ -113,58 +113,53 @@ function setupTheme() {
   var lightOffImageSrc = localStorage.getItem('lightOffImage');
   var lightOnImageSrc = localStorage.getItem('lightOnImage');
 
-
-    function persistTheme(val) {
-      localStorage.setItem('darkTheme', val);
-    }
-
-    function applyDarkTheme() {
-      var darkTheme = document.getElementById('darkTheme');
-      darkTheme.disabled = false;
-      imageElement.src = lightOffImageSrc; // Use preloaded and cached image
-      imageElement.title = "Lights!"; // Tooltip text for the light theme
-    }
-
-    function clearDarkTheme() {
-      var darkTheme = document.getElementById('darkTheme');
-      darkTheme.disabled = true;
-      imageElement.src = lightOnImageSrc; // Use preloaded and cached image
-      imageElement.title = "Lights Please!"; // Tooltip text for the dark theme
-    }
-
-    function defaultDarkTheme() {
-      var defaultTheme = {{ .Site.Params.defaultDarkTheme }};
-      if (localStorage.getItem('darkTheme') === null) {
-        persistTheme(defaultTheme);
-        checkbox.checked = defaultTheme;
-        if (defaultTheme) {
-          applyDarkTheme();
-        } else {
-          clearDarkTheme();
-        }
-      } else {
-        if (localStorage.getItem('darkTheme') === 'true') {
-          applyDarkTheme();
-          checkbox.checked = true;
-        } else {
-          clearDarkTheme();
-          checkbox.checked = false;
-        }
-      }
-    }
-
-    defaultDarkTheme();
-
-    checkbox.addEventListener('change', function () {
-      if (this.checked) {
-        applyDarkTheme();
-        persistTheme('true');
-      } else {
-        clearDarkTheme();
-        persistTheme('false');
-      }
-    });
+  function persistTheme(val) {
+    localStorage.setItem('darkTheme', val);
   }
+
+  function applyDarkTheme() {
+    var darkTheme = document.getElementById('darkTheme');
+    darkTheme.disabled = false;
+    imageElement.src = lightOffImageSrc; // Use preloaded and cached image
+    imageElement.title = "Lights!"; // Tooltip text for the light theme
+  }
+
+  function clearDarkTheme() {
+    var darkTheme = document.getElementById('darkTheme');
+    darkTheme.disabled = true;
+    imageElement.src = lightOnImageSrc; // Use preloaded and cached image
+    imageElement.title = "Lights Please!"; // Tooltip text for the dark theme
+  }
+
+  function defaultDarkTheme() {
+    var defaultTheme = localStorage.getItem('darkTheme'); // Get user's saved theme preference
+    if (defaultTheme === null) {
+      // If user's preference not set, determine based on media query
+      var prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      defaultTheme = prefersDarkScheme ? 'true' : 'false';
+      persistTheme(defaultTheme);
+    }
+
+    checkbox.checked = (defaultTheme === 'true'); // Set checkbox based on user's preference
+    if (defaultTheme === 'true') {
+      applyDarkTheme();
+    } else {
+      clearDarkTheme();
+    }
+  }
+
+  defaultDarkTheme();
+
+  checkbox.addEventListener('change', function () {
+    if (this.checked) {
+      applyDarkTheme();
+      persistTheme('true');
+    } else {
+      clearDarkTheme();
+      persistTheme('false');
+    }
+  });
+}
 
 // Check if both images are loaded
 var imagesLoaded = 0;
@@ -176,6 +171,7 @@ function checkImagesLoaded() {
   }
 }
 
+// Event listeners to track image loading
 lightOffImage.onload = function() {
   localStorage.setItem('lightOffImage', lightOffImage.src);
   checkImagesLoaded();
@@ -194,23 +190,6 @@ var lightOnImageSrc = localStorage.getItem('lightOnImage');
 if (lightOffImageSrc && lightOnImageSrc) {
   setupTheme();
 }
-
-
-
-// Event listeners to track image loading
-lightOffImage.onload = function() {
-  localStorage.setItem('lightOffImage', lightOffImage.src);
-  lightOffImageLoaded = true;
-  setupTheme();
-};
-
-lightOnImage.onload = function() {
-  localStorage.setItem('lightOnImage', lightOnImage.src);
-  lightOnImageLoaded = true;
-  setupTheme();
-};
-
-
 
 
 
