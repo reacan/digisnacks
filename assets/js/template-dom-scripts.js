@@ -201,8 +201,8 @@ function createBackToTopButton() {
   // Create an image element for the SVG
   var img = document.createElement('img');
   img.src = "{{ "/images/uparrow.svg" | relURL }}"; 
-  img.setAttribute('width', '48');
-  img.setAttribute('height', '48');
+//  img.setAttribute('width', '48');
+//  img.setAttribute('height', '48');
   
   // Apply the intro-and-nav class to the SVG element
   img.classList.add('back-to-top');
@@ -221,13 +221,24 @@ function createBackToTopButton() {
 
   // Apply CSS styles to style the button
   button.style.position = 'fixed';
-  button.style.bottom = '0.3rem';
-  button.style.right = '0.3rem';
-  button.style.width = '3rem';
-  button.style.height = '3rem';
+  button.style.bottom = '0.5rem';
+  button.style.right = '0.9rem';
+  button.style.width = '4.5rem';
+  button.style.height = '4.5rem';
   button.style.backgroundColor = 'transparent'; // Set background color to transparent
   button.style.border = 'none'; // Remove border
-//button.style.opacity = '0.7'; 
+  button.style.opacity = '0.8'; 
+  
+  
+// Add a media query for mobile devices
+var mq = window.matchMedia("(max-width: 768px)");
+if (mq.matches) {
+  button.style.width = '3.5rem';  // Shrink the width for mobile
+  button.style.height = '3.5rem'; // Shrink the height for mobile
+  button.style.right = '0.3rem'; // Adjust right margin for mobile
+  button.style.bottom = '0.3rem'; // Adjust bottom margin for mobile
+  button.style.opacity = '0.5'; 
+}
   
   // Append the button to the body of the document
   document.body.appendChild(button);
