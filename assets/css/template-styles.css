@@ -165,6 +165,7 @@ pre,
     padding: 1.5rem;
     border: 1px solid;
 }
+
 code {
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 0.85em;
@@ -172,14 +173,14 @@ code {
 .cmd {
     padding: 0.75rem;
     background: #000000; /*this be the BG color for CMD box 111 is black fefefe is white */
-    border: 0;
+    border: 2;
+    overflow-x: hidden;
 }
 .cmd code {
     color: #fefefe;  /*this be the text color for the CMD box 111 is black fefefe is white */
     white-space: pre-wrap;
     display: inline-block;
     text-align: left;
-
 }
 
 .cmd code::before {
@@ -1168,21 +1169,6 @@ html::-webkit-scrollbar-track {
   background-color: #1a1a1a; /* Adjust this color to fit your dark mode scheme */
 }    
     
-/* For Firefox */
-/* You might need to adjust this color as well */
-
-html {
-scrollbar-color: #333 #1a1a1a;
-scrollbar-width: thin;
-}
-/* For older versions of Firefox */
-/* You might need to adjust this color as well */
-
-html {
--moz-appearance: none;
--moz-scrollbar-color: #333 #1a1a1a;   
-}
-
 
 
 .youtube-video-container {
