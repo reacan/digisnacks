@@ -2,7 +2,7 @@
 title: "Letter from Gerda"
 date: 2023-11-02T14:49:03+03:00
 draft: false
-tags: ["life"]
+tags: ["Gerda", "life"]
 type: "post"
 ---
 

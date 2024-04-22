@@ -2,7 +2,7 @@
 title: "Vēstule no Gerdas"
 date: 2023-11-02T14:49:03+03:00
 draft: false
-tags: ["dzīve"]
+tags: ["Gerda", "dzīve"]
 type: "post"
 ---
 ### Sveiciens visiem, kam rūp [mans liktenis](https://www.lsm.lv/raksts/zinas/latvija/28.09.2023-tikai-puse-no-ulubelei-ziedotas-naudas-nonak-dzivniekiem-un-patversmes-uzturesanai.a525512/)!
