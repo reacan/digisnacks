@@ -171,7 +171,7 @@ code {
 }
 .cmd {
     padding: 0.75rem;
-    background: #111; /*this be the BG color for CMD box 111 is black fefefe is white */
+    background: #000000; /*this be the BG color for CMD box 111 is black fefefe is white */
     border: 0;
 }
 .cmd code {
@@ -181,19 +181,6 @@ code {
     text-align: left;
 
 }
-
-
-/* Dark theme styles */
-/*
-@media (prefers-color-scheme: dark) {
-    .cmd {
-        background: #111; /* Background color for CMD box in dark theme (black) *//*
-        color: #fefefe; /* Text color for CMD box in dark theme (white) 
-    }
-}
-
-*/
-
 
 .cmd code::before {
     content: '$';
@@ -1154,7 +1141,6 @@ transition: 1s ease;
 .bckgrnd {
     background-image: 
     	url('{{ "images/lielvarde_dark.svg" | relURL }}');
-   	/* url('{{ "images/lielvarde_dark.svg" | relURL }}') */
     background-size: 10rem 25rem; /* ,5rem 20rem;  10rem width, 100% height for both images */
     background-position: left -3rem top; /* right 1rem top; /* Align to left top corner */
     background-repeat: repeat-y; /* ,repeat-y; /* Do not repeat the image */
@@ -1166,47 +1152,38 @@ transition: 1s ease;
     background-color: transparent;
 }
 
-/*@media (prefers-color-scheme: dark) { */
-    /* Styles for browsers with dark mode */
-/*    body {
-        background-color: rgb(143, 127, 111); 
-     /* background-color: slategrey; */ 
-/*        color: charcoalgrey;
-        }
-        
-    .intro-and-nav {
-    color: #cccccc;
-}   
-            
-    #search::placeholder {
-        color: darkslategrey; /* Replace this with your desired text color *//*
-    }
-   */
+
 /* For WebKit Browsers (Chrome, Safari) */
-::-webkit-scrollbar {
-  width: 12px;
+
+
+html::-webkit-scrollbar {
+  width: 20px;
 }
 
-::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
   background-color: #333; /* Adjust this color to fit your dark mode scheme */
 }
 
-::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
   background-color: #1a1a1a; /* Adjust this color to fit your dark mode scheme */
 }    
     
 /* For Firefox */
 /* You might need to adjust this color as well */
+
+html {
 scrollbar-color: #333 #1a1a1a;
 scrollbar-width: thin;
-
+}
 /* For older versions of Firefox */
 /* You might need to adjust this color as well */
+
+html {
 -moz-appearance: none;
 -moz-scrollbar-color: #333 #1a1a1a;   
-    
-    
 }
+
+
 
 .youtube-video-container {
   width: 100%;
@@ -1266,3 +1243,5 @@ iframe {
 
 .back-to-top {
 }
+
+
