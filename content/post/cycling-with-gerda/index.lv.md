@@ -17,7 +17,7 @@ Gerda ir dzimusi maratonu skrējēja, skriešana ir viena no viņas iecienītāk
 Atradu šo video kādā Telegram kanālā.
 
 <center>
-<video width="360" height="637" controls>
+<video width="360" height="636" controls>
   <source src="vinny.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
