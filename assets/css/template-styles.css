@@ -1158,7 +1158,7 @@ transition: 1s ease;
 
 
 html::-webkit-scrollbar {
-  width: 20px;
+  width: 12px;
 }
 
 html::-webkit-scrollbar-thumb {
