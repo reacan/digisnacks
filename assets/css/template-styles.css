@@ -1180,6 +1180,7 @@ html::-webkit-scrollbar-track {
 .youtube-video {
   aspect-ratio: 16 / 9;
   width: 90%;
+  min-height: auto;
 }
 
 .quizdown {
