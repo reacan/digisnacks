@@ -70,7 +70,7 @@ options="700x" >}}
 
 ## Implementation
 
-I have assisted various organizations in implementing DEPI as a Digital Forensics, eDiscovery and Electronic Archive Management solution. If you are interested in seeing what DEPI can do for your organization, you are welcome to contact me by sending a message to: mail@dvilcans.com.   
+I have assisted various organizations in implementing DEPI as a Digital Forensics, eDiscovery and Electronic Archive Management solution. If you are interested in seeing what DEPI can do for your organization, you are welcome to contact me by sending a message to: hello@dvilcans.com.   
 
 
 {{< expandable label="An experience story:" level="2" >}}
