@@ -29,7 +29,7 @@ I like singlespeed bicycles because they are easy to maintain and fun to ride. A
 
 **The good:**
 
-* Female ass;
+* Female axle;
 * Durable and lightweight;
 * Easy to maintain, comes apart like lego.
 

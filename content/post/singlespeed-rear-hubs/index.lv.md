@@ -30,7 +30,7 @@ Man patīk vienātruma velosipēdi, jo tos ir viegli uzturēt un ar tiem ir jaut
 
 **Labais:**
 
-* Female tipa ass;
+* Female tipa asīte;
 * Izturīgas un vieglas;
 * Viegli apkopt, var izjaukt kā lego.
 
