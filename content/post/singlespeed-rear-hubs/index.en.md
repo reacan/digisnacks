@@ -35,7 +35,7 @@ I like singlespeed bicycles because they are easy to maintain and fun to ride. A
 
 **Not so good:**
 
-* Noisy
+* Noisy.
 
 ###### To sum up:
 
