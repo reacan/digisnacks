@@ -2,7 +2,7 @@
 title: "Vienātruma velosipēdu aizmugurējās rumbas"
 date: 2024-04-29
 #lastmod: 2024-04-27
-tags: ["bicycles"]
+tags: ["velosipēdi"]
 #toc: true
 ---
 
