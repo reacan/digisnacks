@@ -138,11 +138,11 @@ try {
 This script will remove the profiles of user's who haven't logged in for X days.
 
 ```powershell
-$DaysSinceLastLogonThreshold = 14 # Number of days since last logon
+$DaysSinceLastLogonThreshold = 90 # Number of days since last logon
 
 try {
-    # Get all User profile folders
-    $UserProfiles = Get-ChildItem "C:\Users" | Where-Object {$_ -notlike "*Windows*" -and $_ -notlike "*default*" -and $_ -notlike "*Public*" -and $_ -notlike "*Admin*"}
+    # Get all User profile folders excluding specific usernames
+    $UserProfiles = Get-ChildItem "C:\Users" | Where-Object {$_ -notlike "*Windows*" -and $_ -notlike "*default*" -and $_ -notlike "*Public*" -and $_ -notlike "*Admin*" -and $_ -notlike "tech" -and $_ -notlike "Teacher"}
 
     # Filter the list of folders to only include those that are not associated with local user accounts
     $NonLocalProfiles = $UserProfiles | Where-Object { $_.Name -notin $(Get-LocalUser).Name }
@@ -150,25 +150,34 @@ try {
     # Initialize an empty array to store removed profiles
     $RemovedProfiles = @()
 
-    # Import Active Directory module
-    Import-Module ActiveDirectory -ErrorAction Stop
-
     # Retrieve a list of user profiles where the associated user hasn't logged in to the local machine in specified days and remove them
     foreach ($profile in $NonLocalProfiles) {
         $Username = $profile.Name
         $LogonEvents = Get-WinEvent -LogName Security -FilterXPath "*[System[EventID=4624] and EventData[Data[@Name='TargetUserName']='$Username']]" -ErrorAction SilentlyContinue
-        if (-not $LogonEvents) {
-            $RemovedProfiles += $profile.FullName
-            $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profile.FullName }
+        if ($LogonEvents) {
+            $LastLogonEvent = $LogonEvents | Select-Object -First 1 | Select-Object -ExpandProperty TimeCreated
+            $DaysSinceLastLogon = (New-TimeSpan -Start $LastLogonEvent -End (Get-Date)).Days
+            if ($DaysSinceLastLogon -ge $DaysSinceLastLogonThreshold) {
+                $profilePath = $profile.FullName
+                $RemovedProfiles += $profilePath
+                $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
+                $profileToRemove | Remove-CimInstance # This command removes the identified profiles 
+            }
+        } else {
+            $profilePath = $profile.FullName
+            $RemovedProfiles += $profilePath
+            $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
             $profileToRemove | Remove-CimInstance # This command removes the identified profiles 
         }
     }
 
     if ($RemovedProfiles) {
-        Write-Output "Removed profiles where the associated user hasn't logged in to the local machine in the last $DaysSinceLastLogonThreshold days:"
+        Write-Warning "Removed profiles where the associated user hasn't logged in to the local machine in the last $DaysSinceLastLogonThreshold days:"
         Write-Output $RemovedProfiles
+        Exit 1
     } else {
         Write-Output "No profiles where the associated user hasn't logged in to the local machine in the last $DaysSinceLastLogonThreshold days found. "
+        Exit 0
     }
 } catch {
     Write-Error $_
