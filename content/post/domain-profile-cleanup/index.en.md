@@ -1,7 +1,7 @@
 ---
 title: "Script to bulk remove Windows domain user profiles"
 date: 2024-04-08
-lastmod: 2024-04-22
+lastmod: 2024-05-20
 tags: ["Windows"]
 #toc: true
 ---
@@ -184,7 +184,14 @@ try {
 }
 ```
 
+###### Running scripts is disabled on this system
 
+{{< cmd >}}
+Set-ExecutionPolicy Unrestricted 
+{{< /cmd >}}
 
+###### Don't have admin rights?
+
+[Here](https://www.netspi.com/blog/technical-blog/network-pentesting/15-ways-to-bypass-the-powershell-execution-policy/) is an interesting article on how to bypass the PowerShell execution policy without administrator rights.
 
 
