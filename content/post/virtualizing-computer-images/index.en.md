@@ -64,9 +64,9 @@ Getting rid of Windows user passwords involves three steps:
 
 The first step is pretty straightforward. Mounting could require some additional tinkering if the Windows Fast Boot functionality is enabled, in such case the partition will be mounted as read-only because "*the filesystem wasn't safely closed on Windows*".
 
-### Mounting the partition
+### Mounting the partition read/write
 
-If Windows Fast Boot functionality is enabled the computer never really shuts down, it sort of hibernates in a very low power state, therfore you get the error about the filesystem not being safely closed, to get around this and mount the partition read-write the following steps can be taken:
+If Windows Fast Boot functionality is enabled the computer never really shuts down, it sort of hibernates in a very low power state, therfore you get the error about the filesystem not being safely closed, to get around this and mount the partition read/write the following steps can be taken:
 
 1. Run **ntfsfix** on the partition
 
