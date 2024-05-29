@@ -1,5 +1,5 @@
 ---
-title: "Realizēt MacBook'a pilno potenciālo"
+title: "Realizēt MacBook'a pilno potenciālu"
 date: 2024-05-27
 #lastmod: 2024-05-27
 tags: ["lulz"]
