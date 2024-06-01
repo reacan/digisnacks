@@ -106,7 +106,7 @@ try {
 
 {{< /expandable >}}
 
-#### What the script does
+#### What this script does:
 
 * It features two variables, one for setting the days of inactivity and another for setting profile names that should be excluded from the query.
 
