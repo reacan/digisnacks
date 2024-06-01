@@ -1,7 +1,7 @@
 ---
 title: "Script to bulk remove Windows domain user profiles"
-date: 2024-04-08
-lastmod: 2024-05-20
+date: 2024-06-01
+lastmod: 2024-06-01
 tags: ["Windows"]
 #toc: true
 ---
@@ -13,170 +13,90 @@ If you simply delete domain user's folder from _C:\Users_ the user will never be
 
 So the proper way to remove a domain user's profile from a Windows 10/11 device is to go to _Settings_ > _System_ > _About_ > _Advanced System Settings_ > _Advanced_ > _User Profiles_ and then remove the user profiles one by one.
 
-When you have thousands of user profiles it is not very convenient to remove them one by one so I stiched together two PowerShell scripts to address this issue.
+When you have thousands of user profiles it is not very convenient to remove them one by one so I stiched together a PowerShell script to address this issue.
 
-###### Print a list of all the domain user profiles not modified in X days
+This is a revisited article because initially the script was not performing as expected, now it checks the logon times querying the domain controller.
 
-This script will print a list of users who have not modified anything in their user profiles for X days. Line 5 also contains a list of user profiles that should not be included in the query.
+{{< expandable label="Script" level="2" >}}
 
 ```powershell
-$DaysSinceModified = 14 # Number of days since last modified
+# Main variables
+$DaysSinceLastLogonThreshold = 180 # Number of days since last logon
+$ExcludedProfiles = "*Windows*", "*default*", "*Public*", "*Admin", "Administrator" # Profiles that are excluded from the query
 
-try {
-    # Get all User profile folders
-    $UserProfiles = Get-ChildItem "C:\Users" | Where-Object {$_ -notlike "*Windows*" -and $_ -notlike "*default*" -and $_ -notlike "*Public*" -and $_ -notlike "*Admin*"}
+# Query to check if RSAT: Active Directory Domain Services and Lightweight Directory Tools are installed
+$rsatCapability = Get-WindowsCapability -Online | Where-Object {$_.Name -like "Rsat.ActiveDirectory.DS-LDS.Tools*"}
 
-    # Filter the list of folders to only include those that are not associated with local user accounts
-    $NonLocalProfiles = $UserProfiles | Where-Object { $_.Name -notin $(Get-LocalUser).Name }
-
-    # Retrieve a list of user profiles not modified in specified days
-    $OldProfiles = foreach ($profile in $NonLocalProfiles) {
-        $LastWrite = $profile.LastWriteTime
-        $DaysSinceLastModified = (New-TimeSpan -Start $LastWrite -End (Get-Date)).Days
-        if ($DaysSinceLastModified -ge $DaysSinceModified) {
-            $profile.FullName
-        }
-    }
-
-    if ($OldProfiles) {
-        Write-Warning "User profiles not modified in the last $DaysSinceModified days:"
-        Write-Output $OldProfiles
-        Exit 1
-    } else {
-        Write-Output "No profiles not modified in the last $DaysSinceModified days found. "
-        Exit 0
-    }
-} catch {
-    Write-Error $_
+# Check the State property and install if not installed already
+if ($rsatCapability.State -eq "Installed") {
+    Write-Output "Identifying user profiles that have been inactive for $DaysSinceLastLogonThreshold days"
+} else {
+    Write-Output "RSAT: Active Directory Domain Services and Lightweight Directory Tools are not installed. Installing now..."
+    Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+    Write-Output "Installation complete."
+	Write-Output "Identifying user profiles that have been inactive for $DaysSinceLastLogonThreshold days"
 }
-```
-
-###### Remove all the domain user profiles not modified in X days
-
-Same logic as in the above script when it comes to identifying particular user profiles, and in this case the identified user profiles will be REMOVED, so proceed with caution.
-
-```powershell
-$DaysSinceModified = 14 # Number of days since last modified
 
 try {
-    # Get all User profile folders
-    $UserProfiles = Get-ChildItem "C:\Users" | Where-Object {$_ -notlike "*Windows*" -and $_ -notlike "*default*" -and $_ -notlike "*Public*" -and $_ -notlike "*Admin*"}
+    # Get local user profiles
+    $LocalProfiles = Get-WmiObject -Class Win32_UserProfile | Where-Object { $_.Special -eq $false }
 
-   # Filter the list of folders to only include those that are not associated with local user accounts
-    $NonLocalProfiles = $UserProfiles | Where-Object { $_.Name -notin $(Get-LocalUser).Name }
+    Write-Output "Total user profiles found: $($LocalProfiles.Count)"
 
-    # Initialize an empty array to store removed profiles
+    # Initialize an array to store removed user profiles
     $RemovedProfiles = @()
 
-    # Retrieve a list of user profiles not modified in specified days and remove them
-    foreach ($profile in $NonLocalProfiles) {
-        $LastWrite = $profile.LastWriteTime
-        $DaysSinceLastModified = (New-TimeSpan -Start $LastWrite -End (Get-Date)).Days
-        if ($DaysSinceLastModified -ge $DaysSinceModified) {
-            $profilePath = $profile.FullName
-            $RemovedProfiles += $profilePath
-            $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
-            $profileToRemove | Remove-CimInstance # This command removes the identified profiles 
-        }
-    }
+    # Initialize an array to store profile details
+    $ProfileDetails = @()
 
-    if ($RemovedProfiles) {
-        Write-Output "Removed profiles not modified in the last $DaysSinceModified days:"
-        Write-Output $RemovedProfiles
-    } else {
-        Write-Output "No profiles not modified in the last $DaysSinceModified days found. "
-    }
-} catch {
-    Write-Error $_
-}
-```
+    # Iterate through each local user profile
+    foreach ($profile in $LocalProfiles) {
+        $Username = $profile.LocalPath.Split('\')[-1]
 
-###### Print a list of all the domain users who haven't logged in for X days
+        # Check if the profile should be excluded
+        if ($ExcludedProfiles -notcontains $Username) {
+            # Query Active Directory for the user's last logon date
+            $User = Get-ADUser -Filter { SamAccountName -eq $Username } -Properties LastLogonDate -ErrorAction SilentlyContinue
 
-This script queries the Security event log for logon events (Event ID 4624). It extracts the TimeCreated property of the first matching event (representing the most recent logon) and compares it with the current date to determine if it's within the specified threshold. If it's outside the threshold, it adds the username to the list of old profiles.
+            if ($User -ne $null) {
+                $LastLogon = $User.LastLogonDate
 
-```powershell
-$DaysSinceLastLogonThreshold = 14 # Number of days since last logon
-
-try {
-    # Get all User profile folders excluding specific usernames
-    $UserProfiles = Get-ChildItem "C:\Users" | Where-Object {$_ -notlike "*Windows*" -and $_ -notlike "*default*" -and $_ -notlike "*Public*" -and $_ -notlike "*Admin*"}
-
-    # Filter the list of folders to only include those that are not associated with local user accounts
-    $NonLocalProfiles = $UserProfiles | Where-Object { $_.Name -notin $(Get-LocalUser).Name }
-
-    # Retrieve a list of user profiles where the associated user hasn't logged in to the local machine in specified days
-    $OldProfiles = foreach ($profile in $NonLocalProfiles) {
-        $Username = $profile.Name
-        $LogonEvents = Get-WinEvent -LogName Security -FilterXPath "*[System[EventID=4624] and EventData[Data[@Name='TargetUserName']='$Username']]" -ErrorAction SilentlyContinue
-        if ($LogonEvents) {
-            $LastLogonEvent = $LogonEvents | Select-Object -First 1 | Select-Object -ExpandProperty TimeCreated
-            $DaysSinceLastLogon = (New-TimeSpan -Start $LastLogonEvent -End (Get-Date)).Days
-            if ($DaysSinceLastLogon -ge $DaysSinceLastLogonThreshold) {
-                $Username
+                if ($LastLogon -ne $null) {
+                    $DaysSinceLastLogon = (New-TimeSpan -Start $LastLogon -End (Get-Date)).Days
+                    if ($DaysSinceLastLogon -ge $DaysSinceLastLogonThreshold) {
+                        $profilePath = $profile.LocalPath
+                        $RemovedProfiles += $profilePath
+                        $ProfileDetails += [PSCustomObject]@{
+                            Username = $Username
+                            LastLogon = $LastLogon
+                        }
+                    }
+                }
             }
-        } else {
-            $Username
         }
     }
 
-    if ($OldProfiles) {
-        Write-Warning "User profiles where the associated user hasn't logged in to the local machine in the last $DaysSinceLastLogonThreshold days:"
-        Write-Output $OldProfiles
-        Exit 1
-    } else {
-        Write-Output "No profiles where the associated user hasn't logged in to the local machine in the last $DaysSinceLastLogonThreshold days found. "
-        Exit 0
-    }
-} catch {
-    Write-Error $_
-}
-```
+    # Display the count of inactive user profiles
+    Write-Output "Inactive user profiles: $($ProfileDetails.Count)"
+    # Display identified inactive profiles
+    if ($ProfileDetails) {
+        $ProfileDetails | Format-Table -AutoSize
 
-###### Remove the profiles of domain users who haven't logged in for X days
-
-This script will remove the profiles of user's who haven't logged in for X days.
-
-```powershell
-$DaysSinceLastLogonThreshold = 90 # Number of days since last logon
-
-try {
-    # Get all User profile folders excluding specific usernames
-    $UserProfiles = Get-ChildItem "C:\Users" | Where-Object {$_ -notlike "*Windows*" -and $_ -notlike "*default*" -and $_ -notlike "*Public*" -and $_ -notlike "*Admin*" -and $_ -notlike "tech" -and $_ -notlike "Teacher"}
-
-    # Filter the list of folders to only include those that are not associated with local user accounts
-    $NonLocalProfiles = $UserProfiles | Where-Object { $_.Name -notin $(Get-LocalUser).Name }
-
-    # Initialize an empty array to store removed profiles
-    $RemovedProfiles = @()
-
-    # Retrieve a list of user profiles where the associated user hasn't logged in to the local machine in specified days and remove them
-    foreach ($profile in $NonLocalProfiles) {
-        $Username = $profile.Name
-        $LogonEvents = Get-WinEvent -LogName Security -FilterXPath "*[System[EventID=4624] and EventData[Data[@Name='TargetUserName']='$Username']]" -ErrorAction SilentlyContinue
-        if ($LogonEvents) {
-            $LastLogonEvent = $LogonEvents | Select-Object -First 1 | Select-Object -ExpandProperty TimeCreated
-            $DaysSinceLastLogon = (New-TimeSpan -Start $LastLogonEvent -End (Get-Date)).Days
-            if ($DaysSinceLastLogon -ge $DaysSinceLastLogonThreshold) {
-                $profilePath = $profile.FullName
-                $RemovedProfiles += $profilePath
+        # Prompt to delete all identified profiles
+        $confirmation = Read-Host "Do you want to delete all identified inactive profiles? (Y/N)"
+        if ($confirmation -eq "Y" -or $confirmation -eq "y") {
+            foreach ($profilePath in $RemovedProfiles) {
                 $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
-                $profileToRemove | Remove-CimInstance # This command removes the identified profiles 
+                $profileToRemove | Remove-CimInstance -WhatIf # Remove -WhatIf to perform actual user removal.
             }
+            Write-Output "All identified inactive profiles have been deleted."
+            Exit 1
         } else {
-            $profilePath = $profile.FullName
-            $RemovedProfiles += $profilePath
-            $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
-            $profileToRemove | Remove-CimInstance # This command removes the identified profiles 
+            Write-Output "No profiles were deleted."
+            Exit 0
         }
-    }
-
-    if ($RemovedProfiles) {
-        Write-Warning "Removed profiles where the associated user hasn't logged in to the local machine in the last $DaysSinceLastLogonThreshold days:"
-        Write-Output $RemovedProfiles
-        Exit 1
     } else {
-        Write-Output "No profiles where the associated user hasn't logged in to the local machine in the last $DaysSinceLastLogonThreshold days found. "
+        Write-Output "No inactive profiles were found."
         Exit 0
     }
 } catch {
@@ -184,14 +104,27 @@ try {
 }
 ```
 
-###### Running scripts is disabled on this system
+{{< /expandable >}}
+
+#### What the script does
+
+* It features two variables, one for setting the days of inactivity and another for setting profile names that should be excluded from the query.
+
+1. It checks if RSAT Active Directory Domain Services and Lightweight Directory Tools are installed, if not it proceeds with installing this package. It is neccessary to query the domain controller.
+2. It queries the domain controller checking the last logon time of user profiles that are present in the particular machine;
+3. It prints a list of all the user profiles that fit in the defined time frame, their last logon time and a prompt for profile deletion;
+4. It features a dry run functionality for testing purposes. To actually delete the user profiles remove the "-WhatIf" argument from line 68.
+
+{{< figureCupper
+img="remove_inactive_domain_profiles_anon.png"
+caption="Listing domain users that haven't logged in the computer for 180 days and removing their user profiles"
+command="Resize"
+options="700x" >}}
+
+###### Enable running scripts for the current user
 
 {{< cmd >}}
-Set-ExecutionPolicy Unrestricted 
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 {{< /cmd >}}
-
-###### Don't have admin rights?
-
-[Here](https://www.netspi.com/blog/technical-blog/network-pentesting/15-ways-to-bypass-the-powershell-execution-policy/) is an interesting article on how to bypass the PowerShell execution policy without administrator rights.
 
 
