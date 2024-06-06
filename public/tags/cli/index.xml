@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CLI on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/cli/</link>
+    <description>Recent content in CLI on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI chatbot in a Linux terminal</title>
+      <link>//localhost:1313/ai-chatbot-in-linux-terminal/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ai-chatbot-in-linux-terminal/</guid>
+      <description>What is Bashbot? Bashbot is a script that allows you to interact with an AI-powered chatbot from the Linux terminal. The chatbot is a Cloudflare Worker that is set up to use the deepseek-coder-6.7b-instruct-awq LLM.&#xA;Why I created Bashbot? I spend quite a lot of time in the Linux terminal and it is very handy to be able to pass some quick querries to an AI directly from the terminal.</description>
+    </item>
+    <item>
+      <title>Analyzing Apache access logs</title>
+      <link>//localhost:1313/loganalysis/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/loganalysis/</guid>
+      <description>In this article I will demonstrate how to quickly gain some insights on Apache webserver&amp;rsquo;s access logs using GNU/Linux and Bash: filtering unique IP&amp;rsquo;s, top IP&amp;rsquo;s and IP&amp;rsquo;s by country.&#xA;Example log files: Don&amp;rsquo;t have any logs, but want to test out the below commands? Here you go:&#xA;access_1.log&#xA;access_2.log&#xA;access_3.log&#xA;How many unique IP&amp;rsquo;s are in the access logs? Props to Steven Vona for the grep syntax!&#xA;cat access_* | grep -E -o &amp;#34;(25[0-5]|2[0-4][0-9]|[01]?</description>
+    </item>
+    <item>
+      <title>Bash scripting with ChatGPT</title>
+      <link>//localhost:1313/bash-and-ai/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/bash-and-ai/</guid>
+      <description>Recently I was tasked with writting a Bash script that would querry IP addresses from a file and return their corresponding abuse contact e-mail addresses.&#xA;The script that I initially came up with did not perform as expected. I remembered hearing stories about Chat GPT being able to generate decent code, so I decided to finally try it out.&#xA;I was very amazed to say the least, my mind was blown.</description>
+    </item>
+    <item>
+      <title>GNU/Linux: findutils</title>
+      <link>//localhost:1313/unix-find/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/unix-find/</guid>
+      <description>Some &amp;ldquo;find&amp;rdquo; variations that have been handy Find and copy:&#xA;Copy all files with an .mp4 extension to another location: find . -type f -iname &amp;#34;*.mp4&amp;#34; -exec cp &amp;#34;{}&amp;#34; /other/location/ \; Find and print:&#xA;Print name, path, size, inode, and sha256 hash. find . -type f -printf &amp;#34;%f\t %P\t %s\t %i\t &amp;#34; -exec sh -c &amp;#39;sha256sum &amp;#34;{}&amp;#34; | cut -d &amp;#34; &amp;#34; -f 1 &amp;#39; \; Print path, name, size, time accessed, time modified and sha256 hash.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Politika on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/politika/</link>
+    <description>Recent content in Politika on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/politika/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux, Python &amp; MI: Politisko ziedojumu analīze</title>
+      <link>//localhost:1313/lv/donation-analytics/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/donation-analytics/</guid>
+      <description>Par analīzi Vēlējos pavingrināt savas datu analīzes prasmes ar kādu interesantu datu kopu. Šo eksperimentu vairāk vēlējos saistīt ar datu analīzi, nevis vākšanu, līdz ar to man bija nepieciešami interesanti, vienkārši saglabājami dati. Kaut kas interesantāks par Latvijas Atvērto datu portālā pieejamajiem. Izrādās, ka KNAB partiju finanšu datubāze sniedz iespēju ērti izgūt un saglabāt visu informāciju, izmantojot tikai interneta pārlūku. Lai saglabātu visu informāciju, lielā apjoma dēļ man bija nepieciešami pieci piegājieni, informāciju sadalīju pa gadiem.</description>
+    </item>
+    <item>
+      <title>Viktorīna: Pasaules notikumi</title>
+      <link>//localhost:1313/lv/quizpolitics/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/quizpolitics/</guid>
+      <description>Neliels eksperiments ar Hugo Quizdown implementāciju un lokalizāciju --- primary_color: green secondary_color: lightgray text_color: black shuffle_questions: true --- ## Musulmaņu valsts, ko vada sievietes: Šo musulmaņu valsti pēdējos 33 gadus ir vadījušas premjerministres sievietes &gt; Viena no visblīvāk apdzīvotajām valstīm pasaulē – 1&#39;342 cilvēki/km². 1. [ ] Albānija &gt; Pareizā atbilde ir Bangladeša. 2. [ ] Alžīrija &gt; Pareizā atbilde ir Bangladeša. 3. [x] Bangladeša &gt; Pareizā atbilde. 4. [ ] Čada &gt; Pareizā atbilde ir Bangladeša.</description>
+    </item>
+    <item>
+      <title>Pārdefinējot patriotismu</title>
+      <link>//localhost:1313/lv/patriotism/</link>
+      <pubDate>Sun, 15 Oct 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/lv/patriotism/</guid>
+      <description>Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem.</description>
+    </item>
+    <item>
+      <title>Interneta cenzūra Latvijā</title>
+      <link>//localhost:1313/lv/internet-censorship/</link>
+      <pubDate>Sun, 03 Sep 2023 12:43:15 +0300</pubDate>
+      <guid>//localhost:1313/lv/internet-censorship/</guid>
+      <description>Pirms kāda laika, pārlūkojot Internetu, kādā ziņu portālā ievēroju rakstu par Latvijā bloķētajiem Interneta resursiem. Intereses pēc pamēģināju dažas no šīm mājaslapām atvērt un rezultātā biju vīlies, jo viss darbojās. Manu Interneta pieslēgumu nodrošina viens no lielākajiem vietējiem Interneta pakalpojumu sniedzējiem (turpmāk – ISP) un es neizmantoju virtuālos privātos tīklus (VPN) vai citus tamlīdzīgus risinājumus.&#xA;Nolēmu nedaudz šo jautājumu papētīt. Noskaidroju, ka uzraugošā iestāde (NEPLP) šo Interneta resursu bloķēšanu ir ieviesusi ļoti vienkāršotā veidā.</description>
+    </item>
+  </channel>
+</rss>

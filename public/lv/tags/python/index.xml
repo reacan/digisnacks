@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/python/</link>
+    <description>Recent content in Python on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux, Python &amp; MI: Politisko ziedojumu analīze</title>
+      <link>//localhost:1313/lv/donation-analytics/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/donation-analytics/</guid>
+      <description>Par analīzi Vēlējos pavingrināt savas datu analīzes prasmes ar kādu interesantu datu kopu. Šo eksperimentu vairāk vēlējos saistīt ar datu analīzi, nevis vākšanu, līdz ar to man bija nepieciešami interesanti, vienkārši saglabājami dati. Kaut kas interesantāks par Latvijas Atvērto datu portālā pieejamajiem. Izrādās, ka KNAB partiju finanšu datubāze sniedz iespēju ērti izgūt un saglabāt visu informāciju, izmantojot tikai interneta pārlūku. Lai saglabātu visu informāciju, lielā apjoma dēļ man bija nepieciešami pieci piegājieni, informāciju sadalīju pa gadiem.</description>
+    </item>
+  </channel>
+</rss>

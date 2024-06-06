@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MI on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/mi/</link>
+    <description>Recent content in MI on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/mi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MI čatbots Linux terminālī</title>
+      <link>//localhost:1313/lv/ai-chatbot-in-linux-terminal/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/ai-chatbot-in-linux-terminal/</guid>
+      <description>Kas ir Bashbot? Bashbot ir skripts, kas ļauj sazināties ar MI čatbotu no Linux termināļa. Šis čatbots izmanto Cloudflare Workers un deepseek-coder-6.7b-instruct-awq lielo valodas modeli (LLM).&#xA;Kāpēc es izveidoju Bashbot? Es daudz darbojos Linux terminālī un vēlējos iespēju ātri nosūtīt dažādus vienkāršus vaicājumus MI čatbotam &amp;ldquo;pa taisno&amp;rdquo; no termināļa.&#xA;Ierobežojumi: Šobrīd čatbots vienā vaicājumā spēj ģenerēt līdz 800 simboliem garu tekstu, lai palielinātu ģenerētā teksta apjomu man būtu jāizmanto straumēšana, ko es noteikti kaut kad pamēģināšu.</description>
+    </item>
+    <item>
+      <title>Linux, Python &amp; MI: Politisko ziedojumu analīze</title>
+      <link>//localhost:1313/lv/donation-analytics/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/donation-analytics/</guid>
+      <description>Par analīzi Vēlējos pavingrināt savas datu analīzes prasmes ar kādu interesantu datu kopu. Šo eksperimentu vairāk vēlējos saistīt ar datu analīzi, nevis vākšanu, līdz ar to man bija nepieciešami interesanti, vienkārši saglabājami dati. Kaut kas interesantāks par Latvijas Atvērto datu portālā pieejamajiem. Izrādās, ka KNAB partiju finanšu datubāze sniedz iespēju ērti izgūt un saglabāt visu informāciju, izmantojot tikai interneta pārlūku. Lai saglabātu visu informāciju, lielā apjoma dēļ man bija nepieciešami pieci piegājieni, informāciju sadalīju pa gadiem.</description>
+    </item>
+    <item>
+      <title>Eksperiments ar MI čatbotu</title>
+      <link>//localhost:1313/lv/harry-the-chatbot/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/harry-the-chatbot/</guid>
+      <description> Par eksperimentu: Viena no interesantākajām IT lietām, ko pēdējā laikā esmu darījis; Čatbots ir izveidots, izmantojot Cloudflare Workers; Izmanto Mistral 7B LLM (mistral-7b-instruct-v0.1). Ko vēl es vēlētos pamēģināt: Ieviest iestatījumu funkcionalitāti sniedzot lietotājam iespēju pārslēgties starp dažādiem LLM modeļiem; Iestatījumu funkcionalitāte lai izvēlētos/definētu čatbota funkcijas un personību; Lietotāja sesijas datu saglabāšana, piešķirt čatbotam &amp;ldquo;atmiņu&amp;rdquo;. </description>
+    </item>
+    <item>
+      <title>MI attēlu ģenerators</title>
+      <link>//localhost:1313/lv/txt2img/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/txt2img/</guid>
+      <description>Neliels eksperiments ar Cloudflare Workers un MI. &lt;!DOCTYPE html&gt; Aprakstiet attēlu (angliski): Ģenerēt attēlu Attēla ģenerēšana var aizņemt līdz vienai minūtei. Saglabāt attēlu </description>
+    </item>
+    <item>
+      <title>Bash skriptēšana ar ChatGPT</title>
+      <link>//localhost:1313/lv/bash-and-ai/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/bash-and-ai/</guid>
+      <description>Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem.</description>
+    </item>
+  </channel>
+</rss>

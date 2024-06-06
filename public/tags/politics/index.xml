@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Politics on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/politics/</link>
+    <description>Recent content in Politics on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux, Python &amp; AI: Analysis of Political Donations</title>
+      <link>//localhost:1313/donation-analytics/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/donation-analytics/</guid>
+      <description>About the analysis I sought to exercise my data analysis skills with an intriguing dataset. I wanted to focus on data analysis rather than data collection, so I needed interesting and readily accessible data. It turns out that the KNAB party finance database offers the convenience of extracting and storing all the information using just a web browser. To preserve all the information, I needed five iterations due to the large volume of data, dividing the information by years.</description>
+    </item>
+    <item>
+      <title>Quiz: World Events</title>
+      <link>//localhost:1313/quizpolitics/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/quizpolitics/</guid>
+      <description>A little experiment with Hugo Quizdown implementation and localization --- primary_color: green secondary_color: lightgray text_color: black shuffle_questions: true --- ## Muslim country ruled by women: For the past 33 years this muslim country has been led by female prime ministers. &gt; One of the most densely populated countries in the world – 1&#39;342 people/km². 1. [ ] Albania &gt; The correct answer is Bangladesh. 2. [ ] Algeria &gt; The correct answer is Bangladesh.</description>
+    </item>
+    <item>
+      <title>Redefining patriotism</title>
+      <link>//localhost:1313/patriotism/</link>
+      <pubDate>Sun, 15 Oct 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/patriotism/</guid>
+      <description>Haters vs. Innovators A week ago the newly appointed minister of culture of Latvia Ms.Agnese Logina gave an interview where she emphasized the need to redefine patriotism in order to promote a more inclusive society, a society where the feeling of belonging transcends ethnic characteristics, where people should find a sense of home and acceptance irrespective of their cultural background.&#xA;However, Ms.Logina&amp;rsquo;s visionary call to redefine patriotism in the pursuit of a more inclusive society was met with harsh and unfounded criticism.</description>
+    </item>
+    <item>
+      <title>Internet censorship in Latvia</title>
+      <link>//localhost:1313/internet-censorship/</link>
+      <pubDate>Sun, 03 Sep 2023 12:43:15 +0300</pubDate>
+      <guid>//localhost:1313/internet-censorship/</guid>
+      <description>A while ago while browsing the Internet I came accross a news article with a list of websites that are apparently blocked in Latvia. When I tried to open some of these websites from my laptop, I was very disappointed. Everything was working. My Internet connection is provided by one of the largest local ISP&amp;rsquo;s and I am not using VPN&amp;rsquo;s or other similar solutions.&#xA;It made me curious so I decided to investigate a little bit.</description>
+    </item>
+  </channel>
+</rss>

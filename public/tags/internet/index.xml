@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/internet/</link>
+    <description>Recent content in Internet on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Analytics, AdBlockers &amp; Browsing</title>
+      <link>//localhost:1313/web-analytics-and-adblockers/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/web-analytics-and-adblockers/</guid>
+      <description>Websites are putting in a great deal of effort to track their users Because they are looking for ways to make more money by studying your behavior and figuring out how they can get you to buy something. Also money can be made by selling your data.&#xA;The rise of AdBlockers and similar privacy tools For the past couple of years the Internet has been overrun by aggressive advertising, and browsing the web without some sort of an AdBlocker software can be very frustrating.</description>
+    </item>
+    <item>
+      <title>Internet censorship in Latvia</title>
+      <link>//localhost:1313/internet-censorship/</link>
+      <pubDate>Sun, 03 Sep 2023 12:43:15 +0300</pubDate>
+      <guid>//localhost:1313/internet-censorship/</guid>
+      <description>A while ago while browsing the Internet I came accross a news article with a list of websites that are apparently blocked in Latvia. When I tried to open some of these websites from my laptop, I was very disappointed. Everything was working. My Internet connection is provided by one of the largest local ISP&amp;rsquo;s and I am not using VPN&amp;rsquo;s or other similar solutions.&#xA;It made me curious so I decided to investigate a little bit.</description>
+    </item>
+  </channel>
+</rss>

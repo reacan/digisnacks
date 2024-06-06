@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quiz on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/quiz/</link>
+    <description>Recent content in Quiz on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/quiz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quiz: World Events</title>
+      <link>//localhost:1313/quizpolitics/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/quizpolitics/</guid>
+      <description>A little experiment with Hugo Quizdown implementation and localization --- primary_color: green secondary_color: lightgray text_color: black shuffle_questions: true --- ## Muslim country ruled by women: For the past 33 years this muslim country has been led by female prime ministers. &gt; One of the most densely populated countries in the world – 1&#39;342 people/km². 1. [ ] Albania &gt; The correct answer is Bangladesh. 2. [ ] Algeria &gt; The correct answer is Bangladesh.</description>
+    </item>
+  </channel>
+</rss>

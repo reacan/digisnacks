@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI chatbot in a Linux terminal</title>
+      <link>//localhost:1313/ai-chatbot-in-linux-terminal/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ai-chatbot-in-linux-terminal/</guid>
+      <description>What is Bashbot? Bashbot is a script that allows you to interact with an AI-powered chatbot from the Linux terminal. The chatbot is a Cloudflare Worker that is set up to use the deepseek-coder-6.7b-instruct-awq LLM.&#xA;Why I created Bashbot? I spend quite a lot of time in the Linux terminal and it is very handy to be able to pass some quick querries to an AI directly from the terminal.</description>
+    </item>
+    <item>
+      <title>Linux, Python &amp; AI: Analysis of Political Donations</title>
+      <link>//localhost:1313/donation-analytics/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/donation-analytics/</guid>
+      <description>About the analysis I sought to exercise my data analysis skills with an intriguing dataset. I wanted to focus on data analysis rather than data collection, so I needed interesting and readily accessible data. It turns out that the KNAB party finance database offers the convenience of extracting and storing all the information using just a web browser. To preserve all the information, I needed five iterations due to the large volume of data, dividing the information by years.</description>
+    </item>
+    <item>
+      <title>An experiment with an AI chatbot</title>
+      <link>//localhost:1313/harry-the-chatbot/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/harry-the-chatbot/</guid>
+      <description> About the experiment: One of the most interesting IT endeavours I&amp;rsquo;ve been involved in recently; Chatbot was created using Cloudflare Workers; It uses the Mistral 7B LLM (mistral-7b-instruct-v0.1). Some things I&amp;rsquo;d like to try: Implement settings funcionality to switch between different LLM&amp;rsquo;s; Settings functionality to set/define the functions and personality of the chatbot; Persisting user sessions and granting the chatbot a &amp;ldquo;memory&amp;rdquo;. </description>
+    </item>
+    <item>
+      <title>AI image generator</title>
+      <link>//localhost:1313/txt2img/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/txt2img/</guid>
+      <description>A little experiment with Cloudflare Workers and AI. Describe your image: Generate Image Image generation can take up to a minute. Save Image </description>
+    </item>
+    <item>
+      <title>Bash scripting with ChatGPT</title>
+      <link>//localhost:1313/bash-and-ai/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/bash-and-ai/</guid>
+      <description>Recently I was tasked with writting a Bash script that would querry IP addresses from a file and return their corresponding abuse contact e-mail addresses.&#xA;The script that I initially came up with did not perform as expected. I remembered hearing stories about Chat GPT being able to generate decent code, so I decided to finally try it out.&#xA;I was very amazed to say the least, my mind was blown.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux, Python &amp; AI: Analysis of Political Donations</title>
+      <link>//localhost:1313/donation-analytics/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/donation-analytics/</guid>
+      <description>About the analysis I sought to exercise my data analysis skills with an intriguing dataset. I wanted to focus on data analysis rather than data collection, so I needed interesting and readily accessible data. It turns out that the KNAB party finance database offers the convenience of extracting and storing all the information using just a web browser. To preserve all the information, I needed five iterations due to the large volume of data, dividing the information by years.</description>
+    </item>
+  </channel>
+</rss>

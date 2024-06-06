@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Forensics on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/digital-forensics/</link>
+    <description>Recent content in Digital Forensics on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Fri, 24 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/digital-forensics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diska attēlu virtualizācija</title>
+      <link>//localhost:1313/lv/virtualizing-computer-images/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/virtualizing-computer-images/</guid>
+      <description>Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem.</description>
+    </item>
+    <item>
+      <title>Sumuri PALADIN</title>
+      <link>//localhost:1313/lv/paladin/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/paladin/</guid>
+      <description>Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem.</description>
+    </item>
+    <item>
+      <title>Debian noturīgā dzīvā sistēma</title>
+      <link>//localhost:1313/lv/debian-persistent-live/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/debian-persistent-live/</guid>
+      <description>Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem.</description>
+    </item>
+    <item>
+      <title>Apache žurnālfailu analīze</title>
+      <link>//localhost:1313/lv/loganalysis/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/loganalysis/</guid>
+      <description> Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem. </description>
+    </item>
+    <item>
+      <title>Paroļu piemeklēšana ar Hashcat</title>
+      <link>//localhost:1313/lv/hashcat/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/hashcat/</guid>
+      <description> Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem. </description>
+    </item>
+    <item>
+      <title>Forensics &amp; FOSS: Ilustrācija</title>
+      <link>//localhost:1313/lv/showcase/</link>
+      <pubDate>Mon, 13 Nov 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/lv/showcase/</guid>
+      <description>Neliels video, ko izveidoju pagājušajā gadā, lai caur gadījuma analīzi ilustrētu trīs klasiskos kibetehniskās ekspertīzes soļus: datu apstrādi, analīzi un ziņošanu.&#xA;Šajā gadījumā tiek analizēts datora diska attēls, kurā nepieciešams atrast konkrētas datnes, pēc to kontrolsummām, kā arī vispārīgi izpētīt šo diska attēlu.&#xA;Ja kādreiz esat aizdomājušies par to, kā notiek digitālo pierādījumu analīze, tad šis video Jums varētu būt interesants.</description>
+    </item>
+    <item>
+      <title>The Sleuthkit</title>
+      <link>//localhost:1313/lv/sleuthkit/</link>
+      <pubDate>Sat, 14 Oct 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/lv/sleuthkit/</guid>
+      <description>The Sleuth Kit (TSK) ir populāra atvērtā pirmkoda programmu bibliotēka un kolekcija ar komandrindas digitālās izmeklēšanas rīkiem. The Sleuth Kit ļauj izmeklētājiem un analītiķiem analizēt datu nesēju attēlus (disk image), kā arī pašus datu nesējus un veikt detalizētu failu sistēmu analīzi.&#xA;TSK ir mans galvenais rīks, ko izmantoju, veicot sākotnējo analīzi datu nesēju attēliem un datu nesējiem. Šajā ierakstā es parādīšu, kā izmantot TSK, lai ātri pārbaudītu datu nesēju attēlus vai datu nesējus.</description>
+    </item>
+    <item>
+      <title>Diska attēlu veidošana</title>
+      <link>//localhost:1313/lv/imaging/</link>
+      <pubDate>Fri, 15 Sep 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/lv/imaging/</guid>
+      <description> Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem. </description>
+    </item>
+    <item>
+      <title>DEPI/IPED</title>
+      <link>//localhost:1313/lv/depi/</link>
+      <pubDate>Wed, 13 Sep 2023 20:29:41 +0300</pubDate>
+      <guid>//localhost:1313/lv/depi/</guid>
+      <description>Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem.</description>
+    </item>
+  </channel>
+</rss>

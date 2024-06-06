@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/food/</link>
+    <description>Recent content in Food on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/food/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chicken Steak with Pineapple Rings</title>
+      <link>//localhost:1313/chickensteak/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/chickensteak/</guid>
+      <description>One of my hobbies is cooking, and recently I was wondering about whether there is such a thing as a chicken steak? I believe there is, and here is my interpretation.&#xA;Ingredients: Chicken breast fillet &amp;ndash; 1 kg / 2.2 lb;&#xA;A medium can of pineapple rings;&#xA;Dark soy sauce &amp;ndash; 10 tablespoons;&#xA;One large onion;&#xA;One head of garlic;&#xA;Two packs of whatever salt free chicken seasonings (~30 grams / 1 ounce)</description>
+    </item>
+  </channel>
+</rss>

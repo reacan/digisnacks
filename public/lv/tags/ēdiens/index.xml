@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ēdiens on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/%C4%93diens/</link>
+    <description>Recent content in Ēdiens on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/%C4%93diens/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vistas steiks ar ananāsu gredzeniem</title>
+      <link>//localhost:1313/lv/chickensteak/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/chickensteak/</guid>
+      <description>Viens no maniem hobijiem ir ēdiena gatavošana un nesen es aizdomājos par to, vai pastāv tāda lieta kā vistas steiks? Manuprāt, pastāv un lūk mana interpretācija par to.&#xA;Sastāvdaļas: Vistas krūtiņas fileja &amp;ndash; 1 kg;&#xA;Vidēja izmēra konservētu ananāsu gredzenu bundžiņa;&#xA;Tumšā sojas mērce &amp;ndash; 10 ēdamkarotes;&#xA;Viens liels sīpols;&#xA;Viena ķiploka galviņa;&#xA;Divas paciņas jebkādu vistas garšvielu bez sāls (~30 grami)&#xA;Sagatavošana: Piepildiet trauku ar visām sastāvdaļām Sagriezt sīpolu plānos gredzenos;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CLI on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/cli/</link>
+    <description>Recent content in CLI on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MI čatbots Linux terminālī</title>
+      <link>//localhost:1313/lv/ai-chatbot-in-linux-terminal/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/ai-chatbot-in-linux-terminal/</guid>
+      <description>Kas ir Bashbot? Bashbot ir skripts, kas ļauj sazināties ar MI čatbotu no Linux termināļa. Šis čatbots izmanto Cloudflare Workers un deepseek-coder-6.7b-instruct-awq lielo valodas modeli (LLM).&#xA;Kāpēc es izveidoju Bashbot? Es daudz darbojos Linux terminālī un vēlējos iespēju ātri nosūtīt dažādus vienkāršus vaicājumus MI čatbotam &amp;ldquo;pa taisno&amp;rdquo; no termināļa.&#xA;Ierobežojumi: Šobrīd čatbots vienā vaicājumā spēj ģenerēt līdz 800 simboliem garu tekstu, lai palielinātu ģenerētā teksta apjomu man būtu jāizmanto straumēšana, ko es noteikti kaut kad pamēģināšu.</description>
+    </item>
+    <item>
+      <title>Apache žurnālfailu analīze</title>
+      <link>//localhost:1313/lv/loganalysis/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/loganalysis/</guid>
+      <description> Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem. </description>
+    </item>
+    <item>
+      <title>Bash skriptēšana ar ChatGPT</title>
+      <link>//localhost:1313/lv/bash-and-ai/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/bash-and-ai/</guid>
+      <description>Pagaidām tikai angliski.&#xA;Atpakaļ pie Ierakstiem.</description>
+    </item>
+    <item>
+      <title>GNU/Linux: findutils</title>
+      <link>//localhost:1313/lv/unix-find/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/unix-find/</guid>
+      <description>Dažas &amp;ldquo;find&amp;rdquo; variācijas, kuras man ir noderējušas Atrast un kopēt:&#xA;Kopēt visas datnes ar .mp4 paplašinājumu uz citu lokāciju: find . -type f -iname &amp;#34;*.mp4&amp;#34; -exec cp &amp;#34;{}&amp;#34; /cita/lokācija/ \; Atrast un izvadīt informāciju:&#xA;Uz ekrāna izvadīt datņu nosaukumu, ceļu, izmēru, inode, kā arī sha256 integritātes kodu. find . -type f -printf &amp;#34;%f\t %P\t %s\t %i\t &amp;#34; -exec sh -c &amp;#39;sha256sum &amp;#34;{}&amp;#34; | cut -d &amp;#34; &amp;#34; -f 1 &amp;#39; \; Uz ekrāna izvadīt ceļu, nosaukumu, izmēru, piekļūšanas laiku, modificēšanas laiku un sha256 integritātes kodu.</description>
+    </item>
+  </channel>
+</rss>

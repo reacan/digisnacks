@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lulz on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/lulz/</link>
+    <description>Recent content in Lulz on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/lulz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Realizēt MacBook&#39;a pilno potenciālu</title>
+      <link>//localhost:1313/lv/lolbook/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/lolbook/</guid>
+      <description> Your browser does not support the video tag. Avots: Telegram / Autors: Nezināms </description>
+    </item>
+  </channel>
+</rss>

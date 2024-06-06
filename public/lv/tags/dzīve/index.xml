@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dzīve on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/dz%C4%ABve/</link>
+    <description>Recent content in Dzīve on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/dz%C4%ABve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Riteņbraukšana ar Gerdu</title>
+      <link>//localhost:1313/lv/cycling-with-gerda/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/cycling-with-gerda/</guid>
+      <description> Jūsu pārlūks neatbalsta šo video ietvaru. Gerda ir dzimusi maratonu skrējēja, skriešana ir viena no viņas iecienītākajām nodarbēm. Šādā tempā viņa var skriet aptuveni 7 kilometrus. Es piepalīdzu, minot pedāļus, tikai tad, kad mums ir jāuzbrauc kalnā, vai arī tad, ja ceļam ir slikts segums.&#xA;Ikdienā viņa uzvedās tieši tāpat kā Vinnijs Atradu šo video kādā Telegram kanālā.&#xA;Your browser does not support the video tag. </description>
+    </item>
+    <item>
+      <title>Vistas steiks ar ananāsu gredzeniem</title>
+      <link>//localhost:1313/lv/chickensteak/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/chickensteak/</guid>
+      <description>Viens no maniem hobijiem ir ēdiena gatavošana un nesen es aizdomājos par to, vai pastāv tāda lieta kā vistas steiks? Manuprāt, pastāv un lūk mana interpretācija par to.&#xA;Sastāvdaļas: Vistas krūtiņas fileja &amp;ndash; 1 kg;&#xA;Vidēja izmēra konservētu ananāsu gredzenu bundžiņa;&#xA;Tumšā sojas mērce &amp;ndash; 10 ēdamkarotes;&#xA;Viens liels sīpols;&#xA;Viena ķiploka galviņa;&#xA;Divas paciņas jebkādu vistas garšvielu bez sāls (~30 grami)&#xA;Sagatavošana: Piepildiet trauku ar visām sastāvdaļām Sagriezt sīpolu plānos gredzenos;</description>
+    </item>
+    <item>
+      <title>Piezīmes 2024.</title>
+      <link>//localhost:1313/lv/2024/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/2024/</guid>
+      <description>Pavadīt vairāk laika dabā; Uzbūvēt pāris velosipēdus; Monetizēt kādu no saviem hobijiem; Mazāk perfekcijas, vairāk autentiskuma; No jauna iemācīties rakstīt kā vecajos laikos; Klausīties Radio Paradise Mellow Mix un tvert lietas vieglāk. līdz nākamajam ierakstam </description>
+    </item>
+    <item>
+      <title>Vēstule no Gerdas</title>
+      <link>//localhost:1313/lv/gerda/</link>
+      <pubDate>Thu, 02 Nov 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/lv/gerda/</guid>
+      <description>Sveiciens visiem, kam rūp mans liktenis! Ir pagājis nedaudz vairāk kā gads, kopš dzīvoju šajā ģimenē. Toreiz, lepni iebraucot lielajā, zaļajā pagalmā biju nobijusies no plašuma un brīvības, bet mani divkāji tik priecīgi bužināja mani un iedrošināja doties pētīt pagalmu.&#xA;Sākums mums visiem bija grūts un izaicinājumiem bagāts, bet viņi mani iedrošināja pētīt, mudināja uzticēties un katru dienu caur saviem darbiem rādīja man, cik gaidīta un mīlēta esmu.&#xA;Rotaļājos ar savu iecienītāko virves saišķi Mani ved pastaigās uz jūru vai mežu KATRU DIENU.</description>
+    </item>
+  </channel>
+</rss>

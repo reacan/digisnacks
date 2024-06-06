@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entries on Dāvis Vilcāns</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Entries on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Script to bulk remove Windows domain user profiles</title>
+      <link>//localhost:1313/domain-profile-cleanup/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/domain-profile-cleanup/</guid>
+      <description>As more and more domain users sign in on a particular device, the more cluttered the drive becomes. Eventually new users are unable to sign in because the hard drive is simply out of free space.&#xA;If you simply delete domain user&amp;rsquo;s folder from C:\Users the user will never be able to sign in to his profile on that particular device &amp;ndash; he will be signed in to a temporary user account.</description>
+    </item>
+    <item>
+      <title>Share a little or a lot?</title>
+      <link>//localhost:1313/worst-spyware-ever/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/worst-spyware-ever/</guid>
+      <description>Because not sharing is not an option </description>
+    </item>
+    <item>
+      <title>Unleashing MacBook&#39;s full potential</title>
+      <link>//localhost:1313/lolbook/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lolbook/</guid>
+      <description> Your browser does not support the video tag. Source: Telegram / Author: Unknown </description>
+    </item>
+    <item>
+      <title>Virtualizing computer images</title>
+      <link>//localhost:1313/virtualizing-computer-images/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/virtualizing-computer-images/</guid>
+      <description>I often virtualize computer images for the purposes of analysis, testing and troubleshooting. It is very fun as you can get the feel of what the user actually experienced when working with the machine. Also it gives you the opportunity to effectively try out and test new things in a controlled environment. Something went wrong? Rollback the changes and try again.&#xA;Debian host with Windows 7/10/11 &amp;amp; MacOS Catalina guests The above screenshot might be a little bit misleading in the context of this article, because virtualizing MacOS images is not something that can be easily and commonly done.</description>
+    </item>
+    <item>
+      <title>Singlespeed bicycle rear hubs</title>
+      <link>//localhost:1313/singlespeed-rear-hubs/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/singlespeed-rear-hubs/</guid>
+      <description>I like singlespeed bicycles because they are easy to maintain and fun to ride. As the stock hubs on my bikes wore out I managed to get myself two premium singlespeed hubs as a replacement. I think it was around 2017 when I got these hubs, and they are still going strong, regular cleanup and chain swapping is the only service that they have seen. The only change I&amp;rsquo;ve noticed is that they have become less noisy.</description>
+    </item>
+    <item>
+      <title>Cycling with Gerda</title>
+      <link>//localhost:1313/cycling-with-gerda/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cycling-with-gerda/</guid>
+      <description>Your browser does not support the video tag. Gerda is a natural born marathon runner, it is one of her favorite things to do. She can run in this pace without stopping for about 7 kilometers straight. I only pedal the bike when we have to go uphill or when the terrain gets difficult.&#xA;She behaves herself precisely like Vinny Found this video on Telegram the other day.&#xA;Your browser does not support the video tag.</description>
+    </item>
+    <item>
+      <title>Sumuri&#39;s PALADIN</title>
+      <link>//localhost:1313/paladin/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/paladin/</guid>
+      <description>Sumuri Sumuri is a US-based company that is providing forensic software and hardware solutions. They are perhaps best known for their &amp;ldquo;TALINO&amp;rdquo; series of laptops, computers and servers and their MacOS imaging tool &amp;ndash; &amp;ldquo;RECON ITR&amp;rdquo;. Sumuri positions itself as a community-conscious company outlining honor, integrity, loyalty, positive attitude, dedication and altruism as their core values.&#xA;What is awesome about Sumuri is that not only they talk the talk, but they also walk the walk.</description>
+    </item>
+    <item>
+      <title>Debian persistent live system</title>
+      <link>//localhost:1313/debian-persistent-live/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/debian-persistent-live/</guid>
+      <description>They say Debian runs on anything&amp;hellip; Perfect for use as a live boot system Live boot systems come in handy in troubleshooting hardware, examining and manipulating systems and exporting information.&#xA;Forensics and security focused Linux distributions There are numerous forensics and security focused Linux distributions out there, to name a few &amp;ndash; Kali Linux, Parrot OS, CAINE Linux, Tsurugi Linux, Sumuri&amp;rsquo;s PALADIN. All these Linux distributions are based on Debian or Ubuntu (which is based on Debian).</description>
+    </item>
+    <item>
+      <title>Web Analytics, AdBlockers &amp; Browsing</title>
+      <link>//localhost:1313/web-analytics-and-adblockers/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/web-analytics-and-adblockers/</guid>
+      <description>Websites are putting in a great deal of effort to track their users Because they are looking for ways to make more money by studying your behavior and figuring out how they can get you to buy something. Also money can be made by selling your data.&#xA;The rise of AdBlockers and similar privacy tools For the past couple of years the Internet has been overrun by aggressive advertising, and browsing the web without some sort of an AdBlocker software can be very frustrating.</description>
+    </item>
+    <item>
+      <title>AI chatbot in a Linux terminal</title>
+      <link>//localhost:1313/ai-chatbot-in-linux-terminal/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ai-chatbot-in-linux-terminal/</guid>
+      <description>What is Bashbot? Bashbot is a script that allows you to interact with an AI-powered chatbot from the Linux terminal. The chatbot is a Cloudflare Worker that is set up to use the deepseek-coder-6.7b-instruct-awq LLM.&#xA;Why I created Bashbot? I spend quite a lot of time in the Linux terminal and it is very handy to be able to pass some quick querries to an AI directly from the terminal.</description>
+    </item>
+    <item>
+      <title>Linux, Python &amp; AI: Analysis of Political Donations</title>
+      <link>//localhost:1313/donation-analytics/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/donation-analytics/</guid>
+      <description>About the analysis I sought to exercise my data analysis skills with an intriguing dataset. I wanted to focus on data analysis rather than data collection, so I needed interesting and readily accessible data. It turns out that the KNAB party finance database offers the convenience of extracting and storing all the information using just a web browser. To preserve all the information, I needed five iterations due to the large volume of data, dividing the information by years.</description>
+    </item>
+    <item>
+      <title>An experiment with an AI chatbot</title>
+      <link>//localhost:1313/harry-the-chatbot/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/harry-the-chatbot/</guid>
+      <description> About the experiment: One of the most interesting IT endeavours I&amp;rsquo;ve been involved in recently; Chatbot was created using Cloudflare Workers; It uses the Mistral 7B LLM (mistral-7b-instruct-v0.1). Some things I&amp;rsquo;d like to try: Implement settings funcionality to switch between different LLM&amp;rsquo;s; Settings functionality to set/define the functions and personality of the chatbot; Persisting user sessions and granting the chatbot a &amp;ldquo;memory&amp;rdquo;. </description>
+    </item>
+    <item>
+      <title>AI image generator</title>
+      <link>//localhost:1313/txt2img/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/txt2img/</guid>
+      <description>A little experiment with Cloudflare Workers and AI. Describe your image: Generate Image Image generation can take up to a minute. Save Image </description>
+    </item>
+    <item>
+      <title>Quiz: World Events</title>
+      <link>//localhost:1313/quizpolitics/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/quizpolitics/</guid>
+      <description>A little experiment with Hugo Quizdown implementation and localization --- primary_color: green secondary_color: lightgray text_color: black shuffle_questions: true --- ## Muslim country ruled by women: For the past 33 years this muslim country has been led by female prime ministers. &gt; One of the most densely populated countries in the world – 1&#39;342 people/km². 1. [ ] Albania &gt; The correct answer is Bangladesh. 2. [ ] Algeria &gt; The correct answer is Bangladesh.</description>
+    </item>
+    <item>
+      <title>Chicken Steak with Pineapple Rings</title>
+      <link>//localhost:1313/chickensteak/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/chickensteak/</guid>
+      <description>One of my hobbies is cooking, and recently I was wondering about whether there is such a thing as a chicken steak? I believe there is, and here is my interpretation.&#xA;Ingredients: Chicken breast fillet &amp;ndash; 1 kg / 2.2 lb;&#xA;A medium can of pineapple rings;&#xA;Dark soy sauce &amp;ndash; 10 tablespoons;&#xA;One large onion;&#xA;One head of garlic;&#xA;Two packs of whatever salt free chicken seasonings (~30 grams / 1 ounce)</description>
+    </item>
+    <item>
+      <title>Notes for 2024</title>
+      <link>//localhost:1313/2024/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/2024/</guid>
+      <description>Monetize a hobby; Build a couple of bicycles; Spend more time in the nature; Less perfection, more authenticity; Re-learn to write like in the old days; Listen to Radio Paradise Mellow Mix and take it easy. till next post </description>
+    </item>
+    <item>
+      <title>Analyzing Apache access logs</title>
+      <link>//localhost:1313/loganalysis/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/loganalysis/</guid>
+      <description>In this article I will demonstrate how to quickly gain some insights on Apache webserver&amp;rsquo;s access logs using GNU/Linux and Bash: filtering unique IP&amp;rsquo;s, top IP&amp;rsquo;s and IP&amp;rsquo;s by country.&#xA;Example log files: Don&amp;rsquo;t have any logs, but want to test out the below commands? Here you go:&#xA;access_1.log&#xA;access_2.log&#xA;access_3.log&#xA;How many unique IP&amp;rsquo;s are in the access logs? Props to Steven Vona for the grep syntax!&#xA;cat access_* | grep -E -o &amp;#34;(25[0-5]|2[0-4][0-9]|[01]?</description>
+    </item>
+    <item>
+      <title>Password recovery with Hashcat</title>
+      <link>//localhost:1313/hashcat/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/hashcat/</guid>
+      <description>The world&amp;rsquo;s fastest password cracker That is according to the tool&amp;rsquo;s website. The actual speed depends on factors like the hardware, the hash algorithm, and the complexity of the password. In this article I will attempt to crack the password of a Microsoft Word document using a regular laptop without a dedicated GPU.&#xA;Getting started Installing Hashcat on Debian GNU/Linux or its derrivatives is very straight forward:&#xA;apt install hashcat For Hashcat to successfully detect your CPU you may also need to install OpenCL drivers.</description>
+    </item>
+    <item>
+      <title>Forensics &amp; FOSS: Showcase</title>
+      <link>//localhost:1313/showcase/</link>
+      <pubDate>Mon, 13 Nov 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/showcase/</guid>
+      <description>A little video I made last year, showcasing the three steps of a Digital Forensic Examination: Processing, Analysis and Reporting, in a mock case setting.&#xA;The mock case is about analyzing a computer image, finding certain files based on their hash values and exploring the computer image in general.&#xA;If you have ever wondered about how digital evidence is being processed an analyzed then this video could be of interest to you.</description>
+    </item>
+    <item>
+      <title>The unfinished project bike</title>
+      <link>//localhost:1313/projectbike/</link>
+      <pubDate>Sat, 04 Nov 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/projectbike/</guid>
+      <description>A little backstory As long as I remember myself I&amp;rsquo;ve always been an avid cyclist. But I was never really bothered by the technical aspects of cycling. I knew the basics – how to fix a flat tire, adjust the brakes, lube the chain, etc., and it was enough for me. For more complex repairs I would simply take my bike to the local bike shop.&#xA;In 2016 I got seriously drawn into bicycle mechanics I made a career change and the salary at my new job was nearly half of what I used to make, so I decided to give up driving a car in favor of cycling.</description>
+    </item>
+    <item>
+      <title>Letter from Gerda</title>
+      <link>//localhost:1313/gerda/</link>
+      <pubDate>Thu, 02 Nov 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/gerda/</guid>
+      <description>Yo, what&amp;rsquo;s good to all my peeps who care &amp;lsquo;bout my destiny! It&amp;rsquo;s been a little over a year since I&amp;rsquo;ve been rollin&amp;rsquo; with this fam. Back then, rollin&amp;rsquo; into the big green yard, I was kinda scared of all that space and freedom, but my two-legged crew was all hype, encouragin&amp;rsquo; me to explore the yard.&#xA;Start was tough for all of us, filled with challenges, but they pushed me to explore, told me to trust, and every day through their actions, they showed me how wanted and loved I am.</description>
+    </item>
+    <item>
+      <title>Redefining patriotism</title>
+      <link>//localhost:1313/patriotism/</link>
+      <pubDate>Sun, 15 Oct 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/patriotism/</guid>
+      <description>Haters vs. Innovators A week ago the newly appointed minister of culture of Latvia Ms.Agnese Logina gave an interview where she emphasized the need to redefine patriotism in order to promote a more inclusive society, a society where the feeling of belonging transcends ethnic characteristics, where people should find a sense of home and acceptance irrespective of their cultural background.&#xA;However, Ms.Logina&amp;rsquo;s visionary call to redefine patriotism in the pursuit of a more inclusive society was met with harsh and unfounded criticism.</description>
+    </item>
+    <item>
+      <title>The Sleuthkit</title>
+      <link>//localhost:1313/sleuthkit/</link>
+      <pubDate>Sat, 14 Oct 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/sleuthkit/</guid>
+      <description>The Sleuth Kit (TSK) is a popular open-source software library and collection of command-line digital forensic tools. The Sleuth Kit allows forensic analysts and investigators to analyze disk images as well as live disks and to perform in-depth analysis of file systems.&#xA;TSK is my go-to tool for performing the initial analysis of images and live disk devices. In the following post I will demonstrate how to use TSK to quickly check disk images or live disk devices.</description>
+    </item>
+    <item>
+      <title>Bash scripting with ChatGPT</title>
+      <link>//localhost:1313/bash-and-ai/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/bash-and-ai/</guid>
+      <description>Recently I was tasked with writting a Bash script that would querry IP addresses from a file and return their corresponding abuse contact e-mail addresses.&#xA;The script that I initially came up with did not perform as expected. I remembered hearing stories about Chat GPT being able to generate decent code, so I decided to finally try it out.&#xA;I was very amazed to say the least, my mind was blown.</description>
+    </item>
+    <item>
+      <title>Windows &amp; backups</title>
+      <link>//localhost:1313/windows-bckp/</link>
+      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/windows-bckp/</guid>
+      <description>Simple automated backup solution by using the Windows built-in tools. Create a PowerShell one-liner and add it to scheduled tasks. PowerShell one-liner:&#xA;Robocopy.exe C:\Users\ D:\Windows_backup\Backup_$(Get-Date -format &amp;quot;dd.MM.yyyy_HH.mm.ss&amp;quot;) /E /r:0 /w:0 /E – copy subdirectories, including empty ones;&#xA;/r – number of retries on failed copies;&#xA;/w – wait time between retries;&#xA;$(Get-Date -format &amp;ldquo;dd.MM.yyyy_HH.mm.ss&amp;rdquo;) – adds the current date and time to the name of the output subdirectory.&#xA;Adapt the above line to your needs and save it in a text file with a .</description>
+    </item>
+    <item>
+      <title>Forensic disk imaging</title>
+      <link>//localhost:1313/imaging/</link>
+      <pubDate>Fri, 15 Sep 2023 14:48:58 +0300</pubDate>
+      <guid>//localhost:1313/imaging/</guid>
+      <description>Today I will share my take on performing forensic disk imaging using a Linux operating system.&#xA;I use Debian but my approach can be reproduced on any distribution that uses systemd as the init system.&#xA;Preparing the operating system Ideally forensic imaging should be done using hardware write-blockers, but if that is not an option, Linux operating system can be set up in a way to perform imaging in a forensically sound manner.</description>
+    </item>
+    <item>
+      <title>DEPI/IPED</title>
+      <link>//localhost:1313/depi/</link>
+      <pubDate>Wed, 13 Sep 2023 20:29:41 +0300</pubDate>
+      <guid>//localhost:1313/depi/</guid>
+      <description>Today I would like to introduce you to a free and open source digital forensics tool that, in my opinion, is on par with its commercial counterparts – Digital Evidence Processor and Indexer (DEPI), or perhaps better known by its Portuguese name – Indexador e Processador de Evidências Digitais (IPED).&#xA;The industry I&amp;rsquo;ve had the chance to work with some of the industries most recognized commercial tools, to name a few – EnCase Forensic, Magnet AXIOM, BelkaSoft Evidence Center.</description>
+    </item>
+    <item>
+      <title>Internet censorship in Latvia</title>
+      <link>//localhost:1313/internet-censorship/</link>
+      <pubDate>Sun, 03 Sep 2023 12:43:15 +0300</pubDate>
+      <guid>//localhost:1313/internet-censorship/</guid>
+      <description>A while ago while browsing the Internet I came accross a news article with a list of websites that are apparently blocked in Latvia. When I tried to open some of these websites from my laptop, I was very disappointed. Everything was working. My Internet connection is provided by one of the largest local ISP&amp;rsquo;s and I am not using VPN&amp;rsquo;s or other similar solutions.&#xA;It made me curious so I decided to investigate a little bit.</description>
+    </item>
+    <item>
+      <title>GNU/Linux: findutils</title>
+      <link>//localhost:1313/unix-find/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/unix-find/</guid>
+      <description>Some &amp;ldquo;find&amp;rdquo; variations that have been handy Find and copy:&#xA;Copy all files with an .mp4 extension to another location: find . -type f -iname &amp;#34;*.mp4&amp;#34; -exec cp &amp;#34;{}&amp;#34; /other/location/ \; Find and print:&#xA;Print name, path, size, inode, and sha256 hash. find . -type f -printf &amp;#34;%f\t %P\t %s\t %i\t &amp;#34; -exec sh -c &amp;#39;sha256sum &amp;#34;{}&amp;#34; | cut -d &amp;#34; &amp;#34; -f 1 &amp;#39; \; Print path, name, size, time accessed, time modified and sha256 hash.</description>
+    </item>
+  </channel>
+</rss>

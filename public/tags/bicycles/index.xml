@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bicycles on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/bicycles/</link>
+    <description>Recent content in Bicycles on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/bicycles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Singlespeed bicycle rear hubs</title>
+      <link>//localhost:1313/singlespeed-rear-hubs/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/singlespeed-rear-hubs/</guid>
+      <description>I like singlespeed bicycles because they are easy to maintain and fun to ride. As the stock hubs on my bikes wore out I managed to get myself two premium singlespeed hubs as a replacement. I think it was around 2017 when I got these hubs, and they are still going strong, regular cleanup and chain swapping is the only service that they have seen. The only change I&amp;rsquo;ve noticed is that they have become less noisy.</description>
+    </item>
+    <item>
+      <title>Cycling with Gerda</title>
+      <link>//localhost:1313/cycling-with-gerda/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cycling-with-gerda/</guid>
+      <description>Your browser does not support the video tag. Gerda is a natural born marathon runner, it is one of her favorite things to do. She can run in this pace without stopping for about 7 kilometers straight. I only pedal the bike when we have to go uphill or when the terrain gets difficult.&#xA;She behaves herself precisely like Vinny Found this video on Telegram the other day.&#xA;Your browser does not support the video tag.</description>
+    </item>
+    <item>
+      <title>The unfinished project bike</title>
+      <link>//localhost:1313/projectbike/</link>
+      <pubDate>Sat, 04 Nov 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/projectbike/</guid>
+      <description>A little backstory As long as I remember myself I&amp;rsquo;ve always been an avid cyclist. But I was never really bothered by the technical aspects of cycling. I knew the basics – how to fix a flat tire, adjust the brakes, lube the chain, etc., and it was enough for me. For more complex repairs I would simply take my bike to the local bike shop.&#xA;In 2016 I got seriously drawn into bicycle mechanics I made a career change and the salary at my new job was nearly half of what I used to make, so I decided to give up driving a car in favor of cycling.</description>
+    </item>
+  </channel>
+</rss>

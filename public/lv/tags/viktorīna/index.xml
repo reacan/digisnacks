@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viktorīna on Dāvis Vilcāns</title>
+    <link>//localhost:1313/lv/tags/viktor%C4%ABna/</link>
+    <description>Recent content in Viktorīna on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>lv</language>
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/lv/tags/viktor%C4%ABna/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Viktorīna: Pasaules notikumi</title>
+      <link>//localhost:1313/lv/quizpolitics/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/lv/quizpolitics/</guid>
+      <description>Neliels eksperiments ar Hugo Quizdown implementāciju un lokalizāciju --- primary_color: green secondary_color: lightgray text_color: black shuffle_questions: true --- ## Musulmaņu valsts, ko vada sievietes: Šo musulmaņu valsti pēdējos 33 gadus ir vadījušas premjerministres sievietes &gt; Viena no visblīvāk apdzīvotajām valstīm pasaulē – 1&#39;342 cilvēki/km². 1. [ ] Albānija &gt; Pareizā atbilde ir Bangladeša. 2. [ ] Alžīrija &gt; Pareizā atbilde ir Bangladeša. 3. [x] Bangladeša &gt; Pareizā atbilde. 4. [ ] Čada &gt; Pareizā atbilde ir Bangladeša.</description>
+    </item>
+  </channel>
+</rss>

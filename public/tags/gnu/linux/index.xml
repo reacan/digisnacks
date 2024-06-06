@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNU/Linux on Dāvis Vilcāns</title>
+    <link>//localhost:1313/tags/gnu/linux/</link>
+    <description>Recent content in GNU/Linux on Dāvis Vilcāns</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/gnu/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtualizing computer images</title>
+      <link>//localhost:1313/virtualizing-computer-images/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/virtualizing-computer-images/</guid>
+      <description>I often virtualize computer images for the purposes of analysis, testing and troubleshooting. It is very fun as you can get the feel of what the user actually experienced when working with the machine. Also it gives you the opportunity to effectively try out and test new things in a controlled environment. Something went wrong? Rollback the changes and try again.&#xA;Debian host with Windows 7/10/11 &amp;amp; MacOS Catalina guests The above screenshot might be a little bit misleading in the context of this article, because virtualizing MacOS images is not something that can be easily and commonly done.</description>
+    </item>
+    <item>
+      <title>Sumuri&#39;s PALADIN</title>
+      <link>//localhost:1313/paladin/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/paladin/</guid>
+      <description>Sumuri Sumuri is a US-based company that is providing forensic software and hardware solutions. They are perhaps best known for their &amp;ldquo;TALINO&amp;rdquo; series of laptops, computers and servers and their MacOS imaging tool &amp;ndash; &amp;ldquo;RECON ITR&amp;rdquo;. Sumuri positions itself as a community-conscious company outlining honor, integrity, loyalty, positive attitude, dedication and altruism as their core values.&#xA;What is awesome about Sumuri is that not only they talk the talk, but they also walk the walk.</description>
+    </item>
+    <item>
+      <title>Debian persistent live system</title>
+      <link>//localhost:1313/debian-persistent-live/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/debian-persistent-live/</guid>
+      <description>They say Debian runs on anything&amp;hellip; Perfect for use as a live boot system Live boot systems come in handy in troubleshooting hardware, examining and manipulating systems and exporting information.&#xA;Forensics and security focused Linux distributions There are numerous forensics and security focused Linux distributions out there, to name a few &amp;ndash; Kali Linux, Parrot OS, CAINE Linux, Tsurugi Linux, Sumuri&amp;rsquo;s PALADIN. All these Linux distributions are based on Debian or Ubuntu (which is based on Debian).</description>
+    </item>
+    <item>
+      <title>AI chatbot in a Linux terminal</title>
+      <link>//localhost:1313/ai-chatbot-in-linux-terminal/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ai-chatbot-in-linux-terminal/</guid>
+      <description>What is Bashbot? Bashbot is a script that allows you to interact with an AI-powered chatbot from the Linux terminal. The chatbot is a Cloudflare Worker that is set up to use the deepseek-coder-6.7b-instruct-awq LLM.&#xA;Why I created Bashbot? I spend quite a lot of time in the Linux terminal and it is very handy to be able to pass some quick querries to an AI directly from the terminal.</description>
+    </item>
+    <item>
+      <title>Linux, Python &amp; AI: Analysis of Political Donations</title>
+      <link>//localhost:1313/donation-analytics/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/donation-analytics/</guid>
+      <description>About the analysis I sought to exercise my data analysis skills with an intriguing dataset. I wanted to focus on data analysis rather than data collection, so I needed interesting and readily accessible data. It turns out that the KNAB party finance database offers the convenience of extracting and storing all the information using just a web browser. To preserve all the information, I needed five iterations due to the large volume of data, dividing the information by years.</description>
+    </item>
+    <item>
+      <title>Analyzing Apache access logs</title>
+      <link>//localhost:1313/loganalysis/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/loganalysis/</guid>
+      <description>In this article I will demonstrate how to quickly gain some insights on Apache webserver&amp;rsquo;s access logs using GNU/Linux and Bash: filtering unique IP&amp;rsquo;s, top IP&amp;rsquo;s and IP&amp;rsquo;s by country.&#xA;Example log files: Don&amp;rsquo;t have any logs, but want to test out the below commands? Here you go:&#xA;access_1.log&#xA;access_2.log&#xA;access_3.log&#xA;How many unique IP&amp;rsquo;s are in the access logs? Props to Steven Vona for the grep syntax!&#xA;cat access_* | grep -E -o &amp;#34;(25[0-5]|2[0-4][0-9]|[01]?</description>
+    </item>
+    <item>
+      <title>Password recovery with Hashcat</title>
+      <link>//localhost:1313/hashcat/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/hashcat/</guid>
+      <description>The world&amp;rsquo;s fastest password cracker That is according to the tool&amp;rsquo;s website. The actual speed depends on factors like the hardware, the hash algorithm, and the complexity of the password. In this article I will attempt to crack the password of a Microsoft Word document using a regular laptop without a dedicated GPU.&#xA;Getting started Installing Hashcat on Debian GNU/Linux or its derrivatives is very straight forward:&#xA;apt install hashcat For Hashcat to successfully detect your CPU you may also need to install OpenCL drivers.</description>
+    </item>
+    <item>
+      <title>Forensics &amp; FOSS: Showcase</title>
+      <link>//localhost:1313/showcase/</link>
+      <pubDate>Mon, 13 Nov 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/showcase/</guid>
+      <description>A little video I made last year, showcasing the three steps of a Digital Forensic Examination: Processing, Analysis and Reporting, in a mock case setting.&#xA;The mock case is about analyzing a computer image, finding certain files based on their hash values and exploring the computer image in general.&#xA;If you have ever wondered about how digital evidence is being processed an analyzed then this video could be of interest to you.</description>
+    </item>
+    <item>
+      <title>The Sleuthkit</title>
+      <link>//localhost:1313/sleuthkit/</link>
+      <pubDate>Sat, 14 Oct 2023 14:49:03 +0300</pubDate>
+      <guid>//localhost:1313/sleuthkit/</guid>
+      <description>The Sleuth Kit (TSK) is a popular open-source software library and collection of command-line digital forensic tools. The Sleuth Kit allows forensic analysts and investigators to analyze disk images as well as live disks and to perform in-depth analysis of file systems.&#xA;TSK is my go-to tool for performing the initial analysis of images and live disk devices. In the following post I will demonstrate how to use TSK to quickly check disk images or live disk devices.</description>
+    </item>
+    <item>
+      <title>Bash scripting with ChatGPT</title>
+      <link>//localhost:1313/bash-and-ai/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/bash-and-ai/</guid>
+      <description>Recently I was tasked with writting a Bash script that would querry IP addresses from a file and return their corresponding abuse contact e-mail addresses.&#xA;The script that I initially came up with did not perform as expected. I remembered hearing stories about Chat GPT being able to generate decent code, so I decided to finally try it out.&#xA;I was very amazed to say the least, my mind was blown.</description>
+    </item>
+    <item>
+      <title>Forensic disk imaging</title>
+      <link>//localhost:1313/imaging/</link>
+      <pubDate>Fri, 15 Sep 2023 14:48:58 +0300</pubDate>
+      <guid>//localhost:1313/imaging/</guid>
+      <description>Today I will share my take on performing forensic disk imaging using a Linux operating system.&#xA;I use Debian but my approach can be reproduced on any distribution that uses systemd as the init system.&#xA;Preparing the operating system Ideally forensic imaging should be done using hardware write-blockers, but if that is not an option, Linux operating system can be set up in a way to perform imaging in a forensically sound manner.</description>
+    </item>
+    <item>
+      <title>GNU/Linux: findutils</title>
+      <link>//localhost:1313/unix-find/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/unix-find/</guid>
+      <description>Some &amp;ldquo;find&amp;rdquo; variations that have been handy Find and copy:&#xA;Copy all files with an .mp4 extension to another location: find . -type f -iname &amp;#34;*.mp4&amp;#34; -exec cp &amp;#34;{}&amp;#34; /other/location/ \; Find and print:&#xA;Print name, path, size, inode, and sha256 hash. find . -type f -printf &amp;#34;%f\t %P\t %s\t %i\t &amp;#34; -exec sh -c &amp;#39;sha256sum &amp;#34;{}&amp;#34; | cut -d &amp;#34; &amp;#34; -f 1 &amp;#39; \; Print path, name, size, time accessed, time modified and sha256 hash.</description>
+    </item>
+  </channel>
+</rss>
