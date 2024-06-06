@@ -14,7 +14,7 @@ Over the past couple of years, my professional journey has been quite a ride. I'
 I am passionate about all things information technology, it specially UNIX-like operating systems, information security, and data/information analysis. I am always open to interesting projects and collaborations.
 <br>
 <br>
-Feel free to reach out by sending a message to: <a href=mailto:hello@dvilcans.com>hello@dvilcans.com</a>
+Hit me up by droppin' a message to: <a href=mailto:hello@dvilcans.com>hello@dvilcans.com</a>
 <br>
 <br>
 
