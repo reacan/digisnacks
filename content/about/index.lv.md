@@ -29,7 +29,7 @@ Ar mani var sazināties rakstot uz: <a href=mailto:sveiks@dvilcans.com>sveiks@dv
 
 <br>
 
-#### Patīk mans saturs? Droši nosūtiet mazliet mīlestības kripto formā:   
+#### Patīk mans saturs? Nopērc man kādu našķi:   
 
 
 <div style="overflow-x: auto; white-space: nowrap;">
