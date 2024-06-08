@@ -69,7 +69,11 @@ languages:
 #         weight: 6             
 #       - name: Harry the O.G.
 #         url: "https://chat.dvilcans.com/"
-#         weight: 7         
+#         weight: 7    
+#       - name: RSS
+#         url: /index.xml
+#         weight: 5
+#     
     params:
       footer: Nekādas sīkdatnes. Nekāda izsekošana.<br> © 2023-2024 Dāvis Vilcāns
       customJs:
@@ -112,6 +116,9 @@ languages:
 #       - name: Harry the O.G.
 #         url: "https://chat.dvilcans.com/"
 #         weight: 7
+#       - name: RSS
+#         url: /index.xml
+#         weight: 5
     params:
       footer: No cookies. No tracking.<br> © 2023-2024 Dāvis Vilcāns
       customJs:

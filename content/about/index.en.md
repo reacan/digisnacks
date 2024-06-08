@@ -20,7 +20,7 @@ Holla at me by dropping a message to: <a href=mailto:hello@dvilcans.com>hello@dv
 
 </div>
 
-#### Some of my recent projects:
+#### Some of my recent experiments:
 
 * [ÐiSCO](https://disco.dvilcans.com/en) -- Graphical user interface for launching data processing with [DEPI/IPED](https://dvilcans.com/depi/);
 * [txt2img](https://txt2img.dvilcans.com) -- Online AI tool for text to image generation;  

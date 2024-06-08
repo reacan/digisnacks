@@ -20,7 +20,7 @@ Ar mani var sazināties rakstot uz: <a href=mailto:sveiks@dvilcans.com>sveiks@dv
 
 </div>
 
-#### Daži no maniem pēdējā laika projektiem:
+#### Daži no maniem pēdējā laika eksperimentiem:
 
 * [ÐiSCO](https://disco.dvilcans.com) -- Grafiskā lietotāja saskarne, lai uzsākt datu apstrādi ar [DEPI/IPED](https://dvilcans.com/depi/);   
 * [txt2img](https://txt2img.dvilcans.com) -- Tiešsaistes mākslīgā intelekta rīks, kas no teksta ģenerē attēlus;  
