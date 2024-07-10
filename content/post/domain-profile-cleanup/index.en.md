@@ -136,60 +136,58 @@ In this case there is no need to check and install the RSAT tools. Just like the
 
 ```powershell
 # Excluded profiles
-$ExcludedProfiles = "*Windows*", "*default*", "*Public*", "*Admin", "Administrator"
+$ExcludedProfiles = "*Windows*", "*default*", "*Public*", "*Admin*", "tech"
 
 try {
-    # Get local user profiles
-    $LocalProfiles = Get-WmiObject -Class Win32_UserProfile | Where-Object { $_.Special -eq $false }
-
-    Write-Output "Total user profiles found: $($LocalProfiles.Count)"
-
-    # Initialize an array to store removed user profiles
-    $RemovedProfiles = @()
-
-    # Iterate through each local user profile
-    foreach ($profile in $LocalProfiles) {
-        $Username = $profile.LocalPath.Split('\')[-1]
-
-        # Check if the profile should be excluded
-        if ($ExcludedProfiles -notcontains $Username) {
-            $profilePath = $profile.LocalPath
-            $RemovedProfiles += $profilePath
+    # Get all User profile folders
+    $UserProfiles = Get-ChildItem "C:\Users" | Where-Object {
+        $excluded = $false
+        foreach ($exclude in $ExcludedProfiles) {
+            if ($_.Name -like $exclude) {
+                $excluded = $true
+                break
+            }
         }
+        -not $excluded
     }
 
-    # Display identified profiles to be removed
-    Write-Output "Profiles to be removed: $($RemovedProfiles.Count)"
-    if ($RemovedProfiles.Count -gt 0) {
-        $RemovedProfiles | ForEach-Object { Write-Output $_ }
+    # Initialize an empty array to store profiles to be removed
+    $ProfilesToRemove = @()
+
+    # Filter the list of folders to only include those that are not associated with local user accounts
+    $NonLocalProfiles = $UserProfiles | Where-Object { $_.Name -notin $(Get-LocalUser).Name }
+
+    # Add profiles to be removed to the list
+    foreach ($profile in $NonLocalProfiles) {
+        $ProfilesToRemove += $profile.FullName
+    }
+
+    if ($ProfilesToRemove.Count -gt 0) {
+        Write-Output "Profiles marked for deletion:"
+        $ProfilesToRemove | ForEach-Object { Write-Output $_ }
 
         # Prompt to delete all identified profiles
         $confirmation = Read-Host "Do you want to delete all identified profiles? (Y/N)"
         if ($confirmation -eq "Y" -or $confirmation -eq "y") {
-            foreach ($profilePath in $RemovedProfiles) {
-                $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
-                
+            foreach ($profilePath in $ProfilesToRemove) {
                 try {
-                    # Attempt to unload the profile
-                    Invoke-WmiMethod -Class Win32_UserProfile -Name UnloadProfile -ArgumentList $profileToRemove.__PATH
-                    $profileToRemove | Remove-CimInstance -WhatIf # Remove -WhatIf to perform actual user removal.
+                    $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
+                    $profileToRemove | Remove-CimInstance # Remove -WhatIf to perform actual user removal.
                 } catch {
-                    Write-Warning "Could not remove profile at $profilePath: $_"
+                    Write-Warning "Could not remove profile at ${profilePath}: $($_.Exception.Message)"
                 }
             }
             Write-Output "All identified profiles have been processed."
-            Exit 1
         } else {
             Write-Output "No profiles were deleted."
-            Exit 0
         }
     } else {
         Write-Output "No profiles to be removed."
-        Exit 0
     }
 } catch {
     Write-Error $_
 }
+
 ```
 {{< /expandable >}}
 
