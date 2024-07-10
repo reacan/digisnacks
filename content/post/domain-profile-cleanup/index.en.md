@@ -151,11 +151,11 @@ try {
         -not $excluded
     }
 
-    # Initialize an empty array to store profiles to be removed
-    $ProfilesToRemove = @()
-
     # Filter the list of folders to only include those that are not associated with local user accounts
     $NonLocalProfiles = $UserProfiles | Where-Object { $_.Name -notin $(Get-LocalUser).Name }
+
+    # Initialize an empty array to store profiles to be removed
+    $ProfilesToRemove = @()
 
     # Add profiles to be removed to the list
     foreach ($profile in $NonLocalProfiles) {
@@ -171,8 +171,9 @@ try {
         if ($confirmation -eq "Y" -or $confirmation -eq "y") {
             foreach ($profilePath in $ProfilesToRemove) {
                 try {
+                    # Remove the profile
                     $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
-                    $profileToRemove | Remove-CimInstance # Remove -WhatIf to perform actual user removal.
+                    $profileToRemove | Remove-CimInstance -ErrorAction Stop
                 } catch {
                     Write-Warning "Could not remove profile at ${profilePath}: $($_.Exception.Message)"
                 }
