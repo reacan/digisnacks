@@ -136,7 +136,7 @@ In this case there is no need to check and install the RSAT tools. Just like the
 
 ```powershell
 # Excluded profiles
-$ExcludedProfiles = "*Windows*", "*default*", "*Public*", "*Admin", "Administrator", "Teacher", "Tech"
+$ExcludedProfiles = "*Windows*", "*default*", "*Public*", "*Admin", "Administrator"
 
 try {
     # Get local user profiles
@@ -168,9 +168,16 @@ try {
         if ($confirmation -eq "Y" -or $confirmation -eq "y") {
             foreach ($profilePath in $RemovedProfiles) {
                 $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
-                $profileToRemove | Remove-CimInstance -WhatIf # Remove -WhatIf to perform actual user removal.
+                
+                try {
+                    # Attempt to unload the profile
+                    Invoke-WmiMethod -Class Win32_UserProfile -Name UnloadProfile -ArgumentList $profileToRemove.__PATH
+                    $profileToRemove | Remove-CimInstance -WhatIf # Remove -WhatIf to perform actual user removal.
+                } catch {
+                    Write-Warning "Could not remove profile at $profilePath: $_"
+                }
             }
-            Write-Output "All identified profiles have been deleted."
+            Write-Output "All identified profiles have been processed."
             Exit 1
         } else {
             Write-Output "No profiles were deleted."
