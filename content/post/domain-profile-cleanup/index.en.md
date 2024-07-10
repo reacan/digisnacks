@@ -173,7 +173,7 @@ try {
                 try {
                     # Remove the profile
                     $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
-                    $profileToRemove | Remove-CimInstance -ErrorAction Stop
+                    $profileToRemove | Remove-CimInstance -ErrorAction Stop -WhatIf # Remove -WhatIf to perform actual user removal.
                 } catch {
                     Write-Warning "Could not remove profile at ${profilePath}: $($_.Exception.Message)"
                 }
