@@ -188,7 +188,6 @@ try {
 } catch {
     Write-Error $_
 }
-
 ```
 {{< /expandable >}}
 
