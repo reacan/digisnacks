@@ -136,7 +136,7 @@ In this case there is no need to check and install the RSAT tools. Just like the
 
 ```powershell
 # Excluded profiles
-$ExcludedProfiles = "*Windows*", "*default*", "*Public*", "*Admin", "Administrator"
+$ExcludedProfiles = "*Windows*", "*default*", "*Public*", "*Admin", "Administrator", "Teacher", "Tech"
 
 try {
     # Get local user profiles
