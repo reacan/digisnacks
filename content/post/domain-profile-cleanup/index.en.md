@@ -1,7 +1,7 @@
 ---
 title: "Script to bulk remove Windows domain user profiles"
 date: 2024-06-01
-lastmod: 2024-06-01
+lastmod: 2024-07-10
 tags: ["Windows"]
 #toc: true
 ---
@@ -127,4 +127,62 @@ options="700x" >}}
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 {{< /cmd >}}
 
+
+###### Update: Simply remove all the Windows domain user profiles that are not in the exclusion list
+
+In this case there is no need to check and install the RSAT tools. Just like the above script, this one is set up with the dry run functionality (the "-WhatIf" argument).
+
+{{< expandable label="Script" level="2" >}}
+
+```powershell
+# Excluded profiles
+$ExcludedProfiles = "*Windows*", "*default*", "*Public*", "*Admin", "Administrator"
+
+try {
+    # Get local user profiles
+    $LocalProfiles = Get-WmiObject -Class Win32_UserProfile | Where-Object { $_.Special -eq $false }
+
+    Write-Output "Total user profiles found: $($LocalProfiles.Count)"
+
+    # Initialize an array to store removed user profiles
+    $RemovedProfiles = @()
+
+    # Iterate through each local user profile
+    foreach ($profile in $LocalProfiles) {
+        $Username = $profile.LocalPath.Split('\')[-1]
+
+        # Check if the profile should be excluded
+        if ($ExcludedProfiles -notcontains $Username) {
+            $profilePath = $profile.LocalPath
+            $RemovedProfiles += $profilePath
+        }
+    }
+
+    # Display identified profiles to be removed
+    Write-Output "Profiles to be removed: $($RemovedProfiles.Count)"
+    if ($RemovedProfiles.Count -gt 0) {
+        $RemovedProfiles | ForEach-Object { Write-Output $_ }
+
+        # Prompt to delete all identified profiles
+        $confirmation = Read-Host "Do you want to delete all identified profiles? (Y/N)"
+        if ($confirmation -eq "Y" -or $confirmation -eq "y") {
+            foreach ($profilePath in $RemovedProfiles) {
+                $profileToRemove = Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath -eq $profilePath }
+                $profileToRemove | Remove-CimInstance -WhatIf # Remove -WhatIf to perform actual user removal.
+            }
+            Write-Output "All identified profiles have been deleted."
+            Exit 1
+        } else {
+            Write-Output "No profiles were deleted."
+            Exit 0
+        }
+    } else {
+        Write-Output "No profiles to be removed."
+        Exit 0
+    }
+} catch {
+    Write-Error $_
+}
+```
+{{< /expandable >}}
 

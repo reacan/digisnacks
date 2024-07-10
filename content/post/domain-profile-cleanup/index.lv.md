@@ -1,7 +1,7 @@
 ---
 title: "Skripts Windows domēna lietotāju profilu dzēšanai"
 date: 2024-06-01
-lastmod: 2024-06-01
+lastmod: 2024-07-10
 tags: ["Windows"]
 ---
 <center><img src="windows-library.png" style="width: 100%";></center>
