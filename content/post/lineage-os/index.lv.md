@@ -16,7 +16,7 @@ Zemāk pāris problēmas, ko _LineageOS_ un citi līdzīgi _custom_ _Android_ _R
 
 ###### Bloatware: This is a system app and cannot be uninstalled. 
 
-Nevajadzīga programmatūra, ko nav iespējams atinstalēt. Nē paldies, man nav nepieciešamas jūsu "_Smart Assistant_" un citas tamlīdzīgas, nejēdzīgas aplikācijas un tas ir noziegums pret pircēju, ka šādas aplikācijas nav iespējams atinstalēt. Man patīk, ka manā telefonā ir tikai tas, kas man ir nepieciešams un līdz ar to mans telefons strādā ātri un nevainojami, neskatoties uz to, ka tas nav pats jaunākais modelis tirgū.
+Nevajadzīga programmatūra, ko nav iespējams atinstalēt. Nē paldies, man nav nepieciešamas jūsu "_Smart Assistant_" un citas tamlīdzīgas, nejēdzīgas aplikācijas un tas ir noziegums pret klientu, ka šādas aplikācijas nav iespējams atinstalēt. Man patīk, ka manā telefonā ir tikai tas, kas man ir nepieciešams un līdz ar to mans telefons strādā ātri un nevainojami, neskatoties uz to, ka tas nav pats jaunākais modelis tirgū.
 
 ###### Drošība un privātums
 

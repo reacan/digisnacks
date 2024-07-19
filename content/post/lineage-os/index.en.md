@@ -16,7 +16,7 @@ Below are a couple of problems that LineageOS and other similar _custom_ _Androi
 
 ###### Bloatware: This is a system app and cannot be uninstalled. 
 
-Unnecessary software that cannot be uninstalled. No thanks, I don't need your "_Smart Assistant_" and other such useless applications, and it is a crime against the buyer that such applications cannot be uninstalled. I like my phone to have only what I need, and therefore it works quickly and smoothly, even though it is not the latest model on the market.
+Unnecessary software that cannot be uninstalled. No thanks, I don't need your "_Smart Assistant_" and other such useless applications, and it is a crime against the customer that such applications cannot be uninstalled. I like my phone to have only what I need, and therefore it works quickly and smoothly, even though it is not the latest model on the market.
 
 ###### Security and privacy
 
