@@ -75,7 +75,7 @@ languages:
 #         weight: 5
 #     
     params:
-      footer: Nekādas sīkdatnes. Nekāda izsekošana.<br> © 2023-2024 Dāvis Vilcāns
+      footer: Nekādas sīkdatnes. Nekāda izsekošana.<br>Izveidots ar [Hugo](https://gohugo.io). Motīvs no [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Izvietots uz [Cloudflare](https://cloudflare.com).<br> © 2023-2024 Dāvis Vilcāns
       customJs:
         - js/quizdown.js
         - js/custom_01.js
@@ -120,7 +120,7 @@ languages:
 #         url: /index.xml
 #         weight: 5
     params:
-      footer: No cookies. No tracking.<br> © 2023-2024 Dāvis Vilcāns
+      footer: No cookies. No tracking.<br>Made with [Hugo](https://gohugo.io). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Cloudflare](https://cloudflare.com).<br> © 2023-2024 Dāvis Vilcāns
       customJs:
         - js/quizdown_en.js   
         - js/custom_01.js
