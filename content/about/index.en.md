@@ -22,7 +22,6 @@ Holla at me by dropping a message to: <a href=mailto:hello@dvilcans.com>hello@dv
 
 #### Some of my recent experiments:
 
-* [ÐiSCO](https://disco.dvilcans.com/en) -- Graphical user interface for launching data processing with [DEPI/IPED](https://dvilcans.com/depi/);
 * [txt2img](https://txt2img.dvilcans.com) -- Online AI tool for text to image generation;  
 * [Harry the O.G.](https://chat.dvilcans.com) -- A simple online AI chatbot.
 * [Bashbot](https://dvilcans.com/ai-chatbot-in-linux-terminal/) -- AI chatbot in a Linux terminal.

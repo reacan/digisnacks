@@ -22,7 +22,6 @@ Ar mani var sazināties rakstot uz: <a href=mailto:sveiks@dvilcans.com>sveiks@dv
 
 #### Daži no maniem pēdējā laika eksperimentiem:
 
-* [ÐiSCO](https://disco.dvilcans.com) -- Grafiskā lietotāja saskarne, lai uzsākt datu apstrādi ar [DEPI/IPED](https://dvilcans.com/depi/);   
 * [txt2img](https://txt2img.dvilcans.com) -- Tiešsaistes mākslīgā intelekta rīks, kas no teksta ģenerē attēlus;  
 * [Harry the O.G.](https://chat.dvilcans.com) -- Vienkāršs tiešsaistes mākslīgā intelekta čatbots;
 * [Bashbot](https://dvilcans.com/lv/ai-chatbot-in-linux-terminal/) -- MI čatbots Linux terminālī.
