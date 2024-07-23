@@ -8,6 +8,9 @@ type: "exclude-me"
 
 <center><img src="object.png"></center>
 
-<center><img src="signed-sealed-delivered.png"></center>
-
+{{< figureCupper
+img="Screenshot-EN.png"
+caption="Indexing and processing of information. Keyword search. Optical character recognition in rotated images."
+command="Resize"
+options="700x" >}}
 

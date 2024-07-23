@@ -1,12 +1,12 @@
 {{ if .IsTranslated }}
 {{ range .Translations }}
 {{ if eq .Site.Language.Lang "lv" }}
-{{ $imgpath := printf "%s%s" .Site.BaseURL "images/LV.svg" }}
-  	<a style="color:rgba(255,255,255,0);" title="Latviski" href="{{ .Permalink }}"><img id="lang-switcher" src={{ $imgpath }} width=25rem height=25rem alt="Latviski" /></a>
+{{ $imgpath := printf "%s%s" .Site.BaseURL "images/latviski.svg" }}
+  	<a style="color:rgba(255,255,255,0);" title="Latviski" href="{{ .Permalink }}"><img id="lang-switcher" src={{ $imgpath }} width=30rem height=30rem alt="Latviski" /></a>
 {{ else }}
 	{{ if eq .Site.Language.Lang "en" }}
-{{ $imgpath := printf "%s%s" .Site.BaseURL "images/EN.svg" }}
-        <a style="color:rgba(255,255,255,0);" title="English" href="{{ .Permalink }}"><img id="lang-switcher" src={{ $imgpath }} width=25rem height=25rem alt="English" /></a>
+{{ $imgpath := printf "%s%s" .Site.BaseURL "images/english.svg" }}
+        <a style="color:rgba(255,255,255,0);" title="English" href="{{ .Permalink }}"><img id="lang-switcher" src={{ $imgpath }} width=30rem height=30rem alt="English" /></a>
 {{ end}}
 {{ end }}
 {{ end }}

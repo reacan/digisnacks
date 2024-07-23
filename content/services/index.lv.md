@@ -8,6 +8,11 @@ type: "exclude-me"
 
 <center><img src="object.png"></center>
 
-<center><img src="signed-sealed-delivered.png"></center>
+{{< figureCupper
+img="Screenshot-LV.png"
+caption="Datu indeksācija un apstrāde. Informācijas meklēšana pēc atslēgvārdiem. Optisko rakstzīmju atpazīšana rotētos attēlos."
+command="Resize"
+options="700x" >}}
+
 
 
