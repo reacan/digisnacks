@@ -1231,4 +1231,15 @@ iframe {
 .back-to-top {
 }
 
+/* Default styling for desktop */
+#lang-switcher {
+  padding-top: 0;  /* Keeps it in place on desktop */
+}
+
+/* Mobile styling with media query */
+@media only screen and (max-width: 768px) {
+  #lang-switcher {
+    padding-top: 0.3rem; /* Pushes it down on mobile */
+  }
+}
 
