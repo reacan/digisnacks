@@ -2,7 +2,7 @@
 title: "Diska attēlu virtualizācija"
 date: 2024-05-24
 tags: ["GNU/Linux", "Windows", "Digital Forensics"]
-#toc: true
+toc: true
 ---
 
 Analīzes, testēšanas un problēmu novēršanas nolūkos es bieži virtualizēju datoru disku attēlus. Tas ir ļoti jautri, jo var izjust to, ko lietotājs faktiski piedzīvoja, strādājot ar datoru. Turklāt tas dod iespēju efektīvi izmēģināt un testēt jaunas lietas kontrolētā vidē. Kaut kas nav izdevies? Atgrieziet izmaiņas un mēģiniet vēlreiz. 
