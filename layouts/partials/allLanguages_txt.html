@@ -4,14 +4,14 @@
 {{ $imgpath := printf "%s%s" .Site.BaseURL "images/latviski.svg" }}
   	<a style="color:rgba(255,255,255,0); display: inline-block; transition: transform 0.3s ease;" 
        title="Latviski" href="{{ .Permalink }}" onmouseover="this.querySelector('img').style.transform='scale(0.9)'" onmouseout="this.querySelector('img').style.transform='scale(1)'">
-        <img id="lang-switcher" src={{ $imgpath }} width=33rem alt="Latviski" />
+        <img id="lang-switcher" src={{ $imgpath }} alt="Latviski" />
     </a>
 {{ else }}
 	{{ if eq .Site.Language.Lang "en" }}
 {{ $imgpath := printf "%s%s" .Site.BaseURL "images/english.svg" }}
         <a style="color:rgba(255,255,255,0); display: inline-block; transition: transform 0.3s ease;" 
            title="English" href="{{ .Permalink }}" onmouseover="this.querySelector('img').style.transform='scale(0.9)'" onmouseout="this.querySelector('img').style.transform='scale(1)'">
-            <img id="lang-switcher" src={{ $imgpath }} width=33rem alt="English" />
+            <img id="lang-switcher" src={{ $imgpath }} alt="English" />
         </a>
 {{ end}}
 {{ end }}

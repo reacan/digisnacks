@@ -1246,13 +1246,15 @@ iframe {
 
 /* Default styling for desktop */
 #lang-switcher {
-  padding-bottom: 0.20rem;  /* Keeps it in place on desktop */
+  padding-bottom: 0.30rem;  /* Keeps it in place on desktop */
+  width: 1.3rem;
 }
 
 /* Mobile styling with media query */
 @media only screen and (max-width: 768px) {
   #lang-switcher {
-    padding-bottom: 0.1rem; /* Pushes it down on mobile */
+    padding-bottom: 0.2rem; /* Pushes it down on mobile */
+    width: 1.5rem;
   }
 }
 
