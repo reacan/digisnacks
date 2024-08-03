@@ -65,7 +65,7 @@ Lai atbrīvotos no Windows lietotāja paroles, ir jāveic trīs soļi:
 
 Pirmais solis ir diezgan vienkāršs. Windows partīcijas pievienošana var prasīt papildu manipulācijas, ja operētājsistēmā ir iespējota Windows ātrās palaišanas funkcionalitāte, tādā gadījumā partīciju izdosies pievienot tikai lasīšanas režīmā, jo “*failu sistēma nebija droši slēgta Windows vidē*”.
 
-#### Nodalījuma uzstādīšana lasīšanai/rakstīšanai
+### Nodalījuma uzstādīšana lasīšanai/rakstīšanai
 
 Ja ir iespējota _Windows Fast Boot_ funkcionalitāte, dators nekad īsti neizslēdzas, tas ir kā hibernācijas režīms ar ļoti zemu enerģijas patēriņu, tāpēc tiek saņemta kļūda par to, ka failu sistēma nav droši slēgta, lai to apietu un uzstādītu nodalījumu lasīšanas/rakstīšanas režīmā, var veikt šādas darbības:
 
