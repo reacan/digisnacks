@@ -1238,6 +1238,7 @@ iframe {
 #theme-image {
   display: inline-block; /* Ensures no extra space below the image */
   transition: transform 0.3s ease; /* Smooth transform */
+  width: 1.5rem;
 }
 
 #theme-image:hover {
