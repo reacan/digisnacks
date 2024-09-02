@@ -1,6 +1,6 @@
 ---
 title: "Pirmā lieta, ko darīt ar Google Pixel"
-date: 2024-08-23
+date: 2024-09-02
 #lastmod: 2024-07-10
 tags: ["Android", "Kiberdrošība"]
 #toc: true
