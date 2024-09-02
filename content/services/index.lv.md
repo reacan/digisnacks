@@ -6,8 +6,6 @@ type: "exclude-me"
 ---
 ## Drīzumā
 
-<center><img src="object.png"></center>
-
 {{< figureCupper
 img="Screenshot-LV.png"
 caption="Datu indeksācija un apstrāde. Informācijas meklēšana pēc atslēgvārdiem. Optisko rakstzīmju atpazīšana rotētos attēlos."
