@@ -2,7 +2,7 @@
 title: "Script to bulk remove Windows domain user profiles"
 date: 2024-06-01
 lastmod: 2024-07-10
-tags: ["Windows"]
+tags: ["Windows", "CLI"]
 #toc: true
 ---
 <center><img src="windows-library.png" style="width: 100%";></center>
