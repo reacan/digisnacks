@@ -5,12 +5,12 @@ lastmod: "2024-09-30"
 type: "exclude-me"
 #toc: true
 ---
-## Pārnesama analītiskā saskarne Jūsu datiem
+## Pārnesama analītiskā aplikācija Jūsu datiem
 
 
 {{< figureCupper
 img="Screenshot-LV.png"
-caption="Analītiskā saskarne. Informācijas meklēšana pēc atslēgvārdiem. Optisko rakstzīmju atpazīšana rotētos attēlos."
+caption="Analītiskā aplikācija. Informācijas meklēšana pēc atslēgvārdiem. Optisko rakstzīmju atpazīšana rotētos attēlos."
 command="Resize"
 options="700x" >}}
 
@@ -18,16 +18,16 @@ options="700x" >}}
 
 #### Datoru spoguļkopijas, failu kolekcijas, izkaisīti dokumenti:
 
-Es varu Jums palīdzēt saprast, kādu informāciju šie dati satur. Izmantojot modernu atvērtā koda datu analīzes [rīku](https://iped.dev), es izveidoju pielāgotu, pārnesamu saskarni, lai Jūs varētu meklēt, filtrēt un izpētīt informāciju.
+Es varu Jums palīdzēt saprast, kādu informāciju šie dati satur. Izmantojot modernu atvērtā koda datu analīzes [rīku](https://iped.dev), es izveidoju pielāgotu, pārnesamu aplikāciju, lai Jūs varētu meklēt, filtrēt un pētīt informāciju.
 
-Neatkarīgi no tā, vai meklējat atslēgvārdus, konkrētus failu tipus vai metadatus, piemēram, dokumentu veidotājus, fotokameru markas un modeļus. Interfeiss ir izstrādāts, domājot par vienkāršību, lai jūs varētu ātri pārvietoties pa saviem datiem un atrast tieši to, kas jums nepieciešams, bez tehniskām galvassāpēm.
+Neatkarīgi no tā, vai meklējat atslēgvārdus, konkrētus failu tipus vai metadatus, piemēram, dokumentu veidotājus, fotokameru markas un modeļus. Saskarne ir izstrādāta, domājot par vienkāršību, lai Jūs varētu ātri pārvietoties pa saviem datiem un atrast tieši to, kas jums nepieciešams, bez tehniskām galvassāpēm.
 
 #### Daži no manu klientu pielietojumiem:
 
-* Analīzes saskarne klēpjdatora spoguļkopijai;
-* Analīzes saskarne direktorijai, kas satur dažādus failus;
-* Analīzes lietojumprogramma, kas darbojas uz virtuālā servera un noteiktos intervālos apstrādā tīkla diskā esošu direktoriju, kas satur epasta pastkastītes failus (_.pst_);
-* Analīzes lietojumprogramma, kas darbojas darbstacijā, kuru klients izmanto, lai regulāri apstrādātu lielus arhīva failu (_.zip_, _.7z_, _.rar_ utt.) apjomus, kas satur teksta dokumentus, izklājlapas, attēlus un cita veida datus.
+* Analītiskā aplikācija klēpjdatora spoguļkopijai;
+* Analītiskā aplikācija direktorijai, kas satur dažādus failus;
+* Apstrādes un analītiskā aplikācija, kas darbojas uz virtuālā servera un noteiktos intervālos apstrādā tīkla diskā esošu direktoriju, kas satur epasta pastkastītes failus (_.pst_);
+* Apstrādes un analītiskā aplikācija, kas darbojas darbstacijā, kuru klients izmanto, lai regulāri apstrādātu lielus arhīva failu (_.zip_, _.7z_, _.rar_ utt.) apjomus, kas satur teksta dokumentus, izklājlapas, attēlus un cita veida datus.
 
 #### Sazinieties ar mani:
 
