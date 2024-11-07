@@ -60,10 +60,10 @@ languages:
          url: /lv/about/
 #       - name: AI IMG
 #         url: /lv/aimgen/
-         weight: 4
+         weight: 5
        - name: Pakalpojumi
          url: /lv/services/
-         weight: 5
+         weight: 4
 #       - name: txt2img
 #         url: "https://txt2img.dvilcans.com/"
 #         weight: 6             
@@ -106,10 +106,10 @@ languages:
          url: /about/
 #       - name: AI IMG
 #         url: /aimgen/
-         weight: 4
+         weight: 5
        - name: Services
          url: /services/
-         weight: 5
+         weight: 4
 #       - name: txt2img
 #         url: "https://txt2img.dvilcans.com/"
 #         weight: 6         
